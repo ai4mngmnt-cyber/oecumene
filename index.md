@@ -7,7 +7,7 @@
 
 ---
 
-## Governance Architect · Архитектор управления
+- [Governance Architect · Архитектор управления](./governance-architect.html)
 
 Я Governance Architect — Архитектор управления.
 
