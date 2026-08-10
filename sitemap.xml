@@ -1,9 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <url>
     <loc>https://oecumene.space/</loc>
   </url>
+
+  <url>
+    <loc>https://oecumene.space/why.html</loc>
+  </url>
+
+  <url>
+    <loc>https://oecumene.space/how.html</loc>
+  </url>
+
+  <url>
+    <loc>https://oecumene.space/what.html</loc>
+  </url>
+
+  <url>
+    <loc>https://oecumene.space/architecture-map.html</loc>
+  </url>
+
+  <url>
+    <loc>https://oecumene.space/architecture.html</loc>
+  </url>
+
+  <url>
+    <loc>https://oecumene.space/disciplines.html</loc>
+  </url>
+
+  <url>
+    <loc>https://oecumene.space/lenses.html</loc>
+  </url>
+
+  <url>
+    <loc>https://oecumene.space/gharajedaghi-lens.html</loc>
+  </url>
+
+  <url>
+    <loc>https://oecumene.space/archipelago-lens.html</loc>
+  </url>
+
+  <url>
+    <loc>https://oecumene.space/management.html</loc>
+  </url>
+
+  <url>
+    <loc>https://oecumene.space/ai-management.html</loc>
+  </url>
+
+  <url>
+    <loc>https://oecumene.space/governance.html</loc>
+  </url>
+
+  <url>
+    <loc>https://oecumene.space/ai-governance.html</loc>
+  </url>
+
   <url>
     <loc>https://oecumene.space/governance-architect.html</loc>
   </url>
+
+  <url>
+    <loc>https://oecumene.space/ai-enabled-architecture.html</loc>
+  </url>
+
 </urlset>
