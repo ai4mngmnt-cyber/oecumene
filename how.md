@@ -67,7 +67,7 @@ WHY раскрывает:
 
 Через:
 
-- Architecture · Архитектуру
+- Architecture · Архитектура
 - Methods · Методы
 - Practices · Практики
 - Frameworks · Фреймворки
@@ -267,6 +267,6 @@ HOW — это уровень, где смысл и намерение сист�
 
 [← OECUMENE Home](https://github.com/ai4mngmnt-cyber/oecumene)
 
-🇷🇺 Telegram RU: https://t.me/oecumene_space
+🇷🇺 [Telegram RU](https://t.me/oecumene_space)
 
-🇬🇧 Telegram EN: https://t.me/ecumenespace
+🇬🇧 [Telegram EN](https://t.me/ecumenespace)
