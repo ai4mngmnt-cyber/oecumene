@@ -27,7 +27,11 @@ WHY исследует:
 
 **WHY** задаёт смысл, основание и направление.
 
+↓
+
 **HOW** создаёт архитектуру и способы реализации.
+
+↓
 
 **WHAT** показывает, что возникает как результат реализации WHY через архитектуру, методы и практики уровня HOW.
 
@@ -187,6 +191,6 @@ WHY — это вопрос о причине, смысле и основани�
 
 [← OECUMENE Home](https://github.com/ai4mngmnt-cyber/oecumene)
 
-🇷🇺 Telegram RU: https://t.me/oecumene_space
+🇷🇺 [Telegram RU](https://t.me/oecumene_space)
 
-🇬🇧 Telegram EN: https://t.me/ecumenespace
+🇬🇧 [Telegram EN](https://t.me/ecumenespace)
