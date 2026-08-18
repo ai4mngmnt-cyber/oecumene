@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://oecumene.space/sitemap.xml
