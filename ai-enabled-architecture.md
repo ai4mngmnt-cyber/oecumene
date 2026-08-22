@@ -1,3 +1,5 @@
+# [OECUMENE](https://oecumene.space/)
+
 # AI-enabled Architecture
 
 ## Архитектура системы с искусственным интеллектом как организационной способностью
@@ -178,11 +180,35 @@ AI-enabled Architecture — это архитектура системы, в к�
 
 Поэтому AI-enabled Architecture связана с:
 
-[Governance Architect](governance-architect.md)
+[Governance Architect](https://oecumene.space/governance-architect.html)
 
 и
 
-[AI Governance](ai-governance.md)
+[AI Governance](https://oecumene.space/ai-governance.html)
+
+---
+
+# AI-enabled Architecture и AI Management
+
+AI-enabled Architecture связана с развитием организационной способности использовать AI.
+
+[AI Management](https://oecumene.space/ai-management.html)
+
+AI Management рассматривает развитие способности организации использовать искусственный интеллект как часть системы создания ценности.
+
+AI-enabled Architecture определяет архитектурные условия, в которых эта способность реализуется.
+
+---
+
+# AI-enabled Architecture и Management
+
+AI-enabled Architecture также связана с:
+
+[Management](https://oecumene.space/management.html)
+
+Management рассматривает способность системы организовывать деятельность, принимать решения и создавать ценность.
+
+AI-enabled Architecture рассматривает, как AI становится частью этой способности.
 
 ---
 
@@ -238,7 +264,23 @@ AI-enabled Architecture — это не просто внедрение техн
 
 ---
 
-[← OECUMENE Home](https://github.com/ai4mngmnt-cyber/oecumene)
+# Связь AI-enabled Architecture с OECUMENE
+
+AI-enabled Architecture связана с:
+
+- [Architecture](https://oecumene.space/architecture.html)
+- [Architecture Map](https://oecumene.space/architecture-map.html)
+- [Management](https://oecumene.space/management.html)
+- [AI Management](https://oecumene.space/ai-management.html)
+- [Governance](https://oecumene.space/governance.html)
+- [AI Governance](https://oecumene.space/ai-governance.html)
+- [Governance Architect](https://oecumene.space/governance-architect.html)
+
+---
+
+[← OECUMENE Home](https://oecumene.space/)
+
+[OECUMENE GitHub Repository](https://github.com/ai4mngmnt-cyber/oecumene)
 
 🇷🇺 [Telegram RU](https://t.me/oecumene_space)
 
