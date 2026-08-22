@@ -37,7 +37,7 @@ WHY раскрывает:
 
 Подробнее:
 
-[WHY — Values & Principles](why.md)
+[WHY — Values & Principles](https://github.com/ai4mngmnt-cyber/oecumene/blob/main/why.md)
 
 ---
 
@@ -61,7 +61,7 @@ HOW — это уровень архитектуры и способов дей�
 
 Подробнее:
 
-[HOW — Architecture and Implementation](how.md)
+[HOW — Architecture and Implementation](https://github.com/ai4mngmnt-cyber/oecumene/blob/main/how.md)
 
 ---
 
@@ -80,7 +80,7 @@ WHAT показывает:
 
 Подробнее:
 
-[WHAT — Results of System Realization](what.md)
+[WHAT — Results of System Realization](https://github.com/ai4mngmnt-cyber/oecumene/blob/main/what.md)
 
 ---
 
@@ -99,7 +99,7 @@ WHAT показывает:
 
 Подробнее:
 
-[Architecture](architecture.md)
+[Architecture](https://github.com/ai4mngmnt-cyber/oecumene/blob/main/architecture.md)
 
 ---
 
@@ -113,7 +113,7 @@ WHAT показывает:
 
 Подробнее:
 
-[Architecture Map](architecture-map.md)
+[Architecture Map](https://github.com/ai4mngmnt-cyber/oecumene/blob/main/architecture-map.md)
 
 ---
 
@@ -125,7 +125,7 @@ WHAT показывает:
 
 Подробнее:
 
-[Disciplines](disciplines.md)
+[Disciplines](https://github.com/ai4mngmnt-cyber/oecumene/blob/main/disciplines.md)
 
 ---
 
@@ -135,7 +135,7 @@ WHAT показывает:
 
 Дисциплина создания и реализации ценности.
 
-[Management](management.md)
+[Management](https://github.com/ai4mngmnt-cyber/oecumene/blob/main/management.md)
 
 ---
 
@@ -143,7 +143,7 @@ WHAT показывает:
 
 Управление искусственным интеллектом как организационной способностью.
 
-[AI Management](ai-management.md)
+[AI Management](https://github.com/ai4mngmnt-cyber/oecumene/blob/main/ai-management.md)
 
 ---
 
@@ -151,7 +151,7 @@ WHAT показывает:
 
 Управление как способность системы сохранять направление и согласованность.
 
-[Governance](governance.md)
+[Governance](https://github.com/ai4mngmnt-cyber/oecumene/blob/main/governance.md)
 
 ---
 
@@ -159,7 +159,7 @@ WHAT показывает:
 
 Управление системами искусственного интеллекта.
 
-[AI Governance](ai-governance.md)
+[AI Governance](https://github.com/ai4mngmnt-cyber/oecumene/blob/main/ai-governance.md)
 
 ---
 
@@ -176,7 +176,43 @@ OECUMENE использует линзы как инструменты пони�
 
 Подробнее:
 
-[Lenses](lenses.md)
+[Lenses](https://github.com/ai4mngmnt-cyber/oecumene/blob/main/lenses.md)
+
+---
+
+# Working Lenses · Рабочие линзы
+
+## Gharajedaghi Lens
+
+Линза системного мышления для исследования сложных систем.
+
+[Gharajedaghi Lens](https://github.com/ai4mngmnt-cyber/oecumene/blob/main/gharajedaghi-lens.md)
+
+---
+
+## Archipelago Lens
+
+Линза для исследования системы как сети взаимосвязанных интеллектуальных активов.
+
+[Archipelago Lens](https://github.com/ai4mngmnt-cyber/oecumene/blob/main/archipelago-lens.md)
+
+---
+
+# Architectural Directions · Архитектурные направления
+
+## Governance Architect
+
+Архитектурное направление проектирования механизмов управления сложными системами.
+
+[Governance Architect](https://github.com/ai4mngmnt-cyber/oecumene/blob/main/governance-architect.md)
+
+---
+
+## AI-enabled Architecture
+
+Архитектура системы, в которой искусственный интеллект становится частью организационной способности.
+
+[AI-enabled Architecture](https://github.com/ai4mngmnt-cyber/oecumene/blob/main/ai-enabled-architecture.md)
 
 ---
 
