@@ -1,3 +1,5 @@
+# [OECUMENE](https://oecumene.space/)
+
 # Management
 
 ## Управление как дисциплина создания и реализации ценности
@@ -208,15 +210,37 @@ Management связан с:
 
 ## AI Management
 
+[AI Management](https://oecumene.space/ai-management.html)
+
 Управлением AI как организационной способностью.
 
 ## Governance
+
+[Governance](https://oecumene.space/governance.html)
 
 Созданием механизмов управляемости и ответственности.
 
 ## AI Governance
 
+[AI Governance](https://oecumene.space/ai-governance.html)
+
 Управлением системами с участием искусственного интеллекта.
+
+## Governance Architect
+
+[Governance Architect](https://oecumene.space/governance-architect.html)
+
+Проектированием условий управления, принятия решений, ответственности и согласования в сложных системах.
+
+---
+
+# Management и AI-enabled Architecture
+
+Management также связан с:
+
+[AI-enabled Architecture](https://oecumene.space/ai-enabled-architecture.html)
+
+AI-enabled Architecture рассматривает, как AI становится частью архитектуры организационных способностей.
 
 ---
 
@@ -258,7 +282,23 @@ Management — это не только управление ресурсами 
 
 ---
 
-[← OECUMENE Home](https://github.com/ai4mngmnt-cyber/oecumene)
+# Связь Management с OECUMENE
+
+Management связан с:
+
+- [Architecture](https://oecumene.space/architecture.html)
+- [Disciplines](https://oecumene.space/disciplines.html)
+- [AI Management](https://oecumene.space/ai-management.html)
+- [Governance](https://oecumene.space/governance.html)
+- [AI Governance](https://oecumene.space/ai-governance.html)
+- [Governance Architect](https://oecumene.space/governance-architect.html)
+- [AI-enabled Architecture](https://oecumene.space/ai-enabled-architecture.html)
+
+---
+
+[← OECUMENE Home](https://oecumene.space/)
+
+[OECUMENE GitHub Repository](https://github.com/ai4mngmnt-cyber/oecumene)
 
 🇷🇺 [Telegram RU](https://t.me/oecumene_space)
 
