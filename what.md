@@ -1,3 +1,5 @@
+# [OECUMENE](https://oecumene.space/)
+
 # WHAT
 
 ## Что является результатом реализации системы
@@ -67,6 +69,12 @@ HOW отвечает на вопрос:
 - Tools · Инструменты
 - Technologies · Технологии
 
+Подробнее:
+
+[Architecture](https://oecumene.space/architecture.html)
+
+[Architecture Map](https://oecumene.space/architecture-map.html)
+
 ---
 
 # WHAT? · Что?
@@ -129,7 +137,7 @@ WHAT не существует отдельно от WHY и HOW.
 
 Подробнее:
 
-[Management](management.md)
+[Management](https://oecumene.space/management.html)
 
 ---
 
@@ -139,7 +147,7 @@ WHAT не существует отдельно от WHY и HOW.
 
 Подробнее:
 
-[AI Management](ai-management.md)
+[AI Management](https://oecumene.space/ai-management.html)
 
 ---
 
@@ -149,7 +157,7 @@ WHAT не существует отдельно от WHY и HOW.
 
 Подробнее:
 
-[Governance](governance.md)
+[Governance](https://oecumene.space/governance.html)
 
 ---
 
@@ -159,7 +167,7 @@ WHAT не существует отдельно от WHY и HOW.
 
 Подробнее:
 
-[AI Governance](ai-governance.md)
+[AI Governance](https://oecumene.space/ai-governance.html)
 
 ---
 
@@ -173,7 +181,41 @@ WHAT является результатом того, как система п�
 - как организованы взаимодействия;
 - какие механизмы позволяют реализовывать ценность.
 
+[Architecture](https://oecumene.space/architecture.html) показывает архитектурный уровень HOW.
+
+[Architecture Map](https://oecumene.space/architecture-map.html) показывает связи между WHY, HOW и WHAT.
+
 WHAT показывает, какие дисциплины, способности и практики возникают благодаря этой архитектуре.
+
+---
+
+# WHAT и Governance
+
+Governance является одной из дисциплин уровня WHAT.
+
+[Governance](https://oecumene.space/governance.html)
+
+развивает способность системы сохранять управляемость, ответственность и согласованность.
+
+---
+
+# WHAT и AI Management
+
+AI Management является дисциплиной уровня WHAT.
+
+[AI Management](https://oecumene.space/ai-management.html)
+
+развивает способность организации использовать AI как часть системы создания ценности.
+
+---
+
+# WHAT и AI Governance
+
+AI Governance является дисциплиной уровня WHAT.
+
+[AI Governance](https://oecumene.space/ai-governance.html)
+
+развивает способность системы управлять использованием AI согласованно с её предназначением, ценностями и принципами.
 
 ---
 
@@ -251,7 +293,26 @@ WHAT — это результат реализации намерения си�
 
 ---
 
-[← OECUMENE Home](https://github.com/ai4mngmnt-cyber/oecumene)
+# Связь WHAT с OECUMENE
+
+WHAT связан с:
+
+- [Architecture](https://oecumene.space/architecture.html)
+- [Architecture Map](https://oecumene.space/architecture-map.html)
+- [Management](https://oecumene.space/management.html)
+- [AI Management](https://oecumene.space/ai-management.html)
+- [Governance](https://oecumene.space/governance.html)
+- [AI Governance](https://oecumene.space/ai-governance.html)
+- [Governance Architect](https://oecumene.space/governance-architect.html)
+- [AI-enabled Architecture](https://oecumene.space/ai-enabled-architecture.html)
+
+---
+
+[← OECUMENE Home](https://oecumene.space/)
+
+[OECUMENE Architecture Map](https://oecumene.space/architecture-map.html)
+
+[OECUMENE GitHub Repository](https://github.com/ai4mngmnt-cyber/oecumene)
 
 🇷🇺 [Telegram RU](https://t.me/oecumene_space)
 
