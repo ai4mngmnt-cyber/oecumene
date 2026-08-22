@@ -1,3 +1,5 @@
+# [OECUMENE](https://oecumene.space/)
+
 # Disciplines
 
 ## Дисциплины как результат реализации системы
@@ -54,6 +56,12 @@ WHAT отвечает на вопрос:
 - Capabilities · Способности
 - Practices · Практики
 
+Подробнее:
+
+[WHAT](https://oecumene.space/what.html)
+
+[Architecture Map](https://oecumene.space/architecture-map.html)
+
 ---
 
 # Что такое дисциплина?
@@ -96,7 +104,7 @@ WHAT отвечает на вопрос:
 
 Подробнее:
 
-[Management](management.md)
+[Management](https://oecumene.space/management.html)
 
 ---
 
@@ -106,7 +114,7 @@ WHAT отвечает на вопрос:
 
 Подробнее:
 
-[AI Management](ai-management.md)
+[AI Management](https://oecumene.space/ai-management.html)
 
 ---
 
@@ -116,7 +124,7 @@ WHAT отвечает на вопрос:
 
 Подробнее:
 
-[Governance](governance.md)
+[Governance](https://oecumene.space/governance.html)
 
 ---
 
@@ -126,11 +134,11 @@ WHAT отвечает на вопрос:
 
 Подробнее:
 
-[AI Governance](ai-governance.md)
+[AI Governance](https://oecumene.space/ai-governance.html)
 
 ---
 
-# Дисциплины и архитектура
+# Disciplines и Architecture
 
 Дисциплины возникают не изолированно.
 
@@ -141,6 +149,10 @@ WHY задаёт смысл и направление,
 а
 
 HOW через архитектуру, методы и практики создаёт способы реализации.
+
+[Architecture](https://oecumene.space/architecture.html) является центральным элементом HOW.
+
+[Architecture Map](https://oecumene.space/architecture-map.html) показывает связь между WHY, HOW и WHAT.
 
 Связь:
 
@@ -164,6 +176,26 @@ WHAT
 
 ---
 
+# Disciplines и Governance Architecture
+
+Одним из архитектурных направлений HOW является:
+
+[Governance Architect](https://oecumene.space/governance-architect.html)
+
+Он показывает, как архитектурное мышление применяется к управлению сложными системами.
+
+---
+
+# Disciplines и AI-enabled Architecture
+
+Другим архитектурным направлением является:
+
+[AI-enabled Architecture](https://oecumene.space/ai-enabled-architecture.html)
+
+Она показывает, как AI становится частью архитектуры организационных способностей.
+
+---
+
 # Дисциплины как интеллектуальные активы
 
 В OECUMENE каждая дисциплина является узлом развивающегося графа интеллектуальных активов.
@@ -176,6 +208,8 @@ WHAT
 - практики;
 - инструменты;
 - связи с другими активами.
+
+Дисциплина может развиваться через исследование, применение и создание новых связей с другими активами.
 
 ---
 
@@ -238,7 +272,29 @@ Disciplines — это результат реализации намерени�
 
 ---
 
-[← OECUMENE Home](https://github.com/ai4mngmnt-cyber/oecumene)
+# Связь Disciplines с OECUMENE
+
+Disciplines связаны с:
+
+- [WHAT](https://oecumene.space/what.html)
+- [Architecture Map](https://oecumene.space/architecture-map.html)
+- [Architecture](https://oecumene.space/architecture.html)
+- [Management](https://oecumene.space/management.html)
+- [AI Management](https://oecumene.space/ai-management.html)
+- [Governance](https://oecumene.space/governance.html)
+- [AI Governance](https://oecumene.space/ai-governance.html)
+- [Governance Architect](https://oecumene.space/governance-architect.html)
+- [AI-enabled Architecture](https://oecumene.space/ai-enabled-architecture.html)
+
+---
+
+[← OECUMENE Home](https://oecumene.space/)
+
+[WHAT](https://oecumene.space/what.html)
+
+[Architecture Map](https://oecumene.space/architecture-map.html)
+
+[OECUMENE GitHub Repository](https://github.com/ai4mngmnt-cyber/oecumene)
 
 🇷🇺 [Telegram RU](https://t.me/oecumene_space)
 
