@@ -1,3 +1,5 @@
+# [OECUMENE](https://oecumene.space/)
+
 # Governance
 
 ## Управление как способность системы сохранять направление и согласованность
@@ -206,7 +208,7 @@ WHAT
 
 Развитие искусственного интеллекта создаёт отдельную область применения Governance.
 
-[AI Governance](ai-governance.md)
+[AI Governance](https://oecumene.space/ai-governance.html)
 
 расширяет общую логику Governance на системы, в которых искусственный интеллект становится частью организационной деятельности.
 
@@ -266,7 +268,21 @@ Governance — это не только контроль.
 
 ---
 
-[← OECUMENE Home](https://github.com/ai4mngmnt-cyber/oecumene)
+# Связь Governance с OECUMENE
+
+Governance связан с другими направлениями OECUMENE:
+
+- [Management](https://oecumene.space/management.html)
+- [AI Management](https://oecumene.space/ai-management.html)
+- [Governance Architect](https://oecumene.space/governance-architect.html)
+- [AI Governance](https://oecumene.space/ai-governance.html)
+- [AI-enabled Architecture](https://oecumene.space/ai-enabled-architecture.html)
+
+---
+
+[← OECUMENE Home](https://oecumene.space/)
+
+[OECUMENE GitHub Repository](https://github.com/ai4mngmnt-cyber/oecumene)
 
 🇷🇺 [Telegram RU](https://t.me/oecumene_space)
 
