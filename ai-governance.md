@@ -1,3 +1,5 @@
+# [OECUMENE](https://oecumene.space/)
+
 # AI Governance
 
 ## Управление системами искусственного интеллекта
@@ -155,11 +157,31 @@ AI Governance является развитием общего подхода Go
 
 Связь:
 
-Governance Architecture
+[Governance Architecture](https://oecumene.space/governance-architect.html)
 
 ↓
 
 архитектура управления системой
+
+↓
+
+AI Governance
+
+↓
+
+управление системами с участием искусственного интеллекта
+
+---
+
+# AI Governance и Governance
+
+AI Governance является специализированной областью Governance.
+
+[Governance](https://oecumene.space/governance.html)
+
+↓
+
+управление системой
 
 ↓
 
@@ -196,6 +218,18 @@ WHAT
 ↓
 
 способность организации управлять AI-системами.
+
+---
+
+# AI Governance и AI Management
+
+AI Governance связан с AI Management как две взаимодополняющие области.
+
+[AI Management](https://oecumene.space/ai-management.html)
+
+AI Management развивает способность организации работать с AI как организационной способностью.
+
+AI Governance формирует условия управляемости, ответственности и согласованности этой способности.
 
 ---
 
@@ -252,7 +286,21 @@ AI Governance — это не только контроль технологии
 
 ---
 
-[← OECUMENE Home](https://github.com/ai4mngmnt-cyber/oecumene)
+# Связь AI Governance с OECUMENE
+
+AI Governance связан с другими направлениями OECUMENE:
+
+- [Governance](https://oecumene.space/governance.html)
+- [Governance Architect](https://oecumene.space/governance-architect.html)
+- [AI Management](https://oecumene.space/ai-management.html)
+- [AI-enabled Architecture](https://oecumene.space/ai-enabled-architecture.html)
+- [Management](https://oecumene.space/management.html)
+
+---
+
+[← OECUMENE Home](https://oecumene.space/)
+
+[OECUMENE GitHub Repository](https://github.com/ai4mngmnt-cyber/oecumene)
 
 🇷🇺 [Telegram RU](https://t.me/oecumene_space)
 
