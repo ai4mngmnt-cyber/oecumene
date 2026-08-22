@@ -1,3 +1,5 @@
+# [OECUMENE](https://oecumene.space/)
+
 # WHY
 
 ## Почему система существует
@@ -34,6 +36,14 @@ WHY исследует:
 ↓
 
 **WHAT** показывает, что возникает как результат реализации WHY через архитектуру, методы и практики уровня HOW.
+
+Подробнее:
+
+[Architecture Map](https://oecumene.space/architecture-map.html)
+
+[HOW](https://oecumene.space/how.html)
+
+[WHAT](https://oecumene.space/what.html)
 
 ---
 
@@ -89,7 +99,7 @@ WHY исследует:
 
 ---
 
-# Связь WHY → HOW → WHAT
+# WHY → HOW → WHAT
 
 Цепочка создания ценности:
 
@@ -133,6 +143,12 @@ Capabilities
 
 Practices
 
+Подробнее:
+
+[Architecture](https://oecumene.space/architecture.html)
+
+[Disciplines](https://oecumene.space/disciplines.html)
+
 ---
 
 # WHY и сложные системы
@@ -146,6 +162,34 @@ Practices
 - какие ценности поддерживают её решения.
 
 Именно WHY создаёт направление, которое позволяет системе адаптироваться.
+
+---
+
+# WHY и Architecture
+
+WHY задаёт основание, которое архитектура переводит в способы реализации.
+
+[Architecture](https://oecumene.space/architecture.html)
+
+отвечает на вопрос:
+
+> Как должна быть устроена система, чтобы реализовать своё предназначение?
+
+Таким образом:
+
+WHY определяет основание и направление.
+
+Architecture определяет способ реализации.
+
+---
+
+# WHY и Governance
+
+Governance также должен быть связан с основанием системы.
+
+[Governance](https://oecumene.space/governance.html)
+
+помогает сохранять направление, ответственность и согласованность при реализации намерения системы.
 
 ---
 
@@ -189,7 +233,24 @@ WHY — это вопрос о причине, смысле и основани�
 
 ---
 
-[← OECUMENE Home](https://github.com/ai4mngmnt-cyber/oecumene)
+# Связь WHY с OECUMENE
+
+WHY связан с:
+
+- [Architecture Map](https://oecumene.space/architecture-map.html)
+- [HOW](https://oecumene.space/how.html)
+- [Architecture](https://oecumene.space/architecture.html)
+- [WHAT](https://oecumene.space/what.html)
+- [Disciplines](https://oecumene.space/disciplines.html)
+- [Governance](https://oecumene.space/governance.html)
+
+---
+
+[← OECUMENE Home](https://oecumene.space/)
+
+[Architecture Map](https://oecumene.space/architecture-map.html)
+
+[OECUMENE GitHub Repository](https://github.com/ai4mngmnt-cyber/oecumene)
 
 🇷🇺 [Telegram RU](https://t.me/oecumene_space)
 
