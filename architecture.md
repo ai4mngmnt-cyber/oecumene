@@ -1,3 +1,5 @@
+# [OECUMENE](https://oecumene.space/)
+
 # Architecture
 
 ## Архитектура как механизм реализации намерения системы
@@ -198,13 +200,47 @@ WHAT
 
 Подробнее:
 
-[Governance Architect](governance-architect.md)
+[Governance Architect](https://oecumene.space/governance-architect.html)
 
 ---
 
 ## AI-enabled Architecture
 
 Архитектура системы, в которой искусственный интеллект становится частью организационной способности.
+
+Подробнее:
+
+[AI-enabled Architecture](https://oecumene.space/ai-enabled-architecture.html)
+
+---
+
+# Architecture и Management
+
+Архитектура является уровнем HOW, через который реализуются управленческие намерения и развиваются организационные способности.
+
+[Management](https://oecumene.space/management.html)
+
+рассматривает управление как дисциплину создания и реализации ценности.
+
+---
+
+# Architecture и AI Management
+
+AI Management рассматривает искусственный интеллект как организационную способность.
+
+[AI Management](https://oecumene.space/ai-management.html)
+
+связывает архитектуру, методы и практики с развитием способности организации использовать AI.
+
+---
+
+# Architecture и Governance
+
+Архитектура управления является одним из способов реализации Governance.
+
+[Governance](https://oecumene.space/governance.html)
+
+рассматривается в OECUMENE как способность системы сохранять направление, ответственность и согласованность.
 
 ---
 
@@ -261,7 +297,24 @@ WHAT:
 
 ---
 
-[← OECUMENE Home](https://github.com/ai4mngmnt-cyber/oecumene)
+# Связь Architecture с OECUMENE
+
+Architecture связана с:
+
+- [Architecture Map](https://oecumene.space/architecture-map.html)
+- [Management](https://oecumene.space/management.html)
+- [Governance](https://oecumene.space/governance.html)
+- [Governance Architect](https://oecumene.space/governance-architect.html)
+- [AI Management](https://oecumene.space/ai-management.html)
+- [AI Governance](https://oecumene.space/ai-governance.html)
+- [AI-enabled Architecture](https://oecumene.space/ai-enabled-architecture.html)
+- [Disciplines](https://oecumene.space/disciplines.html)
+
+---
+
+[← OECUMENE Home](https://oecumene.space/)
+
+[OECUMENE GitHub Repository](https://github.com/ai4mngmnt-cyber/oecumene)
 
 🇷🇺 [Telegram RU](https://t.me/oecumene_space)
 
