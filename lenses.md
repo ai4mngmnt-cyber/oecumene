@@ -1,3 +1,5 @@
+# [OECUMENE](https://oecumene.space/)
+
 # Lenses
 
 ## Линзы как инструменты понимания сложных систем
@@ -36,6 +38,10 @@ HOW отвечает на вопрос:
 - Technologies · Технологии
 
 Lenses являются одним из инструментов понимания и анализа системы.
+
+Подробнее:
+
+[HOW](https://oecumene.space/how.html)
 
 ---
 
@@ -83,6 +89,10 @@ Capabilities
 
 Practices
 
+Подробнее:
+
+[Architecture Map](https://oecumene.space/architecture-map.html)
+
 ---
 
 # Что такое Lens?
@@ -124,6 +134,12 @@ Lens — это способ рассматривать систему чере�
 - Какие способности создаёт архитектура?
 - Какие изменения возможны?
 
+Подробнее:
+
+[Architecture](https://oecumene.space/architecture.html)
+
+[Architecture Map](https://oecumene.space/architecture-map.html)
+
 ---
 
 # Рабочие линзы OECUMENE
@@ -145,7 +161,7 @@ Lens — это способ рассматривать систему чере�
 
 Подробнее:
 
-[Gharajedaghi Lens](gharajedaghi-lens.md)
+[Gharajedaghi Lens](https://oecumene.space/gharajedaghi-lens.html)
 
 ---
 
@@ -162,7 +178,25 @@ Lens — это способ рассматривать систему чере�
 
 Подробнее:
 
-[Archipelago Lens](archipelago-lens.md)
+[Archipelago Lens](https://oecumene.space/archipelago-lens.html)
+
+---
+
+# Линзы и граф интеллектуальных активов
+
+OECUMENE рассматривает систему как развивающийся граф интеллектуальных активов.
+
+Линзы позволяют исследовать этот граф с разных перспектив:
+
+- отдельные узлы;
+- связи между узлами;
+- структуры;
+- возникающие возможности;
+- направления развития.
+
+Подробнее:
+
+[Architecture Map](https://oecumene.space/architecture-map.html)
 
 ---
 
@@ -217,7 +251,26 @@ WHAT:
 
 ---
 
-[← OECUMENE Home](https://github.com/ai4mngmnt-cyber/oecumene)
+# Связь Lenses с OECUMENE
+
+Lenses связаны с:
+
+- [HOW](https://oecumene.space/how.html)
+- [Architecture](https://oecumene.space/architecture.html)
+- [Architecture Map](https://oecumene.space/architecture-map.html)
+- [Gharajedaghi Lens](https://oecumene.space/gharajedaghi-lens.html)
+- [Archipelago Lens](https://oecumene.space/archipelago-lens.html)
+- [WHAT](https://oecumene.space/what.html)
+
+---
+
+[← OECUMENE Home](https://oecumene.space/)
+
+[HOW](https://oecumene.space/how.html)
+
+[Architecture Map](https://oecumene.space/architecture-map.html)
+
+[OECUMENE GitHub Repository](https://github.com/ai4mngmnt-cyber/oecumene)
 
 🇷🇺 [Telegram RU](https://t.me/oecumene_space)
 
