@@ -1,3 +1,5 @@
+# [OECUMENE](https://oecumene.space/)
+
 # AI Management
 
 ## Управление искусственным интеллектом как организационной способностью
@@ -181,11 +183,37 @@ WHAT
 
 Поэтому AI Management связано с:
 
-[Governance](governance.md)
+[Governance](https://oecumene.space/governance.html)
 
 и
 
-[AI Governance](ai-governance.md)
+[AI Governance](https://oecumene.space/ai-governance.html)
+
+AI Management развивает способность организации использовать AI.
+
+Governance обеспечивает условия управляемости, ответственности и согласованности.
+
+AI Governance распространяет эту логику на системы с участием искусственного интеллекта.
+
+---
+
+# AI Management и Governance Architect
+
+Архитектурная сторона управления AI связана с:
+
+[Governance Architect](https://oecumene.space/governance-architect.html)
+
+Governance Architect помогает проектировать условия принятия решений, распределения ответственности, согласования и обратной связи в сложных системах.
+
+---
+
+# AI Management и AI-enabled Architecture
+
+AI Management также связан с:
+
+[AI-enabled Architecture](https://oecumene.space/ai-enabled-architecture.html)
+
+AI-enabled Architecture рассматривает архитектуру систем, в которых AI становится частью способов реализации организационных возможностей.
 
 ---
 
@@ -242,7 +270,21 @@ AI Management — это не просто внедрение технологи
 
 ---
 
-[← OECUMENE Home](https://github.com/ai4mngmnt-cyber/oecumene)
+# Связь AI Management с OECUMENE
+
+AI Management связан с:
+
+- [Management](https://oecumene.space/management.html)
+- [Governance](https://oecumene.space/governance.html)
+- [AI Governance](https://oecumene.space/ai-governance.html)
+- [Governance Architect](https://oecumene.space/governance-architect.html)
+- [AI-enabled Architecture](https://oecumene.space/ai-enabled-architecture.html)
+
+---
+
+[← OECUMENE Home](https://oecumene.space/)
+
+[OECUMENE GitHub Repository](https://github.com/ai4mngmnt-cyber/oecumene)
 
 🇷🇺 [Telegram RU](https://t.me/oecumene_space)
 
