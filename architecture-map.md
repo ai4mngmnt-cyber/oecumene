@@ -1,3 +1,5 @@
+# [OECUMENE](https://oecumene.space/)
+
 # Architecture Map
 
 ## Карта архитектуры OECUMENE
@@ -38,8 +40,6 @@ OECUMENE рассматривает сложные системы как сет�
 
 Принципы обеспечивают устойчивость системы при изменениях.
 
----
-
 WHY отвечает на вопросы:
 
 > Почему это важно?  
@@ -55,7 +55,7 @@ WHY раскрывает:
 
 Подробнее:
 
-[WHY — Values & Principles](why.md)
+[WHY — Values & Principles](https://oecumene.space/why.html)
 
 ---
 
@@ -79,7 +79,7 @@ HOW отвечает на вопрос:
 
 Подробнее:
 
-[HOW](how.md)
+[HOW](https://oecumene.space/how.html)
 
 ---
 
@@ -100,7 +100,7 @@ HOW отвечает на вопрос:
 
 Подробнее:
 
-[Architecture](architecture.md)
+[Architecture](https://oecumene.space/architecture.html)
 
 ---
 
@@ -120,7 +120,7 @@ HOW отвечает на вопрос:
 
 Подробнее:
 
-[Governance Architect](governance-architect.md)
+[Governance Architect](https://oecumene.space/governance-architect.html)
 
 ---
 
@@ -137,7 +137,7 @@ HOW отвечает на вопрос:
 
 Подробнее:
 
-[AI-enabled Architecture](ai-enabled-architecture.md)
+[AI-enabled Architecture](https://oecumene.space/ai-enabled-architecture.html)
 
 ---
 
@@ -160,7 +160,7 @@ HOW отвечает на вопрос:
 
 Подробнее:
 
-[Lenses](lenses.md)
+[Lenses](https://oecumene.space/lenses.html)
 
 ---
 
@@ -178,7 +178,7 @@ WHAT отвечает на вопрос:
 
 Подробнее:
 
-[WHAT](what.md)
+[WHAT](https://oecumene.space/what.html)
 
 ---
 
@@ -190,7 +190,7 @@ WHAT отвечает на вопрос:
 
 Дисциплина организации деятельности и создания ценности.
 
-[Management](management.md)
+[Management](https://oecumene.space/management.html)
 
 ---
 
@@ -198,7 +198,7 @@ WHAT отвечает на вопрос:
 
 Дисциплина управления AI как организационной способностью.
 
-[AI Management](ai-management.md)
+[AI Management](https://oecumene.space/ai-management.html)
 
 ---
 
@@ -206,7 +206,7 @@ WHAT отвечает на вопрос:
 
 Дисциплина обеспечения управляемости, ответственности и согласованности системы.
 
-[Governance](governance.md)
+[Governance](https://oecumene.space/governance.html)
 
 ---
 
@@ -214,7 +214,25 @@ WHAT отвечает на вопрос:
 
 Дисциплина управления AI-системами.
 
-[AI Governance](ai-governance.md)
+[AI Governance](https://oecumene.space/ai-governance.html)
+
+---
+
+# Governance Architect
+
+Governance Architect является архитектурным направлением применения Governance Architecture.
+
+Он связывает:
+
+- архитектуру;
+- управление;
+- принятие решений;
+- ответственность;
+- полномочия;
+- согласование;
+- обратную связь.
+
+[Governance Architect](https://oecumene.space/governance-architect.html)
 
 ---
 
@@ -250,11 +268,11 @@ Principles · Принципы
 
 HOW
 
-Architecture · Архитектура
+[Architecture · Архитектура](https://oecumene.space/architecture.html)
 
-Governance Architecture
+[Governance Architecture](https://oecumene.space/governance-architect.html)
 
-AI-enabled Architecture
+[AI-enabled Architecture](https://oecumene.space/ai-enabled-architecture.html)
 
 Methods · Методы
 
@@ -266,7 +284,7 @@ Processes · Процессы
 
 Tools · Инструменты
 
-Lenses · Линзы
+[Lenses · Линзы](https://oecumene.space/lenses.html)
 
 Technologies · Технологии
 
@@ -276,23 +294,63 @@ WHAT
 
 Disciplines · Дисциплины
 
-Management
+[Management](https://oecumene.space/management.html)
 
-AI Management
+[AI Management](https://oecumene.space/ai-management.html)
 
-Governance
+[Governance](https://oecumene.space/governance.html)
 
-AI Governance
-
----
-
-Эта карта является развивающейся моделью OECUMENE.
-
-Она уточняется через практику, исследования и развитие интеллектуальных активов.
+[AI Governance](https://oecumene.space/ai-governance.html)
 
 ---
 
-[← OECUMENE Home](https://github.com/ai4mngmnt-cyber/oecumene)
+# Рекурсивность карты
+
+Architecture Map сама может быть рассмотрена через:
+
+**WHY → HOW → WHAT**
+
+WHY:
+
+Почему необходима карта архитектуры?
+
+↓
+
+HOW:
+
+Как карта связывает элементы OECUMENE?
+
+↓
+
+WHAT:
+
+Какие новые связи и интеллектуальные активы становятся видимыми?
+
+Карта поэтому является не только навигационным инструментом.
+
+Она является способом наблюдения за развитием архитектуры OECUMENE.
+
+---
+
+# Рабочая позиция OECUMENE
+
+Architecture Map является развивающейся картой интеллектуальных активов OECUMENE.
+
+Она уточняется через:
+
+- исследование;
+- практику;
+- появление новых дисциплин;
+- развитие архитектурных направлений;
+- создание новых связей между активами.
+
+---
+
+[← OECUMENE Home](https://oecumene.space/)
+
+[OECUMENE Architecture](https://oecumene.space/architecture.html)
+
+[OECUMENE Repository](https://github.com/ai4mngmnt-cyber/oecumene)
 
 🇷🇺 [Telegram RU](https://t.me/oecumene_space)
 
