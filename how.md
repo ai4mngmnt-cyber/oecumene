@@ -1,3 +1,5 @@
+# [OECUMENE](https://oecumene.space/)
+
 # HOW
 
 ## Как система реализует своё предназначение
@@ -42,6 +44,14 @@ HOW — это уровень архитектуры и способов дей�
 
 **WHAT** показывает, что возникает как результат реализации WHY через архитектуру, методы и практики уровня HOW.
 
+Подробнее:
+
+[WHY](https://oecumene.space/why.html)
+
+[Architecture Map](https://oecumene.space/architecture-map.html)
+
+[WHAT](https://oecumene.space/what.html)
+
 ---
 
 # WHY
@@ -58,6 +68,10 @@ WHY раскрывает:
 - основание её существования;
 - намерение развития;
 - направление создания ценности.
+
+Подробнее:
+
+[WHY](https://oecumene.space/why.html)
 
 ↓
 
@@ -80,6 +94,10 @@ WHY раскрывает:
 # WHAT
 
 Что возникает как результат реализации WHY через архитектуру, методы и практики уровня HOW?
+
+Подробнее:
+
+[WHAT](https://oecumene.space/what.html)
 
 ---
 
@@ -129,7 +147,9 @@ WHAT
 
 Подробнее:
 
-[Architecture](architecture.md)
+[Architecture](https://oecumene.space/architecture.html)
+
+[Architecture Map](https://oecumene.space/architecture-map.html)
 
 ---
 
@@ -143,7 +163,44 @@ Architecture Map показывает взаимосвязь уровней OECU
 
 Подробнее:
 
-[Architecture Map](architecture-map.md)
+[Architecture Map](https://oecumene.space/architecture-map.html)
+
+---
+
+# Архитектурные направления
+
+## Governance Architecture
+
+Архитектура управления сложными системами.
+
+Она рассматривает:
+
+- принятие решений;
+- ответственность;
+- полномочия;
+- согласование;
+- обратную связь.
+
+Подробнее:
+
+[Governance Architect](https://oecumene.space/governance-architect.html)
+
+---
+
+## AI-enabled Architecture
+
+Архитектура системы, в которой искусственный интеллект становится частью организационной способности.
+
+Она рассматривает:
+
+- взаимодействие человека и AI;
+- новые способности системы;
+- распределение ответственности;
+- изменение способов работы.
+
+Подробнее:
+
+[AI-enabled Architecture](https://oecumene.space/ai-enabled-architecture.html)
 
 ---
 
@@ -194,7 +251,7 @@ Architecture Map показывает взаимосвязь уровней OECU
 
 Подробнее:
 
-[Lenses](lenses.md)
+[Lenses](https://oecumene.space/lenses.html)
 
 ---
 
@@ -224,6 +281,36 @@ Architecture Map показывает взаимосвязь уровней OECU
 HOW создаёт не только способы действия.
 
 Оно создаёт пространство возможностей.
+
+---
+
+# HOW и WHAT
+
+HOW не является конечным результатом.
+
+Его задача — создать условия, через которые возникают новые способности и дисциплины.
+
+Связь:
+
+**WHY**
+
+Смысл, основание и намерение
+
+↓
+
+**HOW**
+
+Архитектура и способы реализации
+
+↓
+
+**WHAT**
+
+Способности, дисциплины и практики
+
+Подробнее:
+
+[WHAT](https://oecumene.space/what.html)
 
 ---
 
@@ -265,7 +352,29 @@ HOW — это уровень, где смысл и намерение сист�
 
 ---
 
-[← OECUMENE Home](https://github.com/ai4mngmnt-cyber/oecumene)
+# Связь HOW с OECUMENE
+
+HOW связан с:
+
+- [WHY](https://oecumene.space/why.html)
+- [Architecture Map](https://oecumene.space/architecture-map.html)
+- [Architecture](https://oecumene.space/architecture.html)
+- [Governance Architect](https://oecumene.space/governance-architect.html)
+- [AI-enabled Architecture](https://oecumene.space/ai-enabled-architecture.html)
+- [WHAT](https://oecumene.space/what.html)
+- [Disciplines](https://oecumene.space/disciplines.html)
+
+---
+
+[← OECUMENE Home](https://oecumene.space/)
+
+[WHY](https://oecumene.space/why.html)
+
+[Architecture Map](https://oecumene.space/architecture-map.html)
+
+[WHAT](https://oecumene.space/what.html)
+
+[OECUMENE GitHub Repository](https://github.com/ai4mngmnt-cyber/oecumene)
 
 🇷🇺 [Telegram RU](https://t.me/oecumene_space)
 
