@@ -241,6 +241,8 @@ AI Governance становится одной из областей примен
 - механизмы обратной связи;
 - условия безопасной адаптации.
 
+[Подробнее: AI Governance](https://oecumene.space/ai-governance.html)
+
 Поэтому AI Governance можно рассматривать не только как набор правил для AI, но и как частный случай более широкой архитектуры управления сложными гибридными системами.
 
 ---
@@ -302,6 +304,13 @@ Governance Architect является одним из направлений п�
 - принятие решений;
 - организационные способности;
 - развитие.
+
+Связанные направления:
+
+- [Governance](https://oecumene.space/governance.html)
+- [AI Governance](https://oecumene.space/ai-governance.html)
+- [AI-enabled Architecture](https://oecumene.space/ai-enabled-architecture.html)
+- [Management](https://oecumene.space/management.html)
 
 В этом смысле Governance Architect отвечает на более широкий вопрос:
 
