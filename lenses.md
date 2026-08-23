@@ -1,67 +1,61 @@
-# [OECUMENE](https://oecumene.space/)
-
 # Lenses
 
-## Линзы как инструменты понимания сложных систем
+## Lenses as Tools for Understanding Complex Systems
 
-В модели OECUMENE линзы используются для исследования сложных систем с разных точек зрения.
+In the OECUMENE model, lenses are used to explore complex systems from different perspectives.
 
-Линза не является самой системой.
+A lens is not the system itself.
 
-Она является инструментом, который помогает увидеть:
+It is a tool that helps reveal:
 
-- скрытые связи;
-- структуры;
-- закономерности;
-- возможности развития.
+- hidden relationships;
+- structures;
+- patterns;
+- opportunities for development.
 
 ---
 
-# Место Lenses в модели OECUMENE
+# The Place of Lenses in the OECUMENE Model
 
-Линзы находятся на уровне:
+Lenses are at the level:
 
-**HOW? · Как?**
+**HOW? · How?**
 
-HOW отвечает на вопрос:
+HOW asks:
 
-> Как это реализуется?
+> How is this realized?
 
-Через:
+Through:
 
-- Architecture · Архитектура
-- Methods · Методы
-- Practices · Практики
-- Frameworks · Фреймворки
-- Processes · Процессы
-- Tools · Инструменты
-- Technologies · Технологии
+- Architecture
+- Methods
+- Practices
+- Frameworks
+- Processes
+- Tools
+- Technologies
 
-Lenses являются одним из инструментов понимания и анализа системы.
-
-Подробнее:
-
-[HOW](https://oecumene.space/how.html)
+Lenses are one class of tools for understanding and analyzing systems.
 
 ---
 
 # WHY → HOW → WHAT
 
-OECUMENE использует причинно-следственную модель:
+OECUMENE uses the causal model:
 
 **WHY**
 
-Почему это важно?
+Why does this matter?
 
-Почему система существует?
+Why does the system exist?
 
-Почему выбран именно такой путь?
+Why has this path been chosen?
 
 ↓
 
 **HOW**
 
-Как это реализуется?
+How is this realized?
 
 Architecture
 
@@ -81,7 +75,7 @@ Technologies
 
 **WHAT**
 
-Что возникает как результат реализации WHY через архитектуру, методы и практики уровня HOW?
+What emerges as a result of realizing WHY through the architecture, methods, and practices of HOW?
 
 Disciplines
 
@@ -89,186 +83,141 @@ Capabilities
 
 Practices
 
-Подробнее:
+---
 
-[Architecture Map](https://oecumene.space/architecture-map.html)
+# What is a Lens?
+
+A Lens is a way of examining a system through a particular perspective.
+
+The same system can be explored through different lenses.
+
+Each lens helps reveal:
+
+- particular relationships;
+- particular structures;
+- particular opportunities;
+- particular constraints.
 
 ---
 
-# Что такое Lens?
+# Why Lenses Are Needed
 
-Lens — это способ рассматривать систему через определённую перспективу.
+Complex systems cannot be understood through a single perspective.
 
-Одна и та же система может быть исследована через разные линзы.
+Lenses allow us to:
 
-Каждая линза помогает обнаружить:
-
-- определённые связи;
-- определённые структуры;
-- определённые возможности;
-- определённые ограничения.
+- change the perspective of analysis;
+- discover hidden elements of the system;
+- explore relationships between parts;
+- create new models of understanding.
 
 ---
 
-# Зачем нужны линзы
+# Lenses and Architecture
 
-Сложные системы невозможно понять через одну точку зрения.
+Lenses help explore the architecture of a system.
 
-Линзы позволяют:
+They allow us to ask:
 
-- менять перспективу анализа;
-- обнаруживать скрытые элементы системы;
-- исследовать отношения между частями;
-- создавать новые модели понимания.
-
----
-
-# Линзы и архитектура
-
-Линзы помогают исследовать архитектуру системы.
-
-Они позволяют задавать вопросы:
-
-- Почему система устроена именно так?
-- Как элементы взаимодействуют?
-- Какие способности создаёт архитектура?
-- Какие изменения возможны?
-
-Подробнее:
-
-[Architecture](https://oecumene.space/architecture.html)
-
-[Architecture Map](https://oecumene.space/architecture-map.html)
+- Why is the system designed this way?
+- How do the elements interact?
+- What capabilities does the architecture create?
+- What changes are possible?
 
 ---
 
-# Рабочие линзы OECUMENE
+# Working Lenses of OECUMENE
 
-В текущей модели используются следующие линзы:
+The current model uses the following lenses:
 
 ---
 
 ## Gharajedaghi Lens
 
-Линза системного мышления для исследования сложных систем.
+A systems thinking lens for exploring complex systems.
 
-Она помогает рассматривать:
+It helps examine:
 
-- целостность системы;
-- взаимозависимость элементов;
-- взаимодействия;
-- возникающие свойства.
+- system wholeness;
+- interdependence of elements;
+- interactions;
+- emergent properties.
 
-Подробнее:
+More:
 
-[Gharajedaghi Lens](https://oecumene.space/gharajedaghi-lens.html)
+[Gharajedaghi Lens](gharajedaghi-lens.md)
 
 ---
 
 ## Archipelago Lens
 
-Линза для исследования системы как сети взаимосвязанных интеллектуальных активов.
+A lens for exploring a system as a network of interconnected intellectual assets.
 
-Она помогает рассматривать:
+It helps examine:
 
-- отдельные элементы;
-- связи между элементами;
-- возникающие возможности;
-- развитие новых активов.
+- individual elements;
+- relationships between elements;
+- emerging opportunities;
+- development of new assets.
 
-Подробнее:
+More:
 
-[Archipelago Lens](https://oecumene.space/archipelago-lens.html)
-
----
-
-# Линзы и граф интеллектуальных активов
-
-OECUMENE рассматривает систему как развивающийся граф интеллектуальных активов.
-
-Линзы позволяют исследовать этот граф с разных перспектив:
-
-- отдельные узлы;
-- связи между узлами;
-- структуры;
-- возникающие возможности;
-- направления развития.
-
-Подробнее:
-
-[Architecture Map](https://oecumene.space/architecture-map.html)
+[Archipelago Lens](archipelago-lens.md)
 
 ---
 
-# Линзы как интеллектуальные инструменты
+# Lenses as Intellectual Tools
 
-В OECUMENE линзы являются интеллектуальными активами.
+In OECUMENE, lenses are intellectual assets.
 
-Они могут развиваться через:
+They can develop through:
 
-- описание концепций;
-- создание моделей;
-- практическое применение;
-- новые связи с другими активами.
+- describing concepts;
+- creating models;
+- practical application;
+- developing new relationships with other assets.
 
 ---
 
-# Рекурсивность
+# Recursiveness
 
-Любая линза может быть рассмотрена через:
+Any lens can be considered through:
 
 **WHY → HOW → WHAT**
 
-Например:
+For example:
 
 WHY:
 
-Почему эта перспектива важна?
+Why is this perspective important?
 
 ↓
 
 HOW:
 
-Как линза помогает анализировать систему?
+How does the lens help analyze the system?
 
 ↓
 
 WHAT:
 
-Какие новые понимания, модели и практики возникают?
+What new insights, models, and practices emerge?
 
 ---
 
-# Рабочая позиция OECUMENE
+# Working Position of OECUMENE
 
-Линзы не дают единственного ответа.
+Lenses do not provide a single answer.
 
-Они расширяют способность системы задавать лучшие вопросы и видеть новые возможности.
+They expand the system's ability to ask better questions and see new possibilities.
 
-Главный вопрос:
+The central question is:
 
-> **Какие перспективы позволяют лучше понять систему и развить способность создавать ценность?**
-
----
-
-# Связь Lenses с OECUMENE
-
-Lenses связаны с:
-
-- [HOW](https://oecumene.space/how.html)
-- [Architecture](https://oecumene.space/architecture.html)
-- [Architecture Map](https://oecumene.space/architecture-map.html)
-- [Gharajedaghi Lens](https://oecumene.space/gharajedaghi-lens.html)
-- [Archipelago Lens](https://oecumene.space/archipelago-lens.html)
-- [WHAT](https://oecumene.space/what.html)
+> **Which perspectives enable a better understanding of the system and the development of its ability to create value?**
 
 ---
 
 [← OECUMENE Home](https://oecumene.space/)
-
-[HOW](https://oecumene.space/how.html)
-
-[Architecture Map](https://oecumene.space/architecture-map.html)
 
 [OECUMENE GitHub Repository](https://github.com/ai4mngmnt-cyber/oecumene)
 
