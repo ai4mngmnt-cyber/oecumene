@@ -2,227 +2,191 @@
 
 ## Governance Architecture for Complex Business Systems
 
-## Новое мышление о создании ценности в сложных гибридных системах
+## A New Way of Thinking About Value Creation in Complex Hybrid Systems
 
-**OECUMENE — интеллектуальная экосистема, формирующая и развивающая способность организаций создавать и реализовывать ценность в сложной и неопределённой среде.**
+**OECUMENE is an intellectual ecosystem that develops the ability of organizations to create and realize value in complex and uncertain environments.**
 
-Мы исследуем, что происходит, когда человеческий интеллект, искусственный интеллект, технологии и организационные системы становятся всё более взаимосвязанными.
+We explore what happens when human intelligence, artificial intelligence, technologies, and organizational systems become increasingly interconnected.
 
 ---
 
-# Центральная модель OECUMENE
+# The Central OECUMENE Model
 
-OECUMENE рассматривает создание ценности через причинно-следственную связь:
+OECUMENE understands value creation through the causal relationship:
 
 **WHY → HOW → WHAT**
 
-Это архитектура понимания и реализации системы.
+This is an architecture for understanding and realizing systems.
 
 ---
 
-# WHY? · Почему?
+# WHY? · Why?
 
-WHY отвечает на вопросы:
+WHY asks:
 
-> Почему это важно?  
-> Почему система существует?  
-> Почему выбран именно такой путь?
+> Why does this matter?  
+> Why does the system exist?  
+> Why has this path been chosen?
 
-WHY раскрывает:
+WHY reveals:
 
-- смысл системы;
-- основание её существования;
-- намерение развития;
-- направление создания ценности.
+- the meaning of the system;
+- the foundation of its existence;
+- the intention behind its development;
+- the direction of value creation.
 
-Подробнее:
+More:
 
-[WHY — Values & Principles](https://github.com/ai4mngmnt-cyber/oecumene/blob/main/why.md)
-
----
-
-# HOW? · Как?
-
-HOW отвечает на вопрос:
-
-> Как это реализуется?
-
-HOW — это уровень архитектуры и способов действия.
-
-В него входят:
-
-- Architecture · Архитектура
-- Methods · Методы
-- Practices · Практики
-- Frameworks · Фреймворки
-- Processes · Процессы
-- Tools · Инструменты
-- Technologies · Технологии
-
-Подробнее:
-
-[HOW — Architecture and Implementation](https://github.com/ai4mngmnt-cyber/oecumene/blob/main/how.md)
+[WHY — Values & Principles](why.md)
 
 ---
 
-# WHAT? · Что?
+# HOW? · How?
 
-WHAT отвечает на вопрос:
+HOW asks:
 
-> Что возникает как результат реализации WHY через архитектуру, методы и практики уровня HOW?
+> How is this realized?
 
-WHAT показывает:
+HOW is the level of architecture and ways of acting.
 
-- какие способности возникают;
-- какие дисциплины формируются;
-- какие практики становятся возможными;
-- какие формы создания ценности появляются.
+It includes:
 
-Подробнее:
+- Architecture
+- Methods
+- Practices
+- Frameworks
+- Processes
+- Tools
+- Technologies
 
-[WHAT — Results of System Realization](https://github.com/ai4mngmnt-cyber/oecumene/blob/main/what.md)
+More:
+
+[HOW — Architecture and Implementation](how.md)
 
 ---
 
-# Architecture · Архитектура
+# WHAT? · What?
 
-Архитектура является центральным элементом HOW.
+WHAT asks:
 
-Она связывает:
+> What emerges as a result of realizing WHY through the architecture, methods, and practices of HOW?
 
-- смысл и намерение системы;
-- структуру;
-- элементы;
-- взаимодействия;
-- ответственность;
-- механизмы реализации.
+WHAT shows:
 
-Подробнее:
+- what capabilities emerge;
+- what disciplines develop;
+- what practices become possible;
+- what forms of value creation emerge.
 
-[Architecture](https://github.com/ai4mngmnt-cyber/oecumene/blob/main/architecture.md)
+More:
+
+[WHAT — Results of System Realization](what.md)
+
+---
+
+# Architecture
+
+Architecture is the central element of HOW.
+
+It connects:
+
+- the meaning and intention of the system;
+- structure;
+- elements;
+- interactions;
+- responsibility;
+- mechanisms of implementation.
+
+More:
+
+[Architecture](architecture.md)
 
 ---
 
 # Architecture Map
 
-Карта архитектуры OECUMENE показывает:
+The OECUMENE Architecture Map shows:
 
-- почему система существует;
-- как это реализуется через архитектуру и способы действия;
-- что возникает как результат реализации WHY через архитектуру, методы и практики уровня HOW.
+- why the system exists;
+- how this is realized through architecture and ways of acting;
+- what emerges as a result of realizing WHY through the architecture, methods, and practices of HOW.
 
-Подробнее:
+More:
 
-[Architecture Map](https://github.com/ai4mngmnt-cyber/oecumene/blob/main/architecture-map.md)
-
----
-
-# Disciplines · Дисциплины
-
-Дисциплины являются результатом реализации WHY через HOW.
-
-Они показывают области знания и практики, через которые система развивает свои способности.
-
-Подробнее:
-
-[Disciplines](https://github.com/ai4mngmnt-cyber/oecumene/blob/main/disciplines.md)
+[Architecture Map](architecture-map.md)
 
 ---
 
-# Основные дисциплины
+# Disciplines
+
+Disciplines are results of realizing WHY through HOW.
+
+They represent areas of knowledge and practice through which the system develops its capabilities.
+
+More:
+
+[Disciplines](disciplines.md)
+
+---
+
+# Core Disciplines
 
 ## Management
 
-Дисциплина создания и реализации ценности.
+The discipline of creating and realizing value.
 
-[Management](https://github.com/ai4mngmnt-cyber/oecumene/blob/main/management.md)
+[Management](management.md)
 
 ---
 
 ## AI Management
 
-Управление искусственным интеллектом как организационной способностью.
+Managing artificial intelligence as an organizational capability.
 
-[AI Management](https://github.com/ai4mngmnt-cyber/oecumene/blob/main/ai-management.md)
+[AI Management](ai-management.md)
 
 ---
 
 ## Governance
 
-Управление как способность системы сохранять направление и согласованность.
+Governance as the ability of a system to preserve direction and alignment.
 
-[Governance](https://github.com/ai4mngmnt-cyber/oecumene/blob/main/governance.md)
+[Governance](governance.md)
 
 ---
 
 ## AI Governance
 
-Управление системами искусственного интеллекта.
+Governance of artificial intelligence systems.
 
-[AI Governance](https://github.com/ai4mngmnt-cyber/oecumene/blob/main/ai-governance.md)
-
----
-
-# Lenses · Линзы
-
-OECUMENE использует линзы как инструменты понимания сложных систем.
-
-Они помогают обнаруживать:
-
-- скрытые связи;
-- структуры;
-- возможности;
-- новые направления развития.
-
-Подробнее:
-
-[Lenses](https://github.com/ai4mngmnt-cyber/oecumene/blob/main/lenses.md)
+[AI Governance](ai-governance.md)
 
 ---
 
-# Working Lenses · Рабочие линзы
+# Lenses
 
-## Gharajedaghi Lens
+OECUMENE uses lenses as tools for understanding complex systems.
 
-Линза системного мышления для исследования сложных систем.
+They help reveal:
 
-[Gharajedaghi Lens](https://github.com/ai4mngmnt-cyber/oecumene/blob/main/gharajedaghi-lens.md)
+- hidden relationships;
+- structures;
+- opportunities;
+- new directions for development.
 
----
+More:
 
-## Archipelago Lens
-
-Линза для исследования системы как сети взаимосвязанных интеллектуальных активов.
-
-[Archipelago Lens](https://github.com/ai4mngmnt-cyber/oecumene/blob/main/archipelago-lens.md)
-
----
-
-# Architectural Directions · Архитектурные направления
-
-## Governance Architect
-
-Архитектурное направление проектирования механизмов управления сложными системами.
-
-[Governance Architect](https://github.com/ai4mngmnt-cyber/oecumene/blob/main/governance-architect.md)
+[Lenses](lenses.md)
 
 ---
 
-## AI-enabled Architecture
+# Working Position
 
-Архитектура системы, в которой искусственный интеллект становится частью организационной способности.
+OECUMENE is an evolving authorial model.
 
-[AI-enabled Architecture](https://github.com/ai4mngmnt-cyber/oecumene/blob/main/ai-enabled-architecture.md)
+It is not a finished doctrine.
 
----
-
-# Рабочая позиция
-
-OECUMENE является развивающейся авторской моделью.
-
-Это не завершённая доктрина.
-
-Это исследование, в котором идеи проверяются через практику, наблюдения и развитие интеллектуальных активов.
+It is an ongoing inquiry in which ideas are tested through practice, observation, and the development of intellectual assets.
 
 ---
 
