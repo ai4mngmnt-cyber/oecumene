@@ -1,42 +1,40 @@
-# [OECUMENE](https://oecumene.space/)
-
 # AI Governance
 
-## Управление системами искусственного интеллекта
+## Governing Artificial Intelligence Systems
 
-В модели OECUMENE AI Governance рассматривается как дисциплина уровня:
+In the OECUMENE model, AI Governance is a discipline at the level:
 
-**WHAT? · Что?**
+**WHAT? · What?**
 
-WHAT отвечает на вопрос:
+WHAT asks:
 
-> Что возникает как результат реализации WHY через архитектуру, методы и практики уровня HOW?
+> What emerges as a result of realizing WHY through the architecture, methods, and practices of HOW?
 
-AI Governance является результатом развития способности системы управлять использованием искусственного интеллекта согласованно с её предназначением, ценностями и принципами.
+AI Governance is the result of developing the system's ability to govern the use of artificial intelligence in alignment with its purpose, values, and principles.
 
 ---
 
-# Место AI Governance в модели OECUMENE
+# The Place of AI Governance in the OECUMENE Model
 
-Центральная логика:
+The central logic is:
 
 **WHY → HOW → WHAT**
 
-Это причинно-следственная связь:
+This is a causal relationship:
 
 **WHY**
 
-Почему это важно?
+Why does this matter?
 
-Почему система существует?
+Why does the system exist?
 
-Почему выбран именно такой путь?
+Why has this path been chosen?
 
 ↓
 
 **HOW**
 
-Как это реализуется?
+How is this realized?
 
 Architecture
 
@@ -56,7 +54,7 @@ Technologies
 
 **WHAT**
 
-Что возникает как результат реализации WHY через архитектуру, методы и практики уровня HOW?
+What emerges as a result of realizing WHY through the architecture, methods, and practices of HOW?
 
 Disciplines
 
@@ -68,120 +66,100 @@ Practices
 
 # WHY AI Governance
 
-Развитие искусственного интеллекта создаёт новые вопросы:
+The development of artificial intelligence creates new questions:
 
-- почему определённые решения требуют управления;
-- почему необходима ответственность за AI-системы;
-- почему требуется управление рисками;
-- почему важны прозрачность и доверие.
+- why certain decisions require governance;
+- why responsibility for AI systems is necessary;
+- why risk management is required;
+- why transparency and trust matter.
 
-AI Governance отвечает на вопрос:
+AI Governance asks:
 
-> Почему система должна управлять использованием AI осознанно и ответственно?
+> Why should a system govern the use of AI consciously and responsibly?
 
 ---
 
 # HOW AI Governance
 
-AI Governance реализуется через архитектуру управления AI.
+AI Governance is realized through an AI governance architecture.
 
-Это включает:
+This includes:
 
-- механизмы принятия решений;
-- распределение ответственности;
-- процессы контроля;
-- оценку рисков;
-- практики прозрачности;
-- механизмы адаптации.
-
----
-
-# AI Governance как дисциплина
-
-AI Governance — это область знания и практики, которая помогает системе развивать способности:
-
-- ответственного использования AI;
-- управления рисками;
-- согласования AI с целями организации;
-- контроля развития AI-способностей;
-- принятия решений с участием AI.
+- decision-making mechanisms;
+- allocation of responsibility;
+- control processes;
+- risk assessment;
+- transparency practices;
+- adaptation mechanisms.
 
 ---
 
-# Основные элементы AI Governance
+# AI Governance as a Discipline
 
-## Responsibility · Ответственность
+AI Governance is a field of knowledge and practice that helps a system develop capabilities for:
 
-Определяет:
-
-- кто отвечает за AI-системы;
-- кто принимает решения;
-- как распределяются роли.
-
----
-
-## Transparency · Прозрачность
-
-Определяет:
-
-- насколько понятны процессы работы AI;
-- как обеспечивается объяснимость;
-- как формируется доверие.
+- responsible use of AI;
+- risk management;
+- alignment of AI with organizational goals;
+- governance of AI capability development;
+- decision making involving AI.
 
 ---
 
-## Risk Management · Управление рисками
+# Core Elements of AI Governance
 
-Определяет:
+## Responsibility
 
-- потенциальные угрозы;
-- механизмы предотвращения;
-- способы контроля последствий.
+Defines:
 
----
-
-## Alignment · Согласование
-
-Обеспечивает связь между:
-
-- предназначением системы;
-- ценностями;
-- принципами;
-- поведением AI-систем.
+- who is responsible for AI systems;
+- who makes decisions;
+- how roles are distributed.
 
 ---
 
-# AI Governance и Governance Architecture
+## Transparency
 
-AI Governance является развитием общего подхода Governance Architecture.
+Defines:
 
-Связь:
+- how understandable AI processes are;
+- how explainability is provided;
+- how trust is established.
 
-[Governance Architecture](https://oecumene.space/governance-architect.html)
+---
+
+## Risk Management
+
+Defines:
+
+- potential threats;
+- prevention mechanisms;
+- ways of controlling consequences.
+
+---
+
+## Alignment
+
+Ensures the connection between:
+
+- the purpose of the system;
+- values;
+- principles;
+- the behavior of AI systems.
+
+---
+
+# AI Governance and Governance Architecture
+
+AI Governance is an extension of the broader approach of Governance Architecture.
+
+The relationship is:
+
+Governance Architecture
 
 ↓
 
-архитектура управления системой
-
-↓
-
-AI Governance
-
-↓
-
-управление системами с участием искусственного интеллекта
-
----
-
-# AI Governance и Governance
-
-AI Governance является специализированной областью Governance.
-
-[Governance](https://oecumene.space/governance.html)
-
-↓
-
-управление системой
+architecture for governing the system
 
 ↓
 
@@ -189,112 +167,100 @@ AI Governance
 
 ↓
 
-управление системами с участием искусственного интеллекта
+governance of systems involving artificial intelligence
 
 ---
 
-# AI Governance и архитектура системы
+# AI Governance and Architecture
 
-AI Governance является результатом реализации:
+AI Governance is the result of realizing:
 
 WHY
 
 ↓
 
-необходимость ответственного и эффективного использования AI
+the need for responsible and effective use of AI
 
-через
+through
 
 HOW
 
 ↓
 
-архитектуру, методы и практики управления AI
+architecture, methods, and practices for governing AI
 
-к
+to
 
 WHAT
 
 ↓
 
-способность организации управлять AI-системами.
+the organizational capability to govern AI systems.
 
 ---
 
-# AI Governance и AI Management
+# AI Governance as an Intellectual Asset
 
-AI Governance связан с AI Management как две взаимодополняющие области.
+In OECUMENE, AI Governance is an evolving intellectual asset.
 
-[AI Management](https://oecumene.space/ai-management.html)
+It may include:
 
-AI Management развивает способность организации работать с AI как организационной способностью.
-
-AI Governance формирует условия управляемости, ответственности и согласованности этой способности.
-
----
-
-# AI Governance как интеллектуальный актив
-
-В OECUMENE AI Governance рассматривается как развивающийся интеллектуальный актив.
-
-Он может включать:
-
-- модели управления;
-- принципы;
-- методы оценки;
-- практики контроля;
-- инструменты мониторинга;
-- связи с другими дисциплинами.
+- governance models;
+- principles;
+- assessment methods;
+- control practices;
+- monitoring tools;
+- relationships with other disciplines.
 
 ---
 
-# Рекурсивность
+# Recursiveness
 
-Как и любой элемент OECUMENE, AI Governance может быть рассмотрен через:
+Like every element of OECUMENE, AI Governance can be considered through:
 
 **WHY → HOW → WHAT**
 
-Например:
+For example:
 
 WHY:
 
-Почему необходимо управление AI?
+Why is AI governance necessary?
 
 ↓
 
 HOW:
 
-Как создать архитектуру и практики управления AI?
+How can an architecture and practices for governing AI be created?
 
 ↓
 
 WHAT:
 
-Какие способности AI Governance возникают?
+What AI Governance capabilities emerge?
 
 ---
 
-# Рабочая позиция OECUMENE
+# Working Position of OECUMENE
 
-AI Governance — это не только контроль технологии.
+AI Governance is not only about controlling technology.
 
-Это способность системы создавать условия, при которых искусственный интеллект используется согласованно с предназначением, ценностями и принципами организации.
+It is the capability of a system to create conditions in which artificial intelligence is used in alignment with the organization's purpose, values, and principles.
 
-Главный вопрос:
+The central question is:
 
-> **Какую систему управления необходимо создать, чтобы AI усиливал способность организации реализовывать своё предназначение?**
+> **What governance system should be created so that AI strengthens the organization's ability to realize its purpose?**
 
 ---
 
-# Связь AI Governance с OECUMENE
+# Connections with Other OECUMENE Disciplines
 
-AI Governance связан с другими направлениями OECUMENE:
+AI Governance is connected with:
 
-- [Governance](https://oecumene.space/governance.html)
-- [Governance Architect](https://oecumene.space/governance-architect.html)
-- [AI Management](https://oecumene.space/ai-management.html)
-- [AI-enabled Architecture](https://oecumene.space/ai-enabled-architecture.html)
-- [Management](https://oecumene.space/management.html)
+- [Governance](governance.md)
+- [Management](management.md)
+- [AI Management](ai-management.md)
+- [Governance Architect](governance-architect.md)
+- [AI-enabled Architecture](ai-enabled-architecture.md)
 
 ---
 
