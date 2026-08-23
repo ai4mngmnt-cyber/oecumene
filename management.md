@@ -1,42 +1,40 @@
-# [OECUMENE](https://oecumene.space/)
-
 # Management
 
-## Управление как дисциплина создания и реализации ценности
+## Management as a Discipline for Creating and Realizing Value
 
-В модели OECUMENE Management рассматривается как одна из дисциплин уровня:
+In the OECUMENE model, Management is one of the disciplines at the level:
 
-**WHAT? · Что?**
+**WHAT? · What?**
 
-WHAT отвечает на вопрос:
+WHAT asks:
 
-> Что возникает как результат реализации WHY через архитектуру, методы и практики уровня HOW?
+> What emerges as a result of realizing WHY through the architecture, methods, and practices of HOW?
 
-Management является результатом развития способности системы организовывать деятельность, принимать решения и создавать ценность.
+Management is the result of developing the system's ability to organize activities, make decisions, and create value.
 
 ---
 
-# Место Management в модели OECUMENE
+# The Place of Management in the OECUMENE Model
 
-Центральная логика:
+The central logic is:
 
 **WHY → HOW → WHAT**
 
-Это причинно-следственная связь:
+This is a causal relationship:
 
 **WHY**
 
-Почему это важно?
+Why does this matter?
 
-Почему система существует?
+Why does the system exist?
 
-Почему выбран именно такой путь?
+Why has this path been chosen?
 
 ↓
 
 **HOW**
 
-Как это реализуется?
+How is this realized?
 
 Architecture
 
@@ -56,7 +54,7 @@ Technologies
 
 **WHAT**
 
-Что возникает как результат реализации WHY через архитектуру, методы и практики уровня HOW?
+What emerges as a result of realizing WHY through the architecture, methods, and practices of HOW?
 
 Disciplines
 
@@ -68,231 +66,195 @@ Practices
 
 # WHY Management
 
-Управление начинается с вопроса:
+Management begins with the question:
 
-> Почему системе необходимо управлять своей деятельностью?
+> Why does the system need to manage its activities?
 
-Ответ связан с необходимостью:
+The answer is connected with the need to:
 
-- создавать и реализовывать ценность;
-- согласовывать действия участников;
-- принимать решения в условиях неопределённости;
-- развивать способности системы.
+- create and realize value;
+- align the actions of participants;
+- make decisions under uncertainty;
+- develop system capabilities.
 
 ---
 
 # HOW Management
 
-Management реализуется через:
+Management is realized through:
 
-- архитектуру управления;
-- методы принятия решений;
-- практики организации деятельности;
-- процессы взаимодействия;
-- инструменты анализа и координации.
-
----
-
-# Management как дисциплина
-
-Management — это область знания и практики, которая помогает системе:
-
-- определять направление;
-- организовывать ресурсы;
-- координировать действия;
-- принимать решения;
-- достигать результатов.
+- governance architecture;
+- decision-making methods;
+- practices for organizing activities;
+- interaction processes;
+- tools for analysis and coordination.
 
 ---
 
-# Основные элементы Management
+# Management as a Discipline
 
-## Strategy · Стратегия
+Management is a field of knowledge and practice that helps a system:
 
-Определяет:
-
-- направление развития;
-- выбор возможностей;
-- приоритеты создания ценности.
-
----
-
-## Decision Making · Принятие решений
-
-Определяет:
-
-- как система выбирает действия;
-- какие критерии используются;
-- как учитывается неопределённость.
+- determine direction;
+- organize resources;
+- coordinate actions;
+- make decisions;
+- achieve results.
 
 ---
 
-## Organization · Организация
+# Core Elements of Management
 
-Определяет:
+## Strategy
 
-- роли;
-- взаимодействия;
-- структуру ответственности;
-- способы координации.
+Defines:
 
----
-
-## Execution · Реализация
-
-Определяет:
-
-- как намерения превращаются в действия;
-- как измеряются результаты;
-- как система адаптируется.
+- the direction of development;
+- the choice of opportunities;
+- priorities for value creation.
 
 ---
 
-# Management и архитектура системы
+## Decision Making
 
-Management является результатом реализации:
+Defines:
+
+- how the system chooses actions;
+- which criteria are used;
+- how uncertainty is considered.
+
+---
+
+## Organization
+
+Defines:
+
+- roles;
+- interactions;
+- responsibility structures;
+- ways of coordination.
+
+---
+
+## Execution
+
+Defines:
+
+- how intentions are transformed into actions;
+- how results are measured;
+- how the system adapts.
+
+---
+
+# Management and System Architecture
+
+Management is the result of realizing:
 
 WHY
 
 ↓
 
-смысл и намерение системы
+meaning and intention of the system
 
-через
+through
 
 HOW
 
 ↓
 
-архитектуру, методы и практики управления
+architecture, methods, and practices of management
 
-к
+to
 
 WHAT
 
 ↓
 
-способности организации создавать и реализовывать ценность.
+the organizational capabilities to create and realize value.
 
 ---
 
-# Management и сложные системы
+# Management and Complex Systems
 
-В сложных системах управление не может быть сведено только к контролю.
+In complex systems, management cannot be reduced to control alone.
 
-Оно требует способности:
+It requires the ability to:
 
-- понимать контекст;
-- адаптироваться;
-- обучаться;
-- создавать новые возможности.
-
----
-
-# Management как интеллектуальный актив
-
-В OECUMENE Management рассматривается как развивающийся интеллектуальный актив.
-
-Он может включать:
-
-- модели управления;
-- концепции;
-- методы;
-- практики;
-- инструменты;
-- связи с другими дисциплинами.
+- understand context;
+- adapt;
+- learn;
+- create new opportunities.
 
 ---
 
-# Связь с другими дисциплинами OECUMENE
+# Management as an Intellectual Asset
 
-Management связан с:
+In OECUMENE, Management is an evolving intellectual asset.
+
+It may include:
+
+- management models;
+- concepts;
+- methods;
+- practices;
+- tools;
+- relationships with other disciplines.
+
+---
+
+# Connections with Other OECUMENE Disciplines
+
+Management is connected with:
 
 ## AI Management
 
-[AI Management](https://oecumene.space/ai-management.html)
-
-Управлением AI как организационной способностью.
+Managing AI as an organizational capability.
 
 ## Governance
 
-[Governance](https://oecumene.space/governance.html)
-
-Созданием механизмов управляемости и ответственности.
+Creating mechanisms for system governability and responsibility.
 
 ## AI Governance
 
-[AI Governance](https://oecumene.space/ai-governance.html)
-
-Управлением системами с участием искусственного интеллекта.
-
-## Governance Architect
-
-[Governance Architect](https://oecumene.space/governance-architect.html)
-
-Проектированием условий управления, принятия решений, ответственности и согласования в сложных системах.
+Governing systems involving artificial intelligence.
 
 ---
 
-# Management и AI-enabled Architecture
+# Recursiveness
 
-Management также связан с:
-
-[AI-enabled Architecture](https://oecumene.space/ai-enabled-architecture.html)
-
-AI-enabled Architecture рассматривает, как AI становится частью архитектуры организационных способностей.
-
----
-
-# Рекурсивность
-
-Как и любой элемент OECUMENE, Management может быть рассмотрен через:
+Like every element of OECUMENE, Management can be considered through:
 
 **WHY → HOW → WHAT**
 
-Например:
+For example:
 
 WHY:
 
-Почему управление важно?
+Why is management important?
 
 ↓
 
 HOW:
 
-Как создать архитектуру и практики управления?
+How can architecture and management practices be created?
 
 ↓
 
 WHAT:
 
-Какие управленческие способности возникают?
+What management capabilities emerge?
 
 ---
 
-# Рабочая позиция OECUMENE
+# Working Position of OECUMENE
 
-Management — это не только управление ресурсами или выполнение планов.
+Management is not only about managing resources or executing plans.
 
-Это способность системы реализовывать своё предназначение через согласованные решения, действия и развитие возможностей.
+It is the ability of a system to realize its purpose through aligned decisions, actions, and capability development.
 
-Главный вопрос:
+The central question is:
 
-> **Какие управленческие способности необходимы системе, чтобы реализовать своё предназначение и создавать ценность?**
-
----
-
-# Связь Management с OECUMENE
-
-Management связан с:
-
-- [Architecture](https://oecumene.space/architecture.html)
-- [Disciplines](https://oecumene.space/disciplines.html)
-- [AI Management](https://oecumene.space/ai-management.html)
-- [Governance](https://oecumene.space/governance.html)
-- [AI Governance](https://oecumene.space/ai-governance.html)
-- [Governance Architect](https://oecumene.space/governance-architect.html)
-- [AI-enabled Architecture](https://oecumene.space/ai-enabled-architecture.html)
+> **Which management capabilities does the system need to realize its purpose and create value?**
 
 ---
 
