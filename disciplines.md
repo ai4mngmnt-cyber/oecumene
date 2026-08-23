@@ -1,298 +1,244 @@
-# [OECUMENE](https://oecumene.space/)
-
 # Disciplines
 
-## Дисциплины как результат реализации системы
+## Disciplines as a Result of System Realization
 
-В модели OECUMENE дисциплины находятся на уровне:
+In the OECUMENE model, disciplines are at the level:
 
-**WHAT? · Что?**
+**WHAT? · What?**
 
-WHAT отвечает на вопрос:
+WHAT asks:
 
-> Что возникает как результат реализации WHY через архитектуру, методы и практики уровня HOW?
+> What emerges as a result of realizing WHY through the architecture, methods, and practices of HOW?
 
 ---
 
-# Место Disciplines в модели OECUMENE
+# The Place of Disciplines in the OECUMENE Model
 
-Центральная логика:
+The central logic is:
 
 **WHY → HOW → WHAT**
 
-Это причинно-следственная связь:
+This is a causal relationship:
 
 **WHY**
 
-Почему это важно?
+Why does this matter?
 
-Почему система существует?
+Why does the system exist?
 
-Почему выбран именно такой путь?
+Why has this path been chosen?
 
 ↓
 
 **HOW**
 
-Как это реализуется?
+How is this realized?
 
-Через архитектуру и способы действия:
+Through architecture and ways of acting:
 
-- Architecture · Архитектура
-- Methods · Методы
-- Practices · Практики
-- Frameworks · Фреймворки
-- Processes · Процессы
-- Tools · Инструменты
-- Technologies · Технологии
+- Architecture
+- Methods
+- Practices
+- Frameworks
+- Processes
+- Tools
+- Technologies
 
 ↓
 
 **WHAT**
 
-Что возникает как результат реализации WHY через архитектуру, методы и практики уровня HOW?
+What emerges as a result of realizing WHY through the architecture, methods, and practices of HOW?
 
-- Disciplines · Дисциплины
-- Capabilities · Способности
-- Practices · Практики
-
-Подробнее:
-
-[WHAT](https://oecumene.space/what.html)
-
-[Architecture Map](https://oecumene.space/architecture-map.html)
+- Disciplines
+- Capabilities
+- Practices
 
 ---
 
-# Что такое дисциплина?
+# What is a Discipline?
 
-Дисциплина — это область организованного знания и практики, через которую система развивает определённые способности.
+A discipline is an organized field of knowledge and practice through which a system develops particular capabilities.
 
-Дисциплины являются результатом того, как:
+Disciplines are the result of how:
 
-- смысл и намерение WHY;
-- архитектура и способы действия HOW;
+- the meaning and intention of WHY;
+- the architecture and ways of acting of HOW;
 
-реализуются в конкретных областях деятельности.
-
----
-
-# Дисциплины как способность системы
-
-Дисциплины показывают, какие области знания и практики становятся возможными благодаря реализации WHY через HOW.
-
-Они включают:
-
-- язык описания;
-- профессиональное знание;
-- методы работы;
-- практики;
-- инструменты;
-- связи с другими интеллектуальными активами.
+are realized in specific areas of activity.
 
 ---
 
-# Дисциплины OECUMENE
+# Disciplines as System Capabilities
 
-В текущей модели OECUMENE рассматриваются следующие дисциплины:
+Disciplines show which areas of knowledge and practice become possible through the realization of WHY through HOW.
+
+They include:
+
+- a language of description;
+- professional knowledge;
+- methods of work;
+- practices;
+- tools;
+- connections with other intellectual assets.
+
+---
+
+# OECUMENE Disciplines
+
+The current OECUMENE model includes the following disciplines:
 
 ---
 
 ## Management
 
-Дисциплина организации деятельности и создания ценности.
+The discipline of organizing activities and creating value.
 
-Подробнее:
+More:
 
-[Management](https://oecumene.space/management.html)
+[Management](management.md)
 
 ---
 
 ## AI Management
 
-Дисциплина управления AI как организационной способностью.
+The discipline of managing AI as an organizational capability.
 
-Подробнее:
+More:
 
-[AI Management](https://oecumene.space/ai-management.html)
+[AI Management](ai-management.md)
 
 ---
 
 ## Governance
 
-Дисциплина обеспечения управляемости, ответственности и согласованности системы.
+The discipline of ensuring system governability, responsibility, and alignment.
 
-Подробнее:
+More:
 
-[Governance](https://oecumene.space/governance.html)
+[Governance](governance.md)
 
 ---
 
 ## AI Governance
 
-Дисциплина управления AI-системами.
+The discipline of governing AI systems.
 
-Подробнее:
+More:
 
-[AI Governance](https://oecumene.space/ai-governance.html)
+[AI Governance](ai-governance.md)
 
 ---
 
-# Disciplines и Architecture
+# Disciplines and Architecture
 
-Дисциплины возникают не изолированно.
+Disciplines do not emerge in isolation.
 
-Они являются результатом того, как:
+They are the result of:
 
-WHY задаёт смысл и направление,
+WHY defining meaning and direction,
 
-а
+and
 
-HOW через архитектуру, методы и практики создаёт способы реализации.
+HOW creating ways of implementation through architecture, methods, and practices.
 
-[Architecture](https://oecumene.space/architecture.html) является центральным элементом HOW.
-
-[Architecture Map](https://oecumene.space/architecture-map.html) показывает связь между WHY, HOW и WHAT.
-
-Связь:
+The relationship is:
 
 WHY
 
 ↓
 
-Смысл, основание и намерение
+Meaning, foundation, and intention
 
 ↓
 
 HOW
 
-Архитектура, методы и практики
+Architecture, methods, and practices
 
 ↓
 
 WHAT
 
-Дисциплины и способности системы
+Disciplines and system capabilities
 
 ---
 
-# Disciplines и Governance Architecture
+# Disciplines as Intellectual Assets
 
-Одним из архитектурных направлений HOW является:
+In OECUMENE, each discipline is a node in an evolving graph of intellectual assets.
 
-[Governance Architect](https://oecumene.space/governance-architect.html)
+It may include:
 
-Он показывает, как архитектурное мышление применяется к управлению сложными системами.
-
----
-
-# Disciplines и AI-enabled Architecture
-
-Другим архитектурным направлением является:
-
-[AI-enabled Architecture](https://oecumene.space/ai-enabled-architecture.html)
-
-Она показывает, как AI становится частью архитектуры организационных способностей.
+- concepts;
+- models;
+- methods;
+- practices;
+- tools;
+- connections with other assets.
 
 ---
 
-# Дисциплины как интеллектуальные активы
+# The Graph of Disciplines
 
-В OECUMENE каждая дисциплина является узлом развивающегося графа интеллектуальных активов.
+Disciplines are not a closed list.
 
-Она может включать:
+They evolve together with changes in:
 
-- концепции;
-- модели;
-- методы;
-- практики;
-- инструменты;
-- связи с другими активами.
+- technologies;
+- organizational models;
+- ways of creating value;
+- system capabilities.
 
-Дисциплина может развиваться через исследование, применение и создание новых связей с другими активами.
+New disciplines may emerge as new capabilities appear.
 
 ---
 
-# Граф дисциплин
+# Recursiveness
 
-Дисциплины не являются закрытым списком.
-
-Они развиваются вместе с изменением:
-
-- технологий;
-- организационных моделей;
-- способов создания ценности;
-- возможностей системы.
-
-Новые дисциплины могут возникать как результат появления новых способностей.
-
----
-
-# Рекурсивность
-
-Как и любой элемент OECUMENE, дисциплина может быть снова рассмотрена через:
+Like every intellectual asset of OECUMENE, a discipline can itself be considered through:
 
 **WHY → HOW → WHAT**
 
-Например:
+For example:
 
 AI Management:
 
 WHY:
 
-Почему использование AI важно для системы?
+Why is the use of AI important for the system?
 
 ↓
 
 HOW:
 
-Как через архитектуру, методы и практики реализовать использование AI?
+How can the use of AI be realized through architecture, methods, and practices?
 
 ↓
 
 WHAT:
 
-Какие способности, дисциплины и практики AI Management возникают?
+What capabilities, disciplines, and practices of AI Management emerge?
 
 ---
 
-# Рабочая позиция OECUMENE
+# Working Position of OECUMENE
 
-Disciplines — это результат реализации намерения системы через архитектуру, методы и практики уровня HOW.
+Disciplines are the result of realizing the intention of a system through the architecture, methods, and practices of HOW.
 
-Они показывают:
+They show:
 
-- какие способности развились;
-- какие области деятельности сформировались;
-- какие формы создания ценности стали возможны.
+- which capabilities have developed;
+- which areas of activity have formed;
+- which forms of value creation have become possible.
 
-Главный вопрос:
+The central question is:
 
-> Какие дисциплины возникают как результат реализации WHY через архитектуру, методы и практики уровня HOW?
-
----
-
-# Связь Disciplines с OECUMENE
-
-Disciplines связаны с:
-
-- [WHAT](https://oecumene.space/what.html)
-- [Architecture Map](https://oecumene.space/architecture-map.html)
-- [Architecture](https://oecumene.space/architecture.html)
-- [Management](https://oecumene.space/management.html)
-- [AI Management](https://oecumene.space/ai-management.html)
-- [Governance](https://oecumene.space/governance.html)
-- [AI Governance](https://oecumene.space/ai-governance.html)
-- [Governance Architect](https://oecumene.space/governance-architect.html)
-- [AI-enabled Architecture](https://oecumene.space/ai-enabled-architecture.html)
+> **Which disciplines emerge as a result of realizing WHY through the architecture, methods, and practices of HOW?**
 
 ---
 
 [← OECUMENE Home](https://oecumene.space/)
-
-[WHAT](https://oecumene.space/what.html)
-
-[Architecture Map](https://oecumene.space/architecture-map.html)
 
 [OECUMENE GitHub Repository](https://github.com/ai4mngmnt-cyber/oecumene)
 
