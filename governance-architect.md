@@ -1,330 +1,241 @@
-# [OECUMENE](https://oecumene.space/)
-
 # Governance Architect
 
-## Архитектор управления сложными системами
+## Governance Architecture for Complex Systems
 
-Governance Architect — это архитектурная роль, направленная на создание механизмов управления, принятия решений, распределения ответственности и согласования действий в сложных системах.
+In the OECUMENE model, Governance Architect is an architectural direction within HOW.
 
-В OECUMENE Governance Architect рассматривается как самостоятельное направление применения архитектурного мышления.
-
-Его задача — не контролировать систему как таковую, а создавать условия, при которых система способна принимать согласованные решения, сохранять направление развития, адаптироваться к изменениям и реализовывать своё предназначение.
+It focuses on designing the architecture through which a complex system can maintain direction, responsibility, alignment, and the ability to adapt.
 
 ---
 
-# Что такое Governance Architecture
+# The Place of Governance Architect in the OECUMENE Model
 
-Governance Architecture определяет, каким образом в сложной системе организованы:
-
-- принятие решений;
-- полномочия;
-- ответственность;
-- согласование;
-- обратная связь;
-- развитие и адаптация.
-
-Архитектура управления связывает структуру системы с механизмами, посредством которых эта структура действует.
-
-Поэтому Governance Architecture — это не просто набор правил или процедур.
-
-Это способ проектирования условий, в которых принимаются решения и реализуются действия.
-
----
-
-# Governance Architect в модели OECUMENE
-
-Governance Architect находится на уровне:
-
-**HOW? · Как?**
-
-HOW отвечает на вопрос:
-
-> Как это реализуется?
-
-На этом уровне Governance Architect работает с архитектурой, методами, практиками, процессами и механизмами управления.
-
-Логика OECUMENE сохраняется:
+The central logic is:
 
 **WHY → HOW → WHAT**
 
-Но Governance Architect рассматривает эту связь с точки зрения управления.
-
----
-
-# WHY? · Почему необходимо управление?
-
-Управление начинается не с правил.
-
-Оно начинается с вопроса:
-
-> Почему системе необходима способность управлять собственным развитием?
-
-В сложной среде недостаточно просто распределить функции и установить процедуры.
-
-Необходимо понимать:
-
-- какое предназначение реализует система;
-- какие ценности и принципы должны сохраняться;
-- какие решения являются критическими;
-- какие риски требуют управления;
-- где необходима согласованность;
-- какие способности система должна развивать.
-
-WHY задаёт основание, на котором строится архитектура управления.
-
----
-
-# HOW? · Как строится управление?
-
-HOW отвечает на вопрос:
-
-> Как реализовать намерение системы через архитектуру управления?
-
-Governance Architect проектирует механизмы, посредством которых система превращает намерение в согласованные действия.
-
-К ним относятся:
-
-- Architecture · Архитектура
-- Decision Making · Принятие решений
-- Responsibility · Ответственность
-- Authority · Полномочия
-- Alignment · Согласование
-- Feedback · Обратная связь
-- Processes · Процессы
-- Practices · Практики
-- Controls · Механизмы контроля
-
-Здесь Governance Architect работает не только с формальными структурами, но и с взаимодействием людей, AI, технологий и организационных механизмов.
-
----
-
-# WHAT? · Что является результатом?
-
-WHAT отвечает на вопрос:
-
-> Что является результатом выполнения HOW по концепции WHY?
-
-Результатом Governance Architecture становятся управленческие способности системы.
-
-В частности:
-
-- способность принимать решения;
-- способность распределять ответственность;
-- способность согласовывать действия;
-- способность управлять полномочиями;
-- способность получать и использовать обратную связь;
-- способность адаптироваться;
-- способность сохранять целостность при изменении среды.
-
-Таким образом:
-
 **WHY**
 
-Смысл, предназначение, ценности и принципы
+Why does this matter?
+
+Why does the system exist?
+
+Why has this path been chosen?
 
 ↓
 
 **HOW**
 
-Архитектура управления, методы, процессы и практики
+How is this realized?
+
+Architecture
+
+Methods
+
+Practices
+
+Frameworks
+
+Processes
+
+Tools
+
+Technologies
 
 ↓
 
 **WHAT**
 
-Управленческие способности и возникающие формы действия системы
+What emerges as a result of realizing WHY through the architecture, methods, and practices of HOW?
+
+Disciplines
+
+Capabilities
+
+Practices
 
 ---
 
-# Основные элементы Governance Architecture
+# What is Governance Architect?
 
-## Decision Making · Принятие решений
+Governance Architect is the capability to design governance architecture for complex systems.
 
-Определяет:
+It considers:
 
-- какие решения принимаются;
-- кто принимает решения;
-- на каком уровне принимаются решения;
-- какие критерии используются;
-- каким образом последствия решений становятся видимыми.
+- decision making;
+- responsibility;
+- authority;
+- alignment;
+- feedback;
+- adaptation.
 
----
+The objective is not simply to create control mechanisms.
 
-## Responsibility · Ответственность
-
-Определяет:
-
-- зоны ответственности;
-- владельцев решений;
-- ответственность за результаты;
-- механизмы подотчётности;
-- связь между полномочиями и ответственностью.
+The objective is to create architectural conditions in which the system can remain aligned with its purpose while adapting to change.
 
 ---
 
-## Authority · Полномочия
+# WHY Governance Architect
 
-Определяет:
+Complex systems require more than management processes.
 
-- кто имеет право действовать;
-- какие решения находятся в пределах полномочий;
-- где проходят границы ответственности;
-- каким образом полномочия распределяются между уровнями системы.
+They require an architecture that makes it possible to:
 
----
+- preserve direction;
+- distribute responsibility;
+- coordinate decisions;
+- manage authority;
+- respond to change;
+- maintain system integrity.
 
-## Alignment · Согласование
+The central question is:
 
-Создаёт связь между:
-
-- намерением;
-- стратегией;
-- решениями;
-- действиями;
-- результатами.
-
-Согласование необходимо для того, чтобы отдельные действия элементов системы не разрушали её целостное направление.
+> Why should governance be designed as an architecture?
 
 ---
 
-## Feedback · Обратная связь
+# HOW Governance Architect
 
-Создаёт возможность для системы:
+Governance Architecture can be realized through:
 
-- наблюдать последствия своих действий;
-- обнаруживать отклонения;
-- учиться;
-- адаптироваться;
-- изменять способы действия.
-
-Обратная связь превращает управление из одноразового проектирования в развивающийся процесс.
-
----
-
-# Governance в сложных системах
-
-В сложных системах управление невозможно свести к централизованному контролю.
-
-Среда меняется.
-
-Связи между элементами становятся менее предсказуемыми.
-
-Решения принимаются на разных уровнях.
-
-AI и технологии начинают участвовать в процессах, которые раньше выполнялись исключительно людьми.
-
-Поэтому Governance Architecture должна создавать не только механизмы контроля, но и условия для:
-
-- автономного действия в заданных границах;
-- согласования между уровнями;
-- адаптации;
-- обучения;
-- сохранения направления;
-- развития новых способностей.
+- governance structures;
+- decision-making mechanisms;
+- responsibility models;
+- authority models;
+- alignment mechanisms;
+- feedback loops;
+- transparency mechanisms;
+- adaptation mechanisms.
 
 ---
 
-# Governance и AI
+# Governance Architect and Architecture
 
-Развитие искусственного интеллекта создаёт новые требования к архитектуре управления.
+Governance Architect is closely connected with:
 
-AI Governance становится одной из областей применения Governance Architecture.
+[Architecture](architecture.md)
 
-В этой области необходимо проектировать:
+Architecture provides the broader structure through which system intent is realized.
 
-- ответственность за AI-системы;
-- распределение полномочий между человеком и AI;
-- принятие решений с участием AI;
-- управление рисками;
-- прозрачность;
-- контроль развития AI-способностей;
-- механизмы обратной связи;
-- условия безопасной адаптации.
-
-[Подробнее: AI Governance](https://oecumene.space/ai-governance.html)
-
-Поэтому AI Governance можно рассматривать не только как набор правил для AI, но и как частный случай более широкой архитектуры управления сложными гибридными системами.
+Governance Architect focuses specifically on the architecture of governability.
 
 ---
 
-# Governance Architect как интеллектуальный актив
+# Governance Architect and Governance
 
-В OECUMENE Governance Architect рассматривается как развивающийся интеллектуальный актив.
+Governance Architect provides the architectural foundation for:
 
-Он может включать:
+[Governance](governance.md)
 
-- модели управления;
-- архитектурные паттерны;
-- методы;
-- практики;
-- инструменты;
-- механизмы оценки;
-- способы проектирования ответственности и полномочий;
-- подходы к управлению AI и гибридными системами.
-
-Актив развивается через исследование, применение и проверку в реальных контекстах.
+Governance develops the system's capability to maintain direction, responsibility, authority, and alignment.
 
 ---
 
-# Рекурсивность
+# Governance Architect and AI Governance
 
-Governance Architect сам может быть рассмотрен через:
+AI systems create additional governance requirements.
+
+Therefore, Governance Architect is connected with:
+
+[AI Governance](ai-governance.md)
+
+AI Governance extends governance architecture to systems involving artificial intelligence.
+
+---
+
+# Governance Architect and AI-enabled Architecture
+
+Governance is also an important part of:
+
+[AI-enabled Architecture](ai-enabled-architecture.md)
+
+AI-enabled systems require architectural mechanisms for:
+
+- responsibility;
+- human oversight;
+- decision authority;
+- transparency;
+- risk management;
+- alignment.
+
+---
+
+# Governance Architect and Management
+
+Governance Architect is connected with:
+
+[Management](management.md)
+
+Management focuses on organizing activity and creating value.
+
+Governance Architect focuses on creating the architectural conditions that make aligned and responsible action possible.
+
+---
+
+# Governance Architecture as an Intellectual Asset
+
+In OECUMENE, Governance Architecture is an evolving intellectual asset.
+
+It may include:
+
+- architectural models;
+- governance patterns;
+- responsibility models;
+- decision structures;
+- authority mechanisms;
+- feedback mechanisms;
+- assessment practices.
+
+---
+
+# Recursiveness
+
+Like every element of OECUMENE, Governance Architect can be considered through:
 
 **WHY → HOW → WHAT**
 
-### WHY
+For example:
 
-Почему системе необходима архитектура управления?
+WHY:
 
-↓
-
-### HOW
-
-Как создать механизмы принятия решений, ответственности, полномочий, согласования и обратной связи?
+Why is governance architecture necessary?
 
 ↓
 
-### WHAT
+HOW:
 
-Какие управленческие способности возникают как результат реализации HOW по концепции WHY?
+How should governance structures and mechanisms be designed?
 
-Эта рекурсивность позволяет рассматривать Governance Architecture не как фиксированный набор правил, а как развивающуюся систему.
+↓
 
----
+WHAT:
 
-# Связь Governance Architect с OECUMENE
-
-Governance Architect является одним из направлений применения архитектурного подхода OECUMENE.
-
-Он связывает:
-
-- предназначение системы;
-- архитектуру;
-- управление;
-- принятие решений;
-- организационные способности;
-- развитие.
-
-Связанные направления:
-
-- [Governance](https://oecumene.space/governance.html)
-- [AI Governance](https://oecumene.space/ai-governance.html)
-- [AI-enabled Architecture](https://oecumene.space/ai-enabled-architecture.html)
-- [Management](https://oecumene.space/management.html)
-
-В этом смысле Governance Architect отвечает на более широкий вопрос:
-
-> Какую архитектуру управления необходимо создать, чтобы сложная система могла реализовывать своё предназначение, сохранять целостность, адаптироваться к изменениям и развивать необходимые способности?
+What governance capabilities emerge?
 
 ---
 
-# Рабочая позиция OECUMENE
+# Working Position of OECUMENE
 
-Governance Architect — не просто функция контроля.
+Governance Architect is not simply the design of organizational controls.
 
-Это способность проектировать условия, в которых сложная система может принимать решения, согласовывать действия, учиться и развиваться.
+It is the capability to create an architecture through which a complex system can remain aligned, responsible, and adaptable.
 
-OECUMENE рассматривает Governance Architect как развивающееся направление исследования, которое может становиться источником новых моделей, методов, практик и интеллектуальных активов.
+The central question is:
+
+> **What governance architecture should be created so that the system can preserve its purpose while adapting to change?**
+
+---
+
+# Connections with Other OECUMENE Assets
+
+Governance Architect is connected with:
+
+- [Architecture](architecture.md)
+- [Architecture Map](architecture-map.md)
+- [Management](management.md)
+- [Governance](governance.md)
+- [AI Governance](ai-governance.md)
+- [AI-enabled Architecture](ai-enabled-architecture.md)
 
 ---
 
