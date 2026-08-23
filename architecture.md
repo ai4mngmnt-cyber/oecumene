@@ -1,42 +1,40 @@
-# [OECUMENE](https://oecumene.space/)
-
 # Architecture
 
-## Архитектура как механизм реализации намерения системы
+## Architecture as a Mechanism for Realizing System Intent
 
-В модели OECUMENE архитектура находится на уровне:
+In the OECUMENE model, Architecture is at the level:
 
-**HOW? · Как?**
+**HOW? · How?**
 
-HOW отвечает на вопрос:
+HOW asks:
 
-> Как это реализуется?
+> How is this realized?
 
-Архитектура является способом преобразования смысла и намерения системы в структуру, взаимодействия и механизмы действия.
+Architecture is a way of transforming the meaning and intention of a system into structure, relationships, and mechanisms of action.
 
 ---
 
-# Место Architecture в модели OECUMENE
+# The Place of Architecture in the OECUMENE Model
 
-Центральная логика:
+The central logic is:
 
 **WHY → HOW → WHAT**
 
-Это причинно-следственная связь:
+This is a causal relationship:
 
 **WHY**
 
-Почему это важно?
+Why does this matter?
 
-Почему система существует?
+Why does the system exist?
 
-Почему выбран именно такой путь?
+Why has this path been chosen?
 
 ↓
 
 **HOW**
 
-Как это реализуется?
+How is this realized?
 
 Architecture
 
@@ -56,7 +54,7 @@ Technologies
 
 **WHAT**
 
-Что возникает как результат реализации WHY через архитектуру, методы и практики уровня HOW?
+What emerges as a result of realizing WHY through the architecture, methods, and practices of HOW?
 
 Disciplines
 
@@ -66,249 +64,212 @@ Practices
 
 ---
 
-# Что такое архитектура?
+# What is Architecture?
 
-Архитектура — это способ организации элементов системы, их связей и взаимодействий для реализации определённого намерения.
+Architecture is a way of organizing the elements of a system, their relationships, and interactions in order to realize a particular intention.
 
-Она определяет:
+It defines:
 
-- какие элементы существуют;
-- как они связаны;
-- какие роли выполняют;
-- как принимаются решения;
-- как система адаптируется и развивается.
+- which elements exist;
+- how they are connected;
+- which roles they perform;
+- how decisions are made;
+- how the system adapts and develops.
 
 ---
 
-# Архитектура и создание ценности
+# Architecture and Value Creation
 
-Архитектура сама по себе не является конечной целью.
+Architecture is not an end in itself.
 
-Её задача:
+Its purpose is:
 
-создать условия, в которых система может реализовать своё предназначение.
+to create conditions in which the system can realize its purpose.
 
-Связь:
+The relationship is:
 
 WHY
 
 ↓
 
-смысл, основание и намерение
+meaning, foundation, and intention
 
 ↓
 
 HOW
 
-архитектура и способы реализации
+architecture and ways of implementation
 
 ↓
 
 WHAT
 
-возникающие способности, дисциплины и практики
+emerging capabilities, disciplines, and practices
 
 ---
 
-# Архитектура как уровень HOW
+# Architecture as a HOW-Level Element
 
-На уровне HOW архитектура соединяет:
+At the HOW level, Architecture connects:
 
-- намерение системы;
-- принципы;
-- структуру;
-- механизмы реализации;
-- способности организации.
+- the intention of the system;
+- principles;
+- structure;
+- mechanisms of implementation;
+- organizational capabilities.
 
-Она отвечает на вопрос:
+It answers the question:
 
-> Как должна быть устроена система, чтобы реализовать своё предназначение?
-
----
-
-# Архитектурные элементы
-
-Архитектура может включать:
-
-## Structure · Структура
-
-Какие элементы существуют в системе.
-
-## Relationships · Связи
-
-Как элементы взаимодействуют.
-
-## Responsibilities · Ответственность
-
-Кто и за что отвечает.
-
-## Mechanisms · Механизмы
-
-Как принимаются решения и выполняются действия.
-
-## Capabilities · Способности
-
-Какие возможности система может развивать.
+> How should the system be designed so that it can realize its purpose?
 
 ---
 
-# Architecture и сложные системы
+# Architectural Elements
 
-В сложных системах архитектура не является полностью заданной конструкцией.
+Architecture may include:
 
-Она должна обеспечивать:
+## Structure
 
-- адаптивность;
-- устойчивость;
-- развитие;
-- обучение;
-- способность создавать новые возможности.
+Which elements exist in the system.
+
+## Relationships
+
+How the elements interact.
+
+## Responsibilities
+
+Who is responsible for what.
+
+## Mechanisms
+
+How decisions are made and actions are performed.
+
+## Capabilities
+
+Which capabilities the system can develop.
 
 ---
 
-# Архитектура OECUMENE
+# Architecture and Complex Systems
 
-В OECUMENE архитектура рассматривается как связующий уровень между:
+In complex systems, architecture is not a completely predetermined construction.
+
+It should provide:
+
+- adaptability;
+- resilience;
+- development;
+- learning;
+- the ability to create new possibilities.
+
+---
+
+# OECUMENE Architecture
+
+In OECUMENE, Architecture is considered a connecting level between:
 
 **WHY**
 
-смысл и намерение
+meaning and intention
 
-и
+and
 
 **WHAT**
 
-возникающие способности и дисциплины.
+emerging capabilities and disciplines.
 
-Она обеспечивает переход:
+It enables the transition:
 
-от понимания,
+from understanding,
 
-к действию,
+to action,
 
-от действия,
+from action,
 
-к созданию ценности.
+to value creation.
 
 ---
 
-# Архитектурные направления
+# Architectural Directions
 
 ## Governance Architecture
 
-Архитектура управления сложными системами.
+Architecture for governing complex systems.
 
-Подробнее:
+It considers:
 
-[Governance Architect](https://oecumene.space/governance-architect.html)
+- decision making;
+- responsibility;
+- authority;
+- alignment mechanisms;
+- feedback.
+
+More:
+
+[Governance Architect](governance-architect.md)
 
 ---
 
 ## AI-enabled Architecture
 
-Архитектура системы, в которой искусственный интеллект становится частью организационной способности.
+Architecture of a system in which artificial intelligence becomes part of an organizational capability.
 
-Подробнее:
+More:
 
-[AI-enabled Architecture](https://oecumene.space/ai-enabled-architecture.html)
-
----
-
-# Architecture и Management
-
-Архитектура является уровнем HOW, через который реализуются управленческие намерения и развиваются организационные способности.
-
-[Management](https://oecumene.space/management.html)
-
-рассматривает управление как дисциплину создания и реализации ценности.
+[AI-enabled Architecture](ai-enabled-architecture.md)
 
 ---
 
-# Architecture и AI Management
+# Architecture as an Intellectual Asset
 
-AI Management рассматривает искусственный интеллект как организационную способность.
+In OECUMENE, Architecture is an evolving intellectual asset.
 
-[AI Management](https://oecumene.space/ai-management.html)
+It may include:
 
-связывает архитектуру, методы и практики с развитием способности организации использовать AI.
-
----
-
-# Architecture и Governance
-
-Архитектура управления является одним из способов реализации Governance.
-
-[Governance](https://oecumene.space/governance.html)
-
-рассматривается в OECUMENE как способность системы сохранять направление, ответственность и согласованность.
+- models;
+- design principles;
+- patterns;
+- practices;
+- tools;
+- connections with other assets.
 
 ---
 
-# Архитектура как интеллектуальный актив
+# Recursiveness
 
-В OECUMENE архитектура является развивающимся интеллектуальным активом.
-
-Она может включать:
-
-- модели;
-- принципы проектирования;
-- паттерны;
-- практики;
-- инструменты;
-- связи с другими активами.
-
----
-
-# Рекурсивность
-
-Как и любой элемент OECUMENE, архитектура может быть рассмотрена через:
+Like every element of OECUMENE, Architecture can be considered through:
 
 **WHY → HOW → WHAT**
 
-Например:
+For example:
 
 WHY:
 
-Почему эта архитектура важна?
+Why is this architecture important?
 
 ↓
 
 HOW:
 
-Как она устроена и какие механизмы использует?
+How is it structured and which mechanisms does it use?
 
 ↓
 
 WHAT:
 
-Какие способности, дисциплины и практики возникают?
+What capabilities, disciplines, and practices emerge?
 
 ---
 
-# Рабочая позиция OECUMENE
+# Working Position of OECUMENE
 
-Архитектура — это не просто описание структуры.
+Architecture is not simply a description of structure.
 
-Это механизм реализации смысла и намерения системы.
+It is a mechanism for realizing the meaning and intention of a system.
 
-Главный вопрос:
+The central question is:
 
-> **Какую архитектуру необходимо создать, чтобы реализовать предназначение системы и развить необходимые способности?**
-
----
-
-# Связь Architecture с OECUMENE
-
-Architecture связана с:
-
-- [Architecture Map](https://oecumene.space/architecture-map.html)
-- [Management](https://oecumene.space/management.html)
-- [Governance](https://oecumene.space/governance.html)
-- [Governance Architect](https://oecumene.space/governance-architect.html)
-- [AI Management](https://oecumene.space/ai-management.html)
-- [AI Governance](https://oecumene.space/ai-governance.html)
-- [AI-enabled Architecture](https://oecumene.space/ai-enabled-architecture.html)
-- [Disciplines](https://oecumene.space/disciplines.html)
+> **What architecture should be created to realize the system's purpose and develop the necessary capabilities?**
 
 ---
 
