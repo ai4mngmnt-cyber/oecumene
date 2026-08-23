@@ -24,8 +24,8 @@ This is an architecture for understanding and realizing systems.
 
 WHY asks:
 
-> Why does this matter?  
-> Why does the system exist?  
+> Why does this matter?
+> Why does the system exist?
 > Why has this path been chosen?
 
 WHY reveals:
@@ -37,7 +37,7 @@ WHY reveals:
 
 More:
 
-[WHY — Values & Principles](why.md)
+[WHY — Values & Principles](https://oecumene.space/en/why.html)
 
 ---
 
@@ -61,7 +61,7 @@ It includes:
 
 More:
 
-[HOW — Architecture and Implementation](how.md)
+[HOW — Architecture and Implementation](https://oecumene.space/en/how.html)
 
 ---
 
@@ -80,7 +80,7 @@ WHAT shows:
 
 More:
 
-[WHAT — Results of System Realization](what.md)
+[WHAT — Results of System Realization](https://oecumene.space/en/what.html)
 
 ---
 
@@ -99,7 +99,7 @@ It connects:
 
 More:
 
-[Architecture](architecture.md)
+[Architecture](https://oecumene.space/en/architecture.html)
 
 ---
 
@@ -113,7 +113,7 @@ The OECUMENE Architecture Map shows:
 
 More:
 
-[Architecture Map](architecture-map.md)
+[Architecture Map](https://oecumene.space/en/architecture-map.html)
 
 ---
 
@@ -125,7 +125,7 @@ They represent areas of knowledge and practice through which the system develops
 
 More:
 
-[Disciplines](disciplines.md)
+[Disciplines](https://oecumene.space/en/disciplines.html)
 
 ---
 
@@ -135,7 +135,7 @@ More:
 
 The discipline of creating and realizing value.
 
-[Management](management.md)
+[Management](https://oecumene.space/en/management.html)
 
 ---
 
@@ -143,7 +143,7 @@ The discipline of creating and realizing value.
 
 Managing artificial intelligence as an organizational capability.
 
-[AI Management](ai-management.md)
+[AI Management](https://oecumene.space/en/ai-management.html)
 
 ---
 
@@ -151,7 +151,7 @@ Managing artificial intelligence as an organizational capability.
 
 Governance as the ability of a system to preserve direction and alignment.
 
-[Governance](governance.md)
+[Governance](https://oecumene.space/en/governance.html)
 
 ---
 
@@ -159,7 +159,7 @@ Governance as the ability of a system to preserve direction and alignment.
 
 Governance of artificial intelligence systems.
 
-[AI Governance](ai-governance.md)
+[AI Governance](https://oecumene.space/en/ai-governance.html)
 
 ---
 
@@ -176,7 +176,7 @@ They help reveal:
 
 More:
 
-[Lenses](lenses.md)
+[Lenses](https://oecumene.space/en/lenses.html)
 
 ---
 
