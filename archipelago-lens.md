@@ -1,62 +1,54 @@
-# [OECUMENE](https://oecumene.space/)
-
 # Archipelago Lens
 
-## Линза архипелага для понимания сложных систем
+## A Lens for Understanding Complex Systems
 
-В модели OECUMENE Archipelago Lens используется как одна из рабочих линз для исследования сложных систем и развития интеллектуальных активов.
+In the OECUMENE model, Archipelago Lens is one of the working lenses used to explore complex systems and develop intellectual assets.
 
-Она помогает рассматривать систему не как единую монолитную структуру, а как совокупность взаимосвязанных элементов, между которыми возникают новые связи и возможности.
+It helps examine a system not as a single monolithic structure, but as a set of interconnected elements between which new relationships and opportunities emerge.
 
 ---
 
-# Место Archipelago Lens в модели OECUMENE
+# The Place of Archipelago Lens in the OECUMENE Model
 
-Линзы находятся на уровне:
+Lenses are at the level:
 
-**HOW? · Как?**
+**HOW? · How?**
 
-HOW отвечает на вопрос:
+HOW asks:
 
-> Как это реализуется?
+> How is this realized?
 
-Через:
+Through:
 
-- Architecture · Архитектура
-- Methods · Методы
-- Practices · Практики
-- Frameworks · Фреймворки
-- Processes · Процессы
-- Tools · Инструменты
-- Technologies · Технологии
+- Architecture
+- Methods
+- Practices
+- Frameworks
+- Processes
+- Tools
+- Technologies
 
-Archipelago Lens является инструментом понимания структуры и связности системы.
-
-Подробнее:
-
-[Lenses](https://oecumene.space/lenses.html)
-
-[HOW](https://oecumene.space/how.html)
+Archipelago Lens is a tool for understanding the structure and connectedness of a system.
 
 ---
 
 # WHY → HOW → WHAT
 
-OECUMENE использует причинно-следственную модель:
+OECUMENE uses the causal model:
 
 **WHY**
 
-Почему это важно?
+Why does this matter?
 
-Почему система существует?
+Why does the system exist?
 
-Почему выбран именно такой путь?
+Why has this path been chosen?
 
 ↓
 
 **HOW**
 
-Как это реализуется?
+How is this realized?
 
 Architecture
 
@@ -76,7 +68,7 @@ Technologies
 
 **WHAT**
 
-Что возникает как результат реализации WHY через архитектуру, методы и практики уровня HOW?
+What emerges as a result of realizing WHY through the architecture, methods, and practices of HOW?
 
 Disciplines
 
@@ -84,192 +76,141 @@ Capabilities
 
 Practices
 
-Подробнее:
+---
 
-[Architecture Map](https://oecumene.space/architecture-map.html)
+# The Core Idea of Archipelago Lens
+
+Archipelago Lens views a system as an archipelago:
+
+a collection of distinct elements that retain their own identity while simultaneously forming a connected system.
+
+Elements of the archipelago may include:
+
+- concepts;
+- models;
+- methods;
+- practices;
+- technologies;
+- disciplines;
+- intellectual assets.
 
 ---
 
-# Основная идея Archipelago Lens
+# Relationships Between Elements
 
-Archipelago Lens рассматривает систему как архипелаг:
+The value of a system does not arise only from its individual elements.
 
-множество отдельных элементов, которые сохраняют свою самостоятельность, но одновременно образуют связанную систему.
+It also arises from:
 
-Элементы архипелага могут быть:
+- relationships between elements;
+- interactions;
+- new combinations;
+- emerging opportunities.
 
-- концепциями;
-- моделями;
-- методами;
-- практиками;
-- технологиями;
-- дисциплинами;
-- интеллектуальными активами.
+Archipelago Lens helps explore:
 
----
-
-# Связи между элементами
-
-Ценность системы возникает не только из отдельных элементов.
-
-Она возникает из:
-
-- связей между элементами;
-- взаимодействий;
-- новых комбинаций;
-- возникающих возможностей.
-
-Archipelago Lens помогает исследовать:
-
-- какие элементы существуют;
-- какие связи между ними уже созданы;
-- какие связи могут создать новые способности.
+- which elements exist;
+- which relationships have already been created;
+- which relationships could create new capabilities.
 
 ---
 
-# Archipelago Lens и интеллектуальные активы
+# Archipelago Lens and Intellectual Assets
 
-В OECUMENE эта линза особенно важна для понимания графа интеллектуальных активов.
+In OECUMENE, this lens is particularly important for understanding the graph of intellectual assets.
 
-Каждый актив может быть:
+Each asset can be:
 
-- отдельным узлом;
-- частью нескольких связей;
-- источником новых комбинаций.
+- an individual node;
+- part of several relationships;
+- a source of new combinations.
 
-Новые связи между активами могут создавать новые интеллектуальные активы.
-
-Подробнее:
-
-[Architecture Map](https://oecumene.space/architecture-map.html)
+New relationships between assets can create new intellectual assets.
 
 ---
 
-# Применение в OECUMENE
+# Application in OECUMENE
 
-Archipelago Lens помогает исследовать связь:
+Archipelago Lens helps explore the relationship between:
 
 **WHY**
 
-Смысл, основание и намерение системы
+Meaning, foundation, and intention of the system
 
 ↓
 
 **HOW**
 
-Архитектура, методы и способы реализации
+Architecture, methods, and ways of implementation
 
 ↓
 
 **WHAT**
 
-Возникающие способности, дисциплины и практики
-
-Подробнее:
-
-[WHY](https://oecumene.space/why.html)
-
-[HOW](https://oecumene.space/how.html)
-
-[WHAT](https://oecumene.space/what.html)
+Emerging capabilities, disciplines, and practices
 
 ---
 
-# Архипелаг вместо дерева
+# Archipelago Instead of a Tree
 
-Традиционные модели часто представляют знания как иерархическое дерево.
+Traditional models often represent knowledge as a hierarchical tree.
 
-Archipelago Lens предлагает другую перспективу:
+Archipelago Lens offers a different perspective:
 
-не только уровни,
+not only levels,
 
-а:
+but:
 
-- узлы;
-- связи;
-- взаимодействия;
-- возникающие структуры.
-
----
-
-# Archipelago Lens и Architecture
-
-Archipelago Lens помогает рассматривать архитектуру не только как структуру, но и как сеть отношений между элементами.
-
-Она позволяет исследовать:
-
-- какие элементы образуют систему;
-- какие связи между ними критичны;
-- где возникают новые комбинации;
-- какие способности могут появиться из новых связей.
-
-Подробнее:
-
-[Architecture](https://oecumene.space/architecture.html)
+- nodes;
+- relationships;
+- interactions;
+- emerging structures.
 
 ---
 
-# Рекурсивность
+# Recursiveness
 
-Как и любой интеллектуальный актив OECUMENE, Archipelago Lens может быть рассмотрена через:
+Like every intellectual asset of OECUMENE, Archipelago Lens can be considered through:
 
 **WHY → HOW → WHAT**
 
-Например:
+For example:
 
 WHY:
 
-Почему важно видеть систему как сеть связанных элементов?
+Why is it important to see the system as a network of connected elements?
 
 ↓
 
 HOW:
 
-Как линза помогает анализировать связи и создавать новые комбинации?
+How does the lens help analyze relationships and create new combinations?
 
 ↓
 
 WHAT:
 
-Какие новые способности и интеллектуальные активы возникают?
+What new capabilities and intellectual assets emerge?
 
 ---
 
-# Рабочая позиция OECUMENE
+# Working Position of OECUMENE
 
-Archipelago Lens не описывает систему как набор изолированных частей.
+Archipelago Lens does not describe a system as a collection of isolated parts.
 
-Она помогает увидеть:
+It helps reveal:
 
-- взаимосвязи;
-- возможности развития;
-- новые формы создания ценности.
+- relationships;
+- development opportunities;
+- new forms of value creation.
 
-Главный вопрос:
+The central question is:
 
-> **Какие связи между элементами системы создают новые способности и возможности развития?**
-
----
-
-# Связь Archipelago Lens с OECUMENE
-
-Archipelago Lens связана с:
-
-- [Lenses](https://oecumene.space/lenses.html)
-- [WHY](https://oecumene.space/why.html)
-- [HOW](https://oecumene.space/how.html)
-- [Architecture](https://oecumene.space/architecture.html)
-- [Architecture Map](https://oecumene.space/architecture-map.html)
-- [WHAT](https://oecumene.space/what.html)
-- [Disciplines](https://oecumene.space/disciplines.html)
+> **Which relationships between system elements create new capabilities and opportunities for development?**
 
 ---
 
 [← OECUMENE Home](https://oecumene.space/)
-
-[Lenses](https://oecumene.space/lenses.html)
-
-[Architecture Map](https://oecumene.space/architecture-map.html)
 
 [OECUMENE GitHub Repository](https://github.com/ai4mngmnt-cyber/oecumene)
 
