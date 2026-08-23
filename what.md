@@ -1,316 +1,257 @@
-# [OECUMENE](https://oecumene.space/)
-
 # WHAT
 
-## Что является результатом реализации системы
+## What Emerges as a Result of System Realization
 
-В модели OECUMENE третий вопрос:
+In the OECUMENE model, the third question is:
 
-**WHAT? · Что?**
+**WHAT? · What?**
 
-отвечает на вопрос:
+It answers the question:
 
-> Что возникает как результат реализации WHY через архитектуру, методы и практики уровня HOW?
+> What emerges as a result of realizing WHY through the architecture, methods, and practices of HOW?
 
-WHAT показывает результат того, как смысл, намерение и основание системы превращаются в работающие способности.
+WHAT shows the result of transforming the meaning, intention, and foundation of the system into working capabilities.
 
 ---
 
-# Место WHAT в модели OECUMENE
+# The Place of WHAT in the OECUMENE Model
 
-Центральная логика:
+The central logic is:
 
 **WHY → HOW → WHAT**
 
-Это причинно-следственная связь:
+This is a causal relationship:
 
-**WHY** задаёт смысл, основание и направление.
-
-↓
-
-**HOW** создаёт архитектуру и способы реализации.
+**WHY** defines meaning, foundation, and direction.
 
 ↓
 
-**WHAT** показывает, что возникает как результат реализации WHY через архитектуру, методы и практики уровня HOW.
+**HOW** creates the architecture and ways of implementation.
+
+↓
+
+**WHAT** shows what emerges as a result of realizing WHY through the architecture, methods, and practices of HOW.
 
 ---
 
-# WHY? · Почему?
+# WHY? · Why?
 
-WHY отвечает на вопросы:
+WHY asks:
 
-> Почему это важно?  
-> Почему система существует?  
-> Почему выбран именно такой путь?
+> Why does this matter?  
+> Why does the system exist?  
+> Why has this path been chosen?
 
-WHY раскрывает:
+WHY reveals:
 
-- смысл системы;
-- основание её существования;
-- намерение развития;
-- направление создания ценности.
-
----
-
-# HOW? · Как?
-
-HOW отвечает на вопрос:
-
-> Как это реализуется?
-
-Через:
-
-- Architecture · Архитектура
-- Methods · Методы
-- Practices · Практики
-- Frameworks · Фреймворки
-- Processes · Процессы
-- Tools · Инструменты
-- Technologies · Технологии
-
-Подробнее:
-
-[Architecture](https://oecumene.space/architecture.html)
-
-[Architecture Map](https://oecumene.space/architecture-map.html)
+- the meaning of the system;
+- the foundation of its existence;
+- the intention behind its development;
+- the direction of value creation.
 
 ---
 
-# WHAT? · Что?
+# HOW? · How?
 
-WHAT отвечает на вопрос:
+HOW asks:
 
-> Что возникает как результат реализации WHY через архитектуру, методы и практики уровня HOW?
+> How is this realized?
 
-На этом уровне возникают:
+Through:
 
-- Disciplines · Дисциплины
-- Capabilities · Способности
-- Practices · Практики
-
----
-
-# Что такое WHAT?
-
-WHAT — это уровень результатов реализации.
-
-Он показывает, какие новые возможности возникают благодаря тому, что:
-
-- WHY определил направление;
-- HOW создал механизм реализации.
-
-WHAT не существует отдельно от WHY и HOW.
-
-Он является результатом их взаимодействия.
+- Architecture
+- Methods
+- Practices
+- Frameworks
+- Processes
+- Tools
+- Technologies
 
 ---
 
-# Disciplines · Дисциплины
+# WHAT? · What?
 
-На уровне WHAT находятся:
+WHAT asks:
 
-**Disciplines · Дисциплины**
+> What emerges as a result of realizing WHY through the architecture, methods, and practices of HOW?
 
-Дисциплина — это область организованного знания и практики, через которую система развивает определённые способности.
+At this level emerge:
 
-Она включает:
-
-- язык описания;
-- профессиональное знание;
-- методы работы;
-- практики;
-- инструменты;
-- связи с другими интеллектуальными активами.
+- Disciplines
+- Capabilities
+- Practices
 
 ---
 
-# Дисциплины OECUMENE
+# What is WHAT?
 
-В текущей модели OECUMENE рассматриваются следующие дисциплины:
+WHAT is the level of implementation results.
+
+It shows what new possibilities emerge because:
+
+- WHY defines the direction;
+- HOW creates the mechanism of implementation.
+
+WHAT does not exist separately from WHY and HOW.
+
+It is the result of their interaction.
+
+---
+
+# Disciplines
+
+At the WHAT level are:
+
+**Disciplines**
+
+A discipline is an organized field of knowledge and practice through which the system develops particular capabilities.
+
+It includes:
+
+- a language of description;
+- professional knowledge;
+- methods of work;
+- practices;
+- tools;
+- connections with other intellectual assets.
+
+---
+
+# OECUMENE Disciplines
+
+The current OECUMENE model includes the following disciplines:
 
 ---
 
 ## Management
 
-Дисциплина организации деятельности и создания ценности.
+The discipline of organizing activities and creating value.
 
-Подробнее:
+More:
 
-[Management](https://oecumene.space/management.html)
+[Management](management.md)
 
 ---
 
 ## AI Management
 
-Дисциплина управления AI как организационной способностью.
+The discipline of managing AI as an organizational capability.
 
-Подробнее:
+More:
 
-[AI Management](https://oecumene.space/ai-management.html)
+[AI Management](ai-management.md)
 
 ---
 
 ## Governance
 
-Дисциплина обеспечения управляемости, ответственности и согласованности системы.
+The discipline of ensuring system governability, responsibility, and alignment.
 
-Подробнее:
+More:
 
-[Governance](https://oecumene.space/governance.html)
+[Governance](governance.md)
 
 ---
 
 ## AI Governance
 
-Дисциплина управления AI-системами.
+The discipline of governing AI systems.
 
-Подробнее:
+More:
 
-[AI Governance](https://oecumene.space/ai-governance.html)
-
----
-
-# WHAT и архитектура системы
-
-WHAT является результатом того, как система построена и действует.
-
-Архитектура через HOW определяет:
-
-- какие способности могут развиваться;
-- как организованы взаимодействия;
-- какие механизмы позволяют реализовывать ценность.
-
-[Architecture](https://oecumene.space/architecture.html) показывает архитектурный уровень HOW.
-
-[Architecture Map](https://oecumene.space/architecture-map.html) показывает связи между WHY, HOW и WHAT.
-
-WHAT показывает, какие дисциплины, способности и практики возникают благодаря этой архитектуре.
+[AI Governance](ai-governance.md)
 
 ---
 
-# WHAT и Governance
+# WHAT and System Architecture
 
-Governance является одной из дисциплин уровня WHAT.
+WHAT is the result of how the system is designed and operates.
 
-[Governance](https://oecumene.space/governance.html)
+Through HOW, architecture determines:
 
-развивает способность системы сохранять управляемость, ответственность и согласованность.
+- which capabilities can develop;
+- how interactions are organized;
+- which mechanisms enable value creation.
 
----
-
-# WHAT и AI Management
-
-AI Management является дисциплиной уровня WHAT.
-
-[AI Management](https://oecumene.space/ai-management.html)
-
-развивает способность организации использовать AI как часть системы создания ценности.
+WHAT shows which disciplines, capabilities, and practices emerge through this architecture.
 
 ---
 
-# WHAT и AI Governance
+# Disciplines as Intellectual Assets
 
-AI Governance является дисциплиной уровня WHAT.
+In OECUMENE, each discipline is a node in an evolving graph of intellectual assets.
 
-[AI Governance](https://oecumene.space/ai-governance.html)
+It may include:
 
-развивает способность системы управлять использованием AI согласованно с её предназначением, ценностями и принципами.
-
----
-
-# Дисциплины как интеллектуальные активы
-
-В OECUMENE каждая дисциплина является узлом развивающегося графа интеллектуальных активов.
-
-Она может включать:
-
-- концепции;
-- модели;
-- методы;
-- практики;
-- инструменты;
-- связи с другими активами.
+- concepts;
+- models;
+- methods;
+- practices;
+- tools;
+- connections with other assets.
 
 ---
 
-# Граф дисциплин
+# The Graph of Disciplines
 
-Дисциплины не являются закрытым списком.
+Disciplines are not a closed list.
 
-Они развиваются вместе с изменением:
+They evolve together with changes in:
 
-- технологий;
-- организационных моделей;
-- способов создания ценности;
-- возможностей системы.
+- technologies;
+- organizational models;
+- ways of creating value;
+- system capabilities.
 
-Новые дисциплины могут возникать как результат появления новых способностей.
+New disciplines may emerge as new capabilities appear.
 
 ---
 
-# Рекурсивность
+# Recursiveness
 
-Как и любой элемент OECUMENE, WHAT может быть снова рассмотрен через:
+Like every element of OECUMENE, WHAT can itself be considered through:
 
 **WHY → HOW → WHAT**
 
-Например:
+For example:
 
 AI Management:
 
 WHY:
 
-Почему использование AI важно для системы?
+Why is the use of AI important for the system?
 
 ↓
 
 HOW:
 
-Как через архитектуру, методы и практики реализовать использование AI?
+How can the use of AI be realized through architecture, methods, and practices?
 
 ↓
 
 WHAT:
 
-Какие способности, дисциплины и практики AI Management возникают?
+What capabilities, disciplines, and practices of AI Management emerge?
 
 ---
 
-# Рабочая позиция OECUMENE
+# Working Position of OECUMENE
 
-WHAT — это результат реализации намерения системы через архитектуру и способы действия уровня HOW.
+WHAT is the result of realizing the system's intention through architecture and ways of acting at the HOW level.
 
-Он показывает:
+It shows:
 
-- какие способности развились;
-- какие дисциплины возникли;
-- какие формы создания ценности стали возможны.
+- which capabilities have developed;
+- which disciplines have emerged;
+- which forms of value creation have become possible.
 
-Главный вопрос:
+The central question is:
 
-> **Что возникает как результат реализации WHY через архитектуру, методы и практики уровня HOW?**
-
----
-
-# Связь WHAT с OECUMENE
-
-WHAT связан с:
-
-- [Architecture](https://oecumene.space/architecture.html)
-- [Architecture Map](https://oecumene.space/architecture-map.html)
-- [Management](https://oecumene.space/management.html)
-- [AI Management](https://oecumene.space/ai-management.html)
-- [Governance](https://oecumene.space/governance.html)
-- [AI Governance](https://oecumene.space/ai-governance.html)
-- [Governance Architect](https://oecumene.space/governance-architect.html)
-- [AI-enabled Architecture](https://oecumene.space/ai-enabled-architecture.html)
+> **What emerges as a result of realizing WHY through the architecture, methods, and practices of HOW?**
 
 ---
 
 [← OECUMENE Home](https://oecumene.space/)
-
-[OECUMENE Architecture Map](https://oecumene.space/architecture-map.html)
 
 [OECUMENE GitHub Repository](https://github.com/ai4mngmnt-cyber/oecumene)
 
