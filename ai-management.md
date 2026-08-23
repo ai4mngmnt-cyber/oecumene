@@ -1,42 +1,40 @@
-# [OECUMENE](https://oecumene.space/)
-
 # AI Management
 
-## Управление искусственным интеллектом как организационной способностью
+## Managing Artificial Intelligence as an Organizational Capability
 
-В модели OECUMENE AI Management рассматривается как дисциплина уровня:
+In the OECUMENE model, AI Management is a discipline at the level:
 
-**WHAT? · Что?**
+**WHAT? · What?**
 
-WHAT отвечает на вопрос:
+WHAT asks:
 
-> Что возникает как результат реализации WHY через архитектуру, методы и практики уровня HOW?
+> What emerges as a result of realizing WHY through the architecture, methods, and practices of HOW?
 
-AI Management является результатом развития способности организации использовать искусственный интеллект как часть своей системы создания ценности.
+AI Management is the result of developing the organization's ability to use artificial intelligence as part of its value creation system.
 
 ---
 
-# Место AI Management в модели OECUMENE
+# The Place of AI Management in the OECUMENE Model
 
-Центральная логика:
+The central logic is:
 
 **WHY → HOW → WHAT**
 
-Это причинно-следственная связь:
+This is a causal relationship:
 
 **WHY**
 
-Почему это важно?
+Why does this matter?
 
-Почему система существует?
+Why does the system exist?
 
-Почему выбран именно такой путь?
+Why has this path been chosen?
 
 ↓
 
 **HOW**
 
-Как это реализуется?
+How is this realized?
 
 Architecture
 
@@ -56,7 +54,7 @@ Technologies
 
 **WHAT**
 
-Что возникает как результат реализации WHY через архитектуру, методы и практики уровня HOW?
+What emerges as a result of realizing WHY through the architecture, methods, and practices of HOW?
 
 Disciplines
 
@@ -68,217 +66,191 @@ Practices
 
 # WHY AI Management
 
-AI Management начинается с вопросов:
+AI Management begins with the questions:
 
-> Почему искусственный интеллект важен для системы?
+> Why is artificial intelligence important for the system?
 
-> Почему AI должен стать частью организационной способности?
+> Why should AI become part of an organizational capability?
 
-Ответ связан с развитием возможностей:
+The answer is connected with developing the ability to:
 
-- улучшения принятия решений;
-- расширения человеческого потенциала;
-- создания новых способов работы;
-- повышения адаптивности системы.
+- improve decision making;
+- extend human potential;
+- create new ways of working;
+- increase system adaptability.
 
 ---
 
 # HOW AI Management
 
-AI Management реализуется через:
+AI Management is realized through:
 
-- архитектуру взаимодействия человека и AI;
-- методы управления AI-инициативами;
-- практики внедрения и использования AI;
-- процессы развития AI-способностей;
-- инструменты оценки и улучшения.
-
----
-
-# AI Management как дисциплина
-
-AI Management — это область знания и практики, которая помогает организации:
-
-- понимать возможности AI;
-- создавать AI-способности;
-- интегрировать AI в процессы;
-- управлять изменениями;
-- получать ценность от использования AI.
+- architecture for human-AI interaction;
+- methods for managing AI initiatives;
+- practices for implementing and using AI;
+- processes for developing AI capabilities;
+- tools for assessment and improvement.
 
 ---
 
-# Основные элементы AI Management
+# AI Management as a Discipline
 
-## AI Strategy · AI-стратегия
+AI Management is a field of knowledge and practice that helps an organization:
 
-Определяет:
-
-- где AI создаёт ценность;
-- какие возможности развивать;
-- какие направления являются приоритетными.
-
----
-
-## AI Capability Development · Развитие AI-способностей
-
-Определяет:
-
-- какие способности необходимы организации;
-- какие знания и навыки развивать;
-- как создавать устойчивую AI-компетентность.
+- understand AI opportunities;
+- create AI capabilities;
+- integrate AI into processes;
+- manage change;
+- create value from the use of AI.
 
 ---
 
-## Human-AI Collaboration · Взаимодействие человека и AI
+# Core Elements of AI Management
 
-Определяет:
+## AI Strategy
 
-- роли человека и AI;
-- способы совместной работы;
-- распределение ответственности.
+Defines:
 
----
-
-## AI Implementation · Реализация AI
-
-Определяет:
-
-- как AI интегрируется в деятельность;
-- как оцениваются результаты;
-- как система обучается на опыте.
+- where AI creates value;
+- which capabilities to develop;
+- which areas are priorities.
 
 ---
 
-# AI Management и архитектура системы
+## AI Capability Development
 
-AI Management является результатом реализации:
+Defines:
+
+- which capabilities the organization needs;
+- which knowledge and skills to develop;
+- how to create sustainable AI competence.
+
+---
+
+## Human-AI Collaboration
+
+Defines:
+
+- the roles of humans and AI;
+- ways of working together;
+- distribution of responsibility.
+
+---
+
+## AI Implementation
+
+Defines:
+
+- how AI is integrated into activities;
+- how results are evaluated;
+- how the system learns from experience.
+
+---
+
+# AI Management and System Architecture
+
+AI Management is the result of realizing:
 
 WHY
 
 ↓
 
-понимание ценности и роли AI
+understanding the value and role of AI
 
-через
+through
 
 HOW
 
 ↓
 
-архитектуру, методы и практики управления AI
+architecture, methods, and practices for managing AI
 
-к
+to
 
 WHAT
 
 ↓
 
-организационной способности использовать AI.
+the organizational capability to use AI.
 
 ---
 
-# AI Management и Governance
+# AI Management and Governance
 
-Развитие AI требует не только возможностей, но и управляемости.
+The development of AI requires not only capabilities, but also governability.
 
-Поэтому AI Management связано с:
+Therefore, AI Management is connected with:
 
-[Governance](https://oecumene.space/governance.html)
+[Governance](governance.md)
 
-и
+and
 
-[AI Governance](https://oecumene.space/ai-governance.html)
-
-AI Management развивает способность организации использовать AI.
-
-Governance обеспечивает условия управляемости, ответственности и согласованности.
-
-AI Governance распространяет эту логику на системы с участием искусственного интеллекта.
+[AI Governance](ai-governance.md)
 
 ---
 
-# AI Management и Governance Architect
+# AI Management as an Intellectual Asset
 
-Архитектурная сторона управления AI связана с:
+In OECUMENE, AI Management is an evolving intellectual asset.
 
-[Governance Architect](https://oecumene.space/governance-architect.html)
+It may include:
 
-Governance Architect помогает проектировать условия принятия решений, распределения ответственности, согласования и обратной связи в сложных системах.
-
----
-
-# AI Management и AI-enabled Architecture
-
-AI Management также связан с:
-
-[AI-enabled Architecture](https://oecumene.space/ai-enabled-architecture.html)
-
-AI-enabled Architecture рассматривает архитектуру систем, в которых AI становится частью способов реализации организационных возможностей.
+- AI management models;
+- methods;
+- practices;
+- tools;
+- architectural decisions;
+- connections with other disciplines.
 
 ---
 
-# AI Management как интеллектуальный актив
+# Recursiveness
 
-В OECUMENE AI Management рассматривается как развивающийся интеллектуальный актив.
-
-Он может включать:
-
-- модели управления AI;
-- методы;
-- практики;
-- инструменты;
-- архитектурные решения;
-- связи с другими дисциплинами.
-
----
-
-# Рекурсивность
-
-Как и любой элемент OECUMENE, AI Management может быть рассмотрен через:
+Like every element of OECUMENE, AI Management can be considered through:
 
 **WHY → HOW → WHAT**
 
-Например:
+For example:
 
 WHY:
 
-Почему AI важен для системы?
+Why is AI important for the system?
 
 ↓
 
 HOW:
 
-Как создать архитектуру и практики управления AI?
+How can architecture and AI management practices be created?
 
 ↓
 
 WHAT:
 
-Какие AI-способности возникают?
+What AI capabilities emerge?
 
 ---
 
-# Рабочая позиция OECUMENE
+# Working Position of OECUMENE
 
-AI Management — это не просто внедрение технологий.
+AI Management is not simply the implementation of technology.
 
-Это способность организации использовать искусственный интеллект как часть своей архитектуры создания ценности.
+It is the organization's ability to use artificial intelligence as part of its value creation architecture.
 
-Главный вопрос:
+The central question is:
 
-> **Какие способности необходимо создать, чтобы AI усиливал возможность системы реализовывать своё предназначение?**
+> **Which capabilities need to be created so that AI strengthens the system's ability to realize its purpose?**
 
 ---
 
-# Связь AI Management с OECUMENE
+# Connections with Other OECUMENE Disciplines
 
-AI Management связан с:
+AI Management is connected with:
 
-- [Management](https://oecumene.space/management.html)
-- [Governance](https://oecumene.space/governance.html)
-- [AI Governance](https://oecumene.space/ai-governance.html)
-- [Governance Architect](https://oecumene.space/governance-architect.html)
-- [AI-enabled Architecture](https://oecumene.space/ai-enabled-architecture.html)
+- [Management](management.md)
+- [Governance](governance.md)
+- [AI Governance](ai-governance.md)
+- [Governance Architect](governance-architect.md)
+- [AI-enabled Architecture](ai-enabled-architecture.md)
 
 ---
 
