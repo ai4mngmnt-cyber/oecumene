@@ -1,62 +1,54 @@
-# [OECUMENE](https://oecumene.space/)
-
 # Gharajedaghi Lens
 
-## Линза системного мышления для понимания сложных систем
+## A Systems Thinking Lens for Understanding Complex Systems
 
-В модели OECUMENE Gharajedaghi Lens используется как одна из рабочих линз для исследования сложных систем.
+In the OECUMENE model, Gharajedaghi Lens is one of the working lenses used to explore complex systems.
 
-Она помогает рассматривать систему не как набор отдельных элементов, а как целостную, взаимосвязанную и развивающуюся структуру.
+It helps examine a system not as a collection of separate elements, but as an integrated, interconnected, and evolving structure.
 
 ---
 
-# Место Gharajedaghi Lens в модели OECUMENE
+# The Place of Gharajedaghi Lens in the OECUMENE Model
 
-Линзы находятся на уровне:
+Lenses are at the level:
 
-**HOW? · Как?**
+**HOW? · How?**
 
-HOW отвечает на вопрос:
+HOW asks:
 
-> Как это реализуется?
+> How is this realized?
 
-Через:
+Through:
 
-- Architecture · Архитектура
-- Methods · Методы
-- Practices · Практики
-- Frameworks · Фреймворки
-- Processes · Процессы
-- Tools · Инструменты
-- Technologies · Технологии
+- Architecture
+- Methods
+- Practices
+- Frameworks
+- Processes
+- Tools
+- Technologies
 
-Gharajedaghi Lens является инструментом понимания и анализа сложных систем.
-
-Подробнее:
-
-[Lenses](https://oecumene.space/lenses.html)
-
-[HOW](https://oecumene.space/how.html)
+Gharajedaghi Lens is a tool for understanding and analyzing complex systems.
 
 ---
 
 # WHY → HOW → WHAT
 
-OECUMENE использует причинно-следственную модель:
+OECUMENE uses the causal model:
 
 **WHY**
 
-Почему это важно?
+Why does this matter?
 
-Почему система существует?
+Why does the system exist?
 
-Почему выбран именно такой путь?
+Why has this path been chosen?
 
 ↓
 
 **HOW**
 
-Как это реализуется?
+How is this realized?
 
 Architecture
 
@@ -76,7 +68,7 @@ Technologies
 
 **WHAT**
 
-Что возникает как результат реализации WHY через архитектуру, методы и практики уровня HOW?
+What emerges as a result of realizing WHY through the architecture, methods, and practices of HOW?
 
 Disciplines
 
@@ -84,155 +76,106 @@ Capabilities
 
 Practices
 
-Подробнее:
+---
 
-[Architecture Map](https://oecumene.space/architecture-map.html)
+# The Core Idea of the Lens
+
+Gharajedaghi Lens helps explore complex systems through an understanding of:
+
+- wholeness;
+- interactions;
+- interdependencies;
+- emergent properties.
+
+The system is considered not only through its parts, but through the relationships between them and their ability to create new outcomes.
 
 ---
 
-# Основная идея линзы
+# The System as a Whole
 
-Gharajedaghi Lens помогает исследовать сложные системы через понимание:
+A complex system has properties that cannot be fully explained by analyzing individual elements alone.
 
-- целостности;
-- взаимодействий;
-- взаимозависимостей;
-- возникающих свойств.
+Therefore, it is important to explore:
 
-Система рассматривается не только через её части, но через отношения между ними и способность создавать новые результаты.
-
----
-
-# Система как целое
-
-Сложная система обладает свойствами, которые нельзя полностью объяснить только анализом отдельных элементов.
-
-Поэтому важно исследовать:
-
-- как элементы связаны между собой;
-- как система организует взаимодействия;
-- какие новые способности возникают из этих взаимодействий.
+- how the elements are connected;
+- how the system organizes interactions;
+- what new capabilities emerge from these interactions.
 
 ---
 
-# Gharajedaghi Lens и архитектура
+# Gharajedaghi Lens and Architecture
 
-Линза помогает задавать архитектурные вопросы:
+The lens helps ask architectural questions:
 
-- Почему система устроена именно так?
-- Какие элементы являются ключевыми?
-- Как они взаимодействуют?
-- Какие способности создаёт эта структура?
-- Как система может развиваться?
-
-Подробнее:
-
-[Architecture](https://oecumene.space/architecture.html)
-
-[Architecture Map](https://oecumene.space/architecture-map.html)
+- Why is the system designed this way?
+- Which elements are critical?
+- How do they interact?
+- What capabilities does this structure create?
+- How can the system evolve?
 
 ---
 
-# Применение в OECUMENE
+# Application in OECUMENE
 
-В OECUMENE Gharajedaghi Lens используется для исследования связи:
+In OECUMENE, Gharajedaghi Lens is used to explore the relationship between:
 
 **WHY**
 
-Смысл, основание и намерение системы
+Meaning, foundation, and intention of the system
 
 ↓
 
 **HOW**
 
-Архитектура и способы реализации
+Architecture and ways of implementation
 
 ↓
 
 **WHAT**
 
-Возникающие способности, дисциплины и практики
-
-Подробнее:
-
-[WHY](https://oecumene.space/why.html)
-
-[HOW](https://oecumene.space/how.html)
-
-[WHAT](https://oecumene.space/what.html)
+Emerging capabilities, disciplines, and practices
 
 ---
 
-# Gharajedaghi Lens как интеллектуальный актив
+# Recursiveness
 
-В OECUMENE Gharajedaghi Lens является интеллектуальным активом, который может развиваться через:
-
-- исследование;
-- применение;
-- создание моделей;
-- выявление новых связей;
-- формирование новых вопросов.
-
-Линза может использоваться совместно с другими интеллектуальными активами OECUMENE.
-
----
-
-# Рекурсивность
-
-Как и любой интеллектуальный актив OECUMENE, Gharajedaghi Lens может быть рассмотрена через:
+Like every intellectual asset of OECUMENE, Gharajedaghi Lens can be considered through:
 
 **WHY → HOW → WHAT**
 
-Например:
+For example:
 
 WHY:
 
-Почему эта перспектива важна?
+Why is this perspective important?
 
 ↓
 
 HOW:
 
-Как линза помогает понимать систему?
+How does the lens help us understand the system?
 
 ↓
 
 WHAT:
 
-Какие новые модели, решения и практики возникают?
+What new models, decisions, and practices emerge?
 
 ---
 
-# Рабочая позиция OECUMENE
+# Working Position of OECUMENE
 
-Gharajedaghi Lens не является готовым ответом.
+Gharajedaghi Lens is not a ready-made answer.
 
-Она является способом улучшить понимание системы и задавать более глубокие вопросы.
+It is a way to improve understanding of a system and ask deeper questions.
 
-Главный вопрос:
+The central question is:
 
-> **Как увидеть систему как целое, понять её взаимодействия и развить способность создавать ценность?**
-
----
-
-# Связь Gharajedaghi Lens с OECUMENE
-
-Gharajedaghi Lens связана с:
-
-- [Lenses](https://oecumene.space/lenses.html)
-- [WHY](https://oecumene.space/why.html)
-- [HOW](https://oecumene.space/how.html)
-- [Architecture](https://oecumene.space/architecture.html)
-- [Architecture Map](https://oecumene.space/architecture-map.html)
-- [WHAT](https://oecumene.space/what.html)
+> **How can we see the system as a whole, understand its interactions, and develop its ability to create value?**
 
 ---
 
 [← OECUMENE Home](https://oecumene.space/)
-
-[Lenses](https://oecumene.space/lenses.html)
-
-[Architecture Map](https://oecumene.space/architecture-map.html)
 
 [OECUMENE GitHub Repository](https://github.com/ai4mngmnt-cyber/oecumene)
 
