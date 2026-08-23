@@ -1,121 +1,111 @@
-# [OECUMENE](https://oecumene.space/)
-
 # WHY
 
-## Почему система существует
+## Why the System Exists
 
-В модели OECUMENE первый вопрос:
+In the OECUMENE model, the first question is:
 
-**WHY? · Почему?**
+**WHY? · Why?**
 
-Это вопрос о причине, основании и смысле существования системы.
+It is the question of the reason, foundation, and meaning of a system's existence.
 
-WHY исследует:
+WHY explores:
 
-- почему это важно;
-- почему система существует;
-- почему выбран именно такой путь;
-- какое намерение и основание стоят за развитием системы.
+- why this matters;
+- why the system exists;
+- why this particular path has been chosen;
+- what intention and foundation stand behind the development of the system.
 
 ---
 
-# Место WHY в модели OECUMENE
+# The Place of WHY in the OECUMENE Model
 
-Центральная логика:
+The central logic is:
 
 **WHY → HOW → WHAT**
 
-Это причинно-следственная связь:
+This is a causal relationship:
 
-**WHY** задаёт смысл, основание и направление.
-
-↓
-
-**HOW** создаёт архитектуру и способы реализации.
+**WHY** defines meaning, foundation, and direction.
 
 ↓
 
-**WHAT** показывает, что возникает как результат реализации WHY через архитектуру, методы и практики уровня HOW.
+**HOW** creates the architecture and ways of implementation.
 
-Подробнее:
+↓
 
-[Architecture Map](https://oecumene.space/architecture-map.html)
-
-[HOW](https://oecumene.space/how.html)
-
-[WHAT](https://oecumene.space/what.html)
+**WHAT** shows what emerges as a result of realizing WHY through the architecture, methods, and practices of HOW.
 
 ---
 
-# WHY и создание ценности
+# WHY and Value Creation
 
-Любая система начинается не с действий.
+Every system begins not with actions.
 
-Она начинается с понимания:
+It begins with understanding:
 
-> Почему это важно?
+> Why does this matter?
 
-> Почему эта система должна существовать?
+> Why should this system exist?
 
-> Почему выбран именно такой путь создания и реализации ценности?
+> Why has this particular path of creating and realizing value been chosen?
 
-Без ответа на эти вопросы невозможно определить:
+Without answers to these questions, it is impossible to determine:
 
-- какое направление выбрать;
-- какие решения являются согласованными;
-- какие изменения поддерживают развитие системы.
-
----
-
-# Values · Ценности
-
-Ответ на WHY раскрывается через:
-
-## Values · Ценности
-
-Ценности определяют:
-
-- что является значимым для системы;
-- какие результаты имеют смысл;
-- какие направления развития поддерживаются.
-
-Ценности формируют основу выбора.
+- which direction to choose;
+- which decisions are aligned;
+- which changes support the development of the system.
 
 ---
 
-# Principles · Принципы
+# Values
 
-Второй элемент WHY:
+The answer to WHY is revealed through:
 
-## Principles · Принципы
+## Values
 
-Принципы определяют то, что должно сохраняться независимо от изменения контекста.
+Values define:
 
-Они помогают системе:
+- what is significant for the system;
+- which outcomes have meaning;
+- which directions of development are supported.
 
-- принимать решения;
-- сохранять целостность;
-- адаптироваться без потери направления.
+Values form the foundation for choice.
+
+---
+
+# Principles
+
+The second element of WHY is:
+
+## Principles
+
+Principles define what should remain stable regardless of changes in context.
+
+They help the system:
+
+- make decisions;
+- preserve integrity;
+- adapt without losing direction.
 
 ---
 
 # WHY → HOW → WHAT
 
-Цепочка создания ценности:
+The value creation chain:
 
 **WHY**
 
-Почему это важно?
+Why does this matter?
 
-Почему система существует?
+Why does the system exist?
 
-Почему выбран такой путь?
+Why has this path been chosen?
 
 ↓
 
 **HOW**
 
-Как это реализуется?
+How is this realized?
 
 Architecture
 
@@ -135,7 +125,7 @@ Technologies
 
 **WHAT**
 
-Что возникает как результат реализации WHY через архитектуру, методы и практики уровня HOW?
+What emerges as a result of realizing WHY through the architecture, methods, and practices of HOW?
 
 Disciplines
 
@@ -143,112 +133,63 @@ Capabilities
 
 Practices
 
-Подробнее:
+---
 
-[Architecture](https://oecumene.space/architecture.html)
+# WHY and Complex Systems
 
-[Disciplines](https://oecumene.space/disciplines.html)
+In complex systems, it is impossible to determine the right actions only through rules and processes.
+
+It is necessary to understand:
+
+- why the system exists;
+- which principles guide its development;
+- which values support its decisions.
+
+WHY creates the direction that enables the system to adapt.
 
 ---
 
-# WHY и сложные системы
+# Recursiveness
 
-В сложных системах невозможно определить правильные действия только через правила и процессы.
-
-Необходимо понимать:
-
-- зачем существует система;
-- какие принципы направляют её развитие;
-- какие ценности поддерживают её решения.
-
-Именно WHY создаёт направление, которое позволяет системе адаптироваться.
-
----
-
-# WHY и Architecture
-
-WHY задаёт основание, которое архитектура переводит в способы реализации.
-
-[Architecture](https://oecumene.space/architecture.html)
-
-отвечает на вопрос:
-
-> Как должна быть устроена система, чтобы реализовать своё предназначение?
-
-Таким образом:
-
-WHY определяет основание и направление.
-
-Architecture определяет способ реализации.
-
----
-
-# WHY и Governance
-
-Governance также должен быть связан с основанием системы.
-
-[Governance](https://oecumene.space/governance.html)
-
-помогает сохранять направление, ответственность и согласованность при реализации намерения системы.
-
----
-
-# Рекурсивность
-
-Как и любой элемент OECUMENE, WHY может быть рассмотрен через:
+Like every element of OECUMENE, WHY can itself be considered through:
 
 **WHY → HOW → WHAT**
 
-Например:
+For example:
 
 WHY:
 
-Почему этот принцип важен?
+Why is this principle important?
 
 ↓
 
 HOW:
 
-Как этот принцип реализуется?
+How is this principle realized?
 
 ↓
 
 WHAT:
 
-Какие практики и дисциплины возникают?
+What practices and disciplines emerge?
 
 ---
 
-# Рабочая позиция OECUMENE
+# Working Position of OECUMENE
 
-WHY — это не список ценностей.
+WHY is not a list of values.
 
-WHY — это вопрос о причине, смысле и основании существования системы.
+WHY is a question about the reason, meaning, and foundation of a system's existence.
 
-Ценности и принципы являются способом раскрытия ответа на этот вопрос.
+Values and principles are ways of expressing the answer to this question.
 
-Главный вопрос:
+The central question is:
 
-> **Почему эта система существует и почему выбран именно такой путь создания и реализации ценности?**
-
----
-
-# Связь WHY с OECUMENE
-
-WHY связан с:
-
-- [Architecture Map](https://oecumene.space/architecture-map.html)
-- [HOW](https://oecumene.space/how.html)
-- [Architecture](https://oecumene.space/architecture.html)
-- [WHAT](https://oecumene.space/what.html)
-- [Disciplines](https://oecumene.space/disciplines.html)
-- [Governance](https://oecumene.space/governance.html)
+> **Why does this system exist, and why has this particular path of creating and realizing value been chosen?**
 
 ---
 
 [← OECUMENE Home](https://oecumene.space/)
-
-[Architecture Map](https://oecumene.space/architecture-map.html)
 
 [OECUMENE GitHub Repository](https://github.com/ai4mngmnt-cyber/oecumene)
 
