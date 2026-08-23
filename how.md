@@ -1,378 +1,271 @@
-# [OECUMENE](https://oecumene.space/)
-
 # HOW
 
-## Как система реализует своё предназначение
+## How the System Realizes Its Purpose
 
-Если:
+If:
 
-**WHY? · Почему?**
+**WHY? · Why?**
 
-отвечает на вопросы:
+answers the questions:
 
-> Почему это важно?  
-> Почему система существует?  
-> Почему выбран именно такой путь?
+> Why does this matter?  
+> Why does the system exist?  
+> Why has this path been chosen?
 
-то:
+then:
 
-**HOW? · Как?**
+**HOW? · How?**
 
-отвечает на вопрос:
+answers the question:
 
-> Как это реализуется?
+> How is this realized?
 
-HOW — это уровень архитектуры и способов действия, через которые смысл, намерение и основание системы превращаются в работающую способность.
+HOW is the level of architecture and ways of acting through which the meaning, intention, and foundation of the system are transformed into working capability.
 
 ---
 
-# Место HOW в модели OECUMENE
+# The Place of HOW in the OECUMENE Model
 
-Центральная логика:
+The central logic is:
 
 **WHY → HOW → WHAT**
 
-Это причинно-следственная связь:
+This is a causal relationship:
 
-**WHY** задаёт смысл, основание и направление.
-
-↓
-
-**HOW** создаёт архитектуру и способы реализации.
+**WHY** defines meaning, foundation, and direction.
 
 ↓
 
-**WHAT** показывает, что возникает как результат реализации WHY через архитектуру, методы и практики уровня HOW.
+**HOW** creates the architecture and ways of implementation.
 
-Подробнее:
+↓
 
-[WHY](https://oecumene.space/why.html)
-
-[Architecture Map](https://oecumene.space/architecture-map.html)
-
-[WHAT](https://oecumene.space/what.html)
+**WHAT** shows what emerges as a result of realizing WHY through the architecture, methods, and practices of HOW.
 
 ---
 
 # WHY
 
-Почему это важно?
+Why does this matter?
 
-Почему система существует?
+Why does the system exist?
 
-Почему выбран такой путь?
+Why has this path been chosen?
 
-WHY раскрывает:
+WHY reveals:
 
-- смысл системы;
-- основание её существования;
-- намерение развития;
-- направление создания ценности.
-
-Подробнее:
-
-[WHY](https://oecumene.space/why.html)
+- the meaning of the system;
+- the foundation of its existence;
+- the intention behind its development;
+- the direction of value creation.
 
 ↓
 
 # HOW
 
-Как это реализуется?
+How is this realized?
 
-Через:
+Through:
 
-- Architecture · Архитектура
-- Methods · Методы
-- Practices · Практики
-- Frameworks · Фреймворки
-- Processes · Процессы
-- Tools · Инструменты
-- Technologies · Технологии
+- Architecture
+- Methods
+- Practices
+- Frameworks
+- Processes
+- Tools
+- Technologies
 
 ↓
 
 # WHAT
 
-Что возникает как результат реализации WHY через архитектуру, методы и практики уровня HOW?
-
-Подробнее:
-
-[WHAT](https://oecumene.space/what.html)
+What emerges as a result of realizing WHY through the architecture, methods, and practices of HOW?
 
 ---
 
-# HOW как пространство реализации
+# HOW as the Space of Implementation
 
-WHY задаёт направление.
+WHY defines direction.
 
-HOW создаёт способность системы действовать.
+HOW creates the system's ability to act.
 
-На этом уровне находятся способы, через которые система:
+At this level, the system:
 
-- организует свою деятельность;
-- создаёт механизмы взаимодействия;
-- реализует принципы;
-- развивает способности;
-- превращает намерение в результат.
+- organizes its activities;
+- creates mechanisms of interaction;
+- realizes principles;
+- develops capabilities;
+- transforms intention into results.
 
 ---
 
-# Architecture · Архитектура
+# Architecture
 
-Архитектура является центральным элементом HOW.
+Architecture is the central element of HOW.
 
-Она отвечает за:
+It addresses:
 
-- структуру системы;
-- связи между элементами;
-- распределение ответственности;
-- механизмы взаимодействия;
-- устойчивость и адаптацию системы.
+- the structure of the system;
+- relationships between elements;
+- distribution of responsibility;
+- mechanisms of interaction;
+- the resilience and adaptability of the system.
 
-Архитектура соединяет:
+Architecture connects:
 
 WHY
 
 ↓
 
-смысл, основание и намерение
+meaning, foundation, and intention
 
-с
+with
 
 WHAT
 
 ↓
 
-возникающими способностями, дисциплинами и практиками.
+emerging capabilities, disciplines, and practices.
 
-Подробнее:
+More:
 
-[Architecture](https://oecumene.space/architecture.html)
-
-[Architecture Map](https://oecumene.space/architecture-map.html)
+[Architecture](architecture.md)
 
 ---
 
-# Architecture Map · Карта архитектуры
+# Architecture Map
 
-Architecture Map показывает взаимосвязь уровней OECUMENE:
+The Architecture Map shows the relationships between the levels of OECUMENE:
 
-- WHY — смысл, причина и основание системы;
-- HOW — архитектура и способы реализации;
-- WHAT — результаты реализации через дисциплины и способности.
+- WHY — meaning, reason, and foundation of the system;
+- HOW — architecture and ways of implementation;
+- WHAT — results of implementation through disciplines and capabilities.
 
-Подробнее:
+More:
 
-[Architecture Map](https://oecumene.space/architecture-map.html)
-
----
-
-# Архитектурные направления
-
-## Governance Architecture
-
-Архитектура управления сложными системами.
-
-Она рассматривает:
-
-- принятие решений;
-- ответственность;
-- полномочия;
-- согласование;
-- обратную связь.
-
-Подробнее:
-
-[Governance Architect](https://oecumene.space/governance-architect.html)
+[Architecture Map](architecture-map.md)
 
 ---
 
-## AI-enabled Architecture
+# Methods
 
-Архитектура системы, в которой искусственный интеллект становится частью организационной способности.
+Methods describe ways of achieving results.
 
-Она рассматривает:
-
-- взаимодействие человека и AI;
-- новые способности системы;
-- распределение ответственности;
-- изменение способов работы.
-
-Подробнее:
-
-[AI-enabled Architecture](https://oecumene.space/ai-enabled-architecture.html)
+They help translate architectural intentions into concrete actions.
 
 ---
 
-# Methods · Методы
+# Practices
 
-Методы описывают способы достижения результатов.
-
-Они помогают переводить архитектурные намерения в конкретные действия.
+Practices represent established ways of working through which the system develops its capabilities.
 
 ---
 
-# Practices · Практики
+# Frameworks
 
-Практики представляют устойчивые способы работы, через которые система развивает свои способности.
+Frameworks create structures for thinking and organizing activities.
 
----
-
-# Frameworks · Фреймворки
-
-Фреймворки создают структуры мышления и организации деятельности.
-
-Они помогают формировать общий язык и согласованные подходы.
+They help establish a common language and aligned approaches.
 
 ---
 
-# Processes · Процессы
+# Processes
 
-Процессы описывают последовательности действий и взаимодействий, необходимые для реализации целей системы.
-
----
-
-# Tools · Инструменты
-
-Инструменты помогают системе выполнять задачи, исследовать возможности и развивать способности.
-
-Одним из классов инструментов являются:
-
-## Lenses · Линзы
-
-Линзы используются для понимания сложных систем.
-
-Они помогают рассматривать систему с разных точек зрения и обнаруживать:
-
-- скрытые связи;
-- структуры;
-- возможности;
-- направления развития.
-
-Подробнее:
-
-[Lenses](https://oecumene.space/lenses.html)
+Processes describe sequences of actions and interactions required to realize the objectives of the system.
 
 ---
 
-# Technologies · Технологии
+# Tools
 
-Технологии являются элементами реализации системы.
+Tools help the system perform tasks, explore opportunities, and develop capabilities.
 
-Но в OECUMENE технология рассматривается не только как средство.
+One class of tools is:
 
-Главный вопрос:
+## Lenses
 
-> Какую способность системы создаёт эта технология?
+Lenses are used to understand complex systems.
 
----
+They help examine a system from different perspectives and discover:
 
-# HOW и сложные системы
+- hidden relationships;
+- structures;
+- opportunities;
+- directions for development.
 
-В сложных системах невозможно заранее определить все детали.
+More:
 
-Поэтому HOW должно обеспечивать:
-
-- адаптивность;
-- устойчивость;
-- развитие;
-- способность системы обучаться.
-
-HOW создаёт не только способы действия.
-
-Оно создаёт пространство возможностей.
+[Lenses](lenses.md)
 
 ---
 
-# HOW и WHAT
+# Technologies
 
-HOW не является конечным результатом.
+Technologies are elements of system implementation.
 
-Его задача — создать условия, через которые возникают новые способности и дисциплины.
+In OECUMENE, however, technology is considered not only as a means.
 
-Связь:
+The central question is:
 
-**WHY**
-
-Смысл, основание и намерение
-
-↓
-
-**HOW**
-
-Архитектура и способы реализации
-
-↓
-
-**WHAT**
-
-Способности, дисциплины и практики
-
-Подробнее:
-
-[WHAT](https://oecumene.space/what.html)
+> What capability does this technology create for the system?
 
 ---
 
-# Рекурсивность
+# HOW and Complex Systems
 
-Как и любой элемент OECUMENE, HOW может быть рассмотрен через:
+In complex systems, it is impossible to determine all details in advance.
+
+Therefore, HOW should provide:
+
+- adaptability;
+- resilience;
+- development;
+- the ability of the system to learn.
+
+HOW creates not only ways of acting.
+
+It creates a space of possibilities.
+
+---
+
+# Recursiveness
+
+Like every element of OECUMENE, HOW can itself be considered through:
 
 **WHY → HOW → WHAT**
 
-Например:
+For example:
 
 Architecture:
 
 WHY:
 
-Почему такая архитектура важна?
+Why is this architecture important?
 
 ↓
 
 HOW:
 
-Как она устроена и какие механизмы использует?
+How is it structured and what mechanisms does it use?
 
 ↓
 
 WHAT:
 
-Какие способности, дисциплины и практики возникают?
+What capabilities, disciplines, and practices emerge?
 
 ---
 
-# Рабочая позиция OECUMENE
+# Working Position of OECUMENE
 
-HOW — это уровень, где смысл и намерение системы превращаются в архитектуру и способы реализации.
+HOW is the level where the meaning and intention of the system are transformed into architecture and ways of implementation.
 
-Главный вопрос:
+The central question is:
 
-> **Как система реализует своё предназначение через архитектуру, методы, практики и инструменты уровня HOW?**
-
----
-
-# Связь HOW с OECUMENE
-
-HOW связан с:
-
-- [WHY](https://oecumene.space/why.html)
-- [Architecture Map](https://oecumene.space/architecture-map.html)
-- [Architecture](https://oecumene.space/architecture.html)
-- [Governance Architect](https://oecumene.space/governance-architect.html)
-- [AI-enabled Architecture](https://oecumene.space/ai-enabled-architecture.html)
-- [WHAT](https://oecumene.space/what.html)
-- [Disciplines](https://oecumene.space/disciplines.html)
+> **How does the system realize its purpose through architecture, methods, practices, and tools at the HOW level?**
 
 ---
 
 [← OECUMENE Home](https://oecumene.space/)
-
-[WHY](https://oecumene.space/why.html)
-
-[Architecture Map](https://oecumene.space/architecture-map.html)
-
-[WHAT](https://oecumene.space/what.html)
 
 [OECUMENE GitHub Repository](https://github.com/ai4mngmnt-cyber/oecumene)
 
