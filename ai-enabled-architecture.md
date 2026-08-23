@@ -1,44 +1,42 @@
-# [OECUMENE](https://oecumene.space/)
-
 # AI-enabled Architecture
 
-## Архитектура системы с искусственным интеллектом как организационной способностью
+## AI-enabled Architecture as an Organizational Capability
 
-В модели OECUMENE AI-enabled Architecture рассматривается как направление развития архитектуры сложных систем.
+In the OECUMENE model, AI-enabled Architecture is a direction for the development of complex-system architecture.
 
-Она находится на уровне:
+It is at the level:
 
-**HOW? · Как?**
+**HOW? · How?**
 
-HOW отвечает на вопрос:
+HOW asks:
 
-> Как это реализуется?
+> How is this realized?
 
-AI-enabled Architecture определяет, как искусственный интеллект становится частью структуры, взаимодействий и способностей организации.
+AI-enabled Architecture defines how artificial intelligence becomes part of the structure, interactions, and capabilities of an organization.
 
 ---
 
-# Место AI-enabled Architecture в модели OECUMENE
+# The Place of AI-enabled Architecture in the OECUMENE Model
 
-Центральная логика:
+The central logic is:
 
 **WHY → HOW → WHAT**
 
-Это причинно-следственная связь:
+This is a causal relationship:
 
 **WHY**
 
-Почему это важно?
+Why does this matter?
 
-Почему система существует?
+Why does the system exist?
 
-Почему выбран именно такой путь?
+Why has this path been chosen?
 
 ↓
 
 **HOW**
 
-Как это реализуется?
+How is this realized?
 
 Architecture
 
@@ -58,7 +56,7 @@ Technologies
 
 **WHAT**
 
-Что возникает как результат реализации WHY через архитектуру, методы и практики уровня HOW?
+What emerges as a result of realizing WHY through the architecture, methods, and practices of HOW?
 
 Disciplines
 
@@ -70,211 +68,211 @@ Practices
 
 # WHY AI-enabled Architecture
 
-Использование искусственного интеллекта начинается не с технологии.
+The use of artificial intelligence does not begin with technology.
 
-Оно начинается с вопроса:
+It begins with the question:
 
-> Почему AI должен стать частью системы?
+> Why should AI become part of the system?
 
-Ответ связан с развитием новых способностей:
+The answer is connected with developing new capabilities:
 
-- улучшением принятия решений;
-- расширением человеческих возможностей;
-- созданием новых способов работы;
-- развитием адаптивности системы.
+- improving decision making;
+- extending human capabilities;
+- creating new ways of working;
+- increasing system adaptability.
 
 ---
 
-# AI-enabled Architecture как уровень HOW
+# AI-enabled Architecture as a HOW-Level Element
 
-AI-enabled Architecture связывает:
+AI-enabled Architecture connects:
 
 WHY
 
 ↓
 
-намерение и ценности системы
+the intention and values of the system
 
-с
+with
 
 HOW
 
 ↓
 
-архитектура, механизмы и способы взаимодействия человека и AI
+the architecture, mechanisms, and ways of human-AI interaction
 
-и
+and
 
 WHAT
 
 ↓
 
-возникающие способности, дисциплины и практики.
+the emerging capabilities, disciplines, and practices.
 
 ---
 
-# Что такое AI-enabled Architecture?
+# What is AI-enabled Architecture?
 
-AI-enabled Architecture — это архитектура системы, в которой искусственный интеллект становится не отдельным инструментом, а частью организационной способности.
+AI-enabled Architecture is an architecture in which artificial intelligence becomes not merely a separate tool, but part of an organizational capability.
 
-Она рассматривает:
+It considers:
 
-- взаимодействие человека и AI;
-- распределение ответственности;
-- потоки данных и знаний;
-- механизмы принятия решений;
-- новые формы работы.
-
----
-
-# Основные элементы AI-enabled Architecture
-
-## Human-AI Interaction · Взаимодействие человека и AI
-
-Определяет:
-
-- роли человека и AI;
-- способы совместной работы;
-- границы автоматизации;
-- механизмы контроля.
+- human-AI interaction;
+- distribution of responsibility;
+- flows of data and knowledge;
+- decision-making mechanisms;
+- new forms of work.
 
 ---
 
-## Intelligence Infrastructure · Инфраструктура интеллекта
+# Core Elements of AI-enabled Architecture
 
-Определяет:
+## Human-AI Interaction
 
-- данные;
-- модели;
-- инструменты;
-- платформы;
-- механизмы интеграции.
+Defines:
 
----
-
-## Decision Architecture · Архитектура решений
-
-Определяет:
-
-- какие решения поддерживает AI;
-- где требуется участие человека;
-- как обеспечивается качество решений.
+- the roles of humans and AI;
+- ways of working together;
+- boundaries of automation;
+- control mechanisms.
 
 ---
 
-## Governance Architecture · Архитектура управления
+## Intelligence Infrastructure
 
-Определяет:
+Defines:
 
-- ответственность;
-- контроль;
-- безопасность;
-- прозрачность;
-- соответствие принципам системы.
-
----
-
-# AI-enabled Architecture и Governance
-
-Развитие AI требует новой архитектуры управления.
-
-Поэтому AI-enabled Architecture связана с:
-
-[Governance Architect](https://oecumene.space/governance-architect.html)
-
-и
-
-[AI Governance](https://oecumene.space/ai-governance.html)
+- data;
+- models;
+- tools;
+- platforms;
+- integration mechanisms.
 
 ---
 
-# AI-enabled Architecture и AI Management
+## Decision Architecture
 
-AI-enabled Architecture связана с развитием организационной способности использовать AI.
+Defines:
 
-[AI Management](https://oecumene.space/ai-management.html)
-
-AI Management рассматривает развитие способности организации использовать искусственный интеллект как часть системы создания ценности.
-
-AI-enabled Architecture определяет архитектурные условия, в которых эта способность реализуется.
+- which decisions are supported by AI;
+- where human participation is required;
+- how decision quality is ensured.
 
 ---
 
-# AI-enabled Architecture и Management
+## Governance Architecture
 
-AI-enabled Architecture также связана с:
+Defines:
 
-[Management](https://oecumene.space/management.html)
-
-Management рассматривает способность системы организовывать деятельность, принимать решения и создавать ценность.
-
-AI-enabled Architecture рассматривает, как AI становится частью этой способности.
-
----
-
-# AI-enabled Architecture как интеллектуальный актив
-
-В OECUMENE AI-enabled Architecture является развивающимся интеллектуальным активом.
-
-Она может включать:
-
-- архитектурные модели;
-- паттерны взаимодействия;
-- методы проектирования;
-- практики внедрения;
-- инструменты оценки.
+- responsibility;
+- control;
+- security;
+- transparency;
+- alignment with system principles.
 
 ---
 
-# Рекурсивность
+# AI-enabled Architecture and Governance
 
-Как и любой элемент OECUMENE, AI-enabled Architecture может быть рассмотрена через:
+The development of AI requires a new governance architecture.
+
+Therefore, AI-enabled Architecture is connected with:
+
+[Governance Architect](governance-architect.md)
+
+and
+
+[AI Governance](ai-governance.md).
+
+---
+
+# AI-enabled Architecture and AI Management
+
+AI-enabled Architecture is connected with the development of the organizational capability to use AI.
+
+[AI Management](ai-management.md)
+
+AI Management focuses on developing the organization's ability to use artificial intelligence as part of its value creation system.
+
+AI-enabled Architecture defines the architectural conditions in which this capability can be realized.
+
+---
+
+# AI-enabled Architecture and Management
+
+AI-enabled Architecture is also connected with:
+
+[Management](management.md)
+
+Management considers the system's ability to organize activities, make decisions, and create value.
+
+AI-enabled Architecture considers how AI becomes part of this capability.
+
+---
+
+# AI-enabled Architecture as an Intellectual Asset
+
+In OECUMENE, AI-enabled Architecture is an evolving intellectual asset.
+
+It may include:
+
+- architectural models;
+- interaction patterns;
+- design methods;
+- implementation practices;
+- assessment tools.
+
+---
+
+# Recursiveness
+
+Like every element of OECUMENE, AI-enabled Architecture can be considered through:
 
 **WHY → HOW → WHAT**
 
-Например:
+For example:
 
 WHY:
 
-Почему AI должен стать частью системы?
+Why should AI become part of the system?
 
 ↓
 
 HOW:
 
-Как построить архитектуру взаимодействия человека и AI?
+How should an architecture for human-AI interaction be built?
 
 ↓
 
 WHAT:
 
-Какие новые способности и дисциплины возникают?
+What new capabilities and disciplines emerge?
 
 ---
 
-# Рабочая позиция OECUMENE
+# Working Position of OECUMENE
 
-AI-enabled Architecture — это не просто внедрение технологии.
+AI-enabled Architecture is not simply technology implementation.
 
-Это создание новой организационной способности через архитектуру, в которой человек, искусственный интеллект и система работают как взаимосвязанные элементы.
+It is the creation of a new organizational capability through an architecture in which humans, artificial intelligence, and the system operate as interconnected elements.
 
-Главный вопрос:
+The central question is:
 
-> **Какую архитектуру необходимо создать, чтобы AI усиливал способность системы реализовывать своё предназначение?**
+> **What architecture should be created so that AI strengthens the system's ability to realize its purpose?**
 
 ---
 
-# Связь AI-enabled Architecture с OECUMENE
+# Connections with Other OECUMENE Assets
 
-AI-enabled Architecture связана с:
+AI-enabled Architecture is connected with:
 
-- [Architecture](https://oecumene.space/architecture.html)
-- [Architecture Map](https://oecumene.space/architecture-map.html)
-- [Management](https://oecumene.space/management.html)
-- [AI Management](https://oecumene.space/ai-management.html)
-- [Governance](https://oecumene.space/governance.html)
-- [AI Governance](https://oecumene.space/ai-governance.html)
-- [Governance Architect](https://oecumene.space/governance-architect.html)
+- [Architecture](architecture.md)
+- [Architecture Map](architecture-map.md)
+- [Management](management.md)
+- [AI Management](ai-management.md)
+- [Governance](governance.md)
+- [AI Governance](ai-governance.md)
+- [Governance Architect](governance-architect.md)
 
 ---
 
