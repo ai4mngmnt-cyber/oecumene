@@ -1,42 +1,40 @@
-# [OECUMENE](https://oecumene.space/)
-
 # Governance
 
-## Управление как способность системы сохранять направление и согласованность
+## Governance as a Discipline for Maintaining Direction and Alignment
 
-В модели OECUMENE Governance рассматривается как дисциплина уровня:
+In the OECUMENE model, Governance is a discipline at the level:
 
-**WHAT? · Что?**
+**WHAT? · What?**
 
-WHAT отвечает на вопрос:
+WHAT asks:
 
-> Что возникает как результат реализации WHY через архитектуру, методы и практики уровня HOW?
+> What emerges as a result of realizing WHY through the architecture, methods, and practices of HOW?
 
-Governance является результатом развития способности системы обеспечивать управляемость, ответственность и согласованность действий.
+Governance is the result of developing the system's ability to maintain direction, alignment, responsibility, and governability.
 
 ---
 
-# Место Governance в модели OECUMENE
+# The Place of Governance in the OECUMENE Model
 
-Центральная логика:
+The central logic is:
 
 **WHY → HOW → WHAT**
 
-Это причинно-следственная связь:
+This is a causal relationship:
 
 **WHY**
 
-Почему это важно?
+Why does this matter?
 
-Почему система существует?
+Why does the system exist?
 
-Почему выбран именно такой путь?
+Why has this path been chosen?
 
 ↓
 
 **HOW**
 
-Как это реализуется?
+How is this realized?
 
 Architecture
 
@@ -56,7 +54,7 @@ Technologies
 
 **WHAT**
 
-Что возникает как результат реализации WHY через архитектуру, методы и практики уровня HOW?
+What emerges as a result of realizing WHY through the architecture, methods, and practices of HOW?
 
 Disciplines
 
@@ -68,215 +66,243 @@ Practices
 
 # WHY Governance
 
-Governance начинается с вопросов:
+Governance begins with the question:
 
-> Почему системе необходима управляемость?
+> Why does a system need mechanisms for maintaining direction and alignment?
 
-> Почему необходимы ответственность и согласованность?
+The answer is connected with the need to:
 
-> Почему решения должны приниматься в определённых рамках?
-
-Governance связано с необходимостью сохранять направление системы и одновременно обеспечивать её способность адаптироваться.
+- preserve the purpose of the system;
+- align decisions and actions;
+- distribute responsibility and authority;
+- manage uncertainty and change;
+- maintain the integrity of the system.
 
 ---
 
 # HOW Governance
 
-Governance реализуется через:
+Governance is realized through:
 
-- архитектуру управления;
-- механизмы принятия решений;
-- распределение полномочий;
-- распределение ответственности;
-- процессы согласования;
-- механизмы обратной связи.
-
----
-
-# Governance как дисциплина
-
-Governance — это область знания и практики, которая помогает системе:
-
-- принимать решения;
-- распределять ответственность;
-- согласовывать действия;
-- управлять изменениями;
-- сохранять целостность;
-- адаптироваться к изменениям.
+- governance architecture;
+- decision-making mechanisms;
+- allocation of authority and responsibility;
+- alignment mechanisms;
+- feedback and adaptation;
+- transparency and accountability.
 
 ---
 
-# Основные элементы Governance
+# Governance as a Discipline
 
-## Decision Making · Принятие решений
+Governance is a field of knowledge and practice that helps a system:
 
-Определяет:
-
-- кто принимает решения;
-- на каком уровне;
-- какие критерии используются.
-
----
-
-## Authority · Полномочия
-
-Определяет:
-
-- кто имеет право принимать решения;
-- границы полномочий;
-- способы их распределения.
+- maintain direction;
+- establish responsibility;
+- align decisions and actions;
+- manage authority;
+- adapt while preserving system integrity.
 
 ---
 
-## Responsibility · Ответственность
+# Core Elements of Governance
 
-Определяет:
+## Direction
 
-- кто отвечает за решения;
-- кто отвечает за результаты;
-- как обеспечивается подотчётность.
+Defines:
 
----
-
-## Alignment · Согласование
-
-Обеспечивает связь между:
-
-- намерением системы;
-- решениями;
-- действиями;
-- результатами.
+- what the system is trying to preserve or achieve;
+- how decisions remain connected to its purpose;
+- which priorities guide development.
 
 ---
 
-## Feedback · Обратная связь
+## Responsibility
 
-Создаёт способность системы:
+Defines:
 
-- учиться;
-- адаптироваться;
-- корректировать действия;
-- развиваться.
+- who is accountable for decisions;
+- how responsibilities are distributed;
+- how accountability is maintained.
 
 ---
 
-# Governance и архитектура системы
+## Authority
 
-Governance является результатом реализации:
+Defines:
+
+- who has the right to make decisions;
+- how authority is distributed;
+- how authority is exercised and reviewed.
+
+---
+
+## Alignment
+
+Defines:
+
+- how different participants remain coordinated;
+- how decisions remain consistent with system principles;
+- how conflicts are addressed.
+
+---
+
+## Feedback
+
+Defines:
+
+- how the system receives information about its behavior;
+- how decisions are reviewed;
+- how the system learns and adapts.
+
+---
+
+# Governance and System Architecture
+
+Governance is the result of realizing:
 
 WHY
 
 ↓
 
-смысл, ценности и принципы системы
+purpose, values, and principles of the system
 
-через
+through
 
 HOW
 
 ↓
 
-архитектуру управления, методы и практики
+governance architecture, mechanisms, methods, and practices
 
-к
+to
 
 WHAT
 
 ↓
 
-способности системы сохранять управляемость, ответственность и согласованность.
+the capability of the system to remain governable, aligned, and responsible.
 
 ---
 
-# Governance и сложные системы
+# Governance and Complex Systems
 
-В сложных системах Governance не может быть сведено только к контролю.
+In complex systems, governance cannot be reduced to control.
 
-Система должна одновременно:
+It requires the ability to:
 
-- сохранять направление;
-- распределять ответственность;
-- принимать решения;
-- реагировать на изменения;
-- создавать условия для развития.
-
-Поэтому Governance должно обеспечивать баланс между управляемостью и адаптивностью.
+- understand changing context;
+- maintain direction under uncertainty;
+- coordinate multiple actors;
+- learn from feedback;
+- adapt without losing system integrity.
 
 ---
 
-# Governance и AI Governance
+# Governance as an Intellectual Asset
 
-Развитие искусственного интеллекта создаёт отдельную область применения Governance.
+In OECUMENE, Governance is an evolving intellectual asset.
 
-[AI Governance](https://oecumene.space/ai-governance.html)
+It may include:
 
-расширяет общую логику Governance на системы, в которых искусственный интеллект становится частью организационной деятельности.
-
----
-
-# Governance как интеллектуальный актив
-
-В OECUMENE Governance рассматривается как развивающийся интеллектуальный актив.
-
-Он может включать:
-
-- модели управления;
-- принципы;
-- методы;
-- архитектурные решения;
-- практики;
-- инструменты;
-- связи с другими дисциплинами.
+- governance models;
+- principles;
+- decision-making mechanisms;
+- practices;
+- tools;
+- relationships with other disciplines.
 
 ---
 
-# Рекурсивность
+# Governance and Management
 
-Как и любой элемент OECUMENE, Governance может быть рассмотрен через:
+Governance is connected with Management.
+
+Management focuses on:
+
+- organizing activities;
+- making decisions;
+- creating and realizing value.
+
+Governance focuses on:
+
+- maintaining direction;
+- responsibility;
+- authority;
+- alignment;
+- governability.
+
+The two disciplines are complementary.
+
+---
+
+# Governance and AI Governance
+
+Governance provides a foundation for:
+
+[AI Governance](ai-governance.md)
+
+AI Governance extends governance into systems involving artificial intelligence.
+
+---
+
+# Governance and Governance Architecture
+
+Governance is closely connected with:
+
+[Governance Architect](governance-architect.md)
+
+Governance Architecture provides the architectural mechanisms through which governance can be realized.
+
+---
+
+# Recursiveness
+
+Like every element of OECUMENE, Governance can be considered through:
 
 **WHY → HOW → WHAT**
 
-Например:
+For example:
 
 WHY:
 
-Почему необходима управляемость системы?
+Why is governance important?
 
 ↓
 
 HOW:
 
-Как создать архитектуру, механизмы и практики управления?
+How can governance architecture and mechanisms be created?
 
 ↓
 
 WHAT:
 
-Какие способности Governance возникают?
+What governance capabilities emerge?
 
 ---
 
-# Рабочая позиция OECUMENE
+# Working Position of OECUMENE
 
-Governance — это не только контроль.
+Governance is not simply control.
 
-Это способность системы принимать согласованные решения, распределять ответственность, сохранять направление и адаптироваться к изменениям.
+It is the capability of a system to maintain direction, responsibility, authority, and alignment while adapting to change.
 
-Главный вопрос:
+The central question is:
 
-> **Какие механизмы управления необходимы, чтобы система могла реализовывать своё предназначение, сохранять согласованность и развиваться?**
+> **Which governance capabilities does the system need to remain aligned with its purpose while adapting to a changing environment?**
 
 ---
 
-# Связь Governance с OECUMENE
+# Connections with Other OECUMENE Disciplines
 
-Governance связан с другими направлениями OECUMENE:
+Governance is connected with:
 
-- [Management](https://oecumene.space/management.html)
-- [AI Management](https://oecumene.space/ai-management.html)
-- [Governance Architect](https://oecumene.space/governance-architect.html)
-- [AI Governance](https://oecumene.space/ai-governance.html)
-- [AI-enabled Architecture](https://oecumene.space/ai-enabled-architecture.html)
+- [Management](management.md)
+- [AI Management](ai-management.md)
+- [AI Governance](ai-governance.md)
+- [Governance Architect](governance-architect.md)
+- [AI-enabled Architecture](ai-enabled-architecture.md)
 
 ---
 
