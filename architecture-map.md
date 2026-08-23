@@ -1,356 +1,300 @@
-# [OECUMENE](https://oecumene.space/)
-
 # Architecture Map
 
-## Карта архитектуры OECUMENE
+## The OECUMENE Architecture Map
 
-OECUMENE рассматривает сложные системы как сеть взаимосвязанных элементов.
+OECUMENE understands complex systems as a network of interconnected elements.
 
-Эта карта показывает основные уровни модели и связи между ними.
+This map shows the main levels of the model and the relationships between them.
 
 ---
 
-# Центральная логика
+# The Central Logic
 
-Основная структура OECUMENE:
+The core structure of OECUMENE is:
 
 **WHY → HOW → WHAT**
 
-Это не фиксированное дерево.
+This is not a fixed tree.
 
-Это граф интеллектуальных активов, где каждый элемент может иметь связи с другими элементами системы.
-
----
-
-# WHY? · Почему?
-
-На уровне WHY находятся:
-
-## Values · Ценности
-
-То, что является значимым для системы.
-
-Ценности определяют направление и задают основу создания ценности.
+It is a graph of intellectual assets in which each element can have relationships with other elements of the system.
 
 ---
 
-## Principles · Принципы
+# WHY? · Why?
 
-То, что должно сохраняться независимо от изменения контекста.
+At the WHY level are:
 
-Принципы обеспечивают устойчивость системы при изменениях.
+## Values
 
-WHY отвечает на вопросы:
+What is significant for the system.
 
-> Почему это важно?  
-> Почему система существует?  
-> Почему выбран именно такой путь?
-
-WHY раскрывает:
-
-- смысл системы;
-- основание её существования;
-- намерение развития;
-- направление создания ценности.
-
-Подробнее:
-
-[WHY — Values & Principles](https://oecumene.space/why.html)
+Values define direction and establish the foundation for value creation.
 
 ---
 
-# HOW? · Как?
+## Principles
 
-HOW отвечает на вопрос:
+What should remain stable regardless of changes in context.
 
-> Как это реализуется?
-
-Это пространство архитектуры и способов действия.
-
-В него входят:
-
-- Architecture · Архитектура
-- Methods · Методы
-- Practices · Практики
-- Frameworks · Фреймворки
-- Processes · Процессы
-- Tools · Инструменты
-- Technologies · Технологии
-
-Подробнее:
-
-[HOW](https://oecumene.space/how.html)
+Principles provide system resilience during change.
 
 ---
 
-# Architecture · Архитектура
+WHY asks:
 
-Архитектура является центральным элементом HOW.
+> Why does this matter?  
+> Why does the system exist?  
+> Why has this path been chosen?
 
-Она связывает:
+WHY reveals:
 
-- намерение системы;
-- структуру;
-- элементы;
-- взаимодействия;
-- ответственность;
-- механизмы реализации.
+- the meaning of the system;
+- the foundation of its existence;
+- the intention behind its development;
+- the direction of value creation.
 
-Архитектура создаёт пространство, в котором система может реализовывать свои ценности и принципы.
+More:
 
-Подробнее:
-
-[Architecture](https://oecumene.space/architecture.html)
+[WHY — Values & Principles](why.md)
 
 ---
 
-# Архитектурные направления
+# HOW? · How?
+
+HOW asks:
+
+> How is this realized?
+
+This is the space of architecture and ways of acting.
+
+It includes:
+
+- Architecture
+- Methods
+- Practices
+- Frameworks
+- Processes
+- Tools
+- Technologies
+
+More:
+
+[HOW — Architecture and Implementation](how.md)
+
+---
+
+# Architecture
+
+Architecture is the central element of HOW.
+
+It connects:
+
+- the intention of the system;
+- structure;
+- elements;
+- interactions;
+- responsibility;
+- mechanisms of implementation.
+
+Architecture creates the space in which the system can realize its values and principles.
+
+More:
+
+[Architecture](architecture.md)
+
+---
+
+# Architectural Directions
 
 ## Governance Architecture
 
-Архитектура управления сложными системами.
+Architecture for governing complex systems.
 
-Она рассматривает:
+It considers:
 
-- принятие решений;
-- ответственность;
-- полномочия;
-- механизмы согласования;
-- обратную связь.
+- decision making;
+- responsibility;
+- authority;
+- alignment mechanisms;
+- feedback.
 
-Подробнее:
+More:
 
-[Governance Architect](https://oecumene.space/governance-architect.html)
+[Governance Architect](governance-architect.md)
 
 ---
 
 ## AI-enabled Architecture
 
-Архитектура системы, в которой искусственный интеллект становится частью организационной способности.
+Architecture of a system in which artificial intelligence becomes part of an organizational capability.
 
-Она рассматривает:
+It considers:
 
-- взаимодействие человека и AI;
-- новые способности системы;
-- распределение ответственности;
-- изменение способов работы.
+- human-AI interaction;
+- new system capabilities;
+- distribution of responsibility;
+- changing ways of working.
 
-Подробнее:
+More:
 
-[AI-enabled Architecture](https://oecumene.space/ai-enabled-architecture.html)
-
----
-
-# Tools · Инструменты
-
-Инструменты помогают понимать систему и исследовать возможности её развития.
-
-Одним из классов инструментов являются:
-
-## Lenses · Линзы
-
-Линзы позволяют рассматривать систему с разных точек зрения.
-
-Они помогают обнаруживать:
-
-- скрытые связи;
-- структуры;
-- возможности;
-- новые направления развития.
-
-Подробнее:
-
-[Lenses](https://oecumene.space/lenses.html)
+[AI-enabled Architecture](ai-enabled-architecture.md)
 
 ---
 
-# WHAT? · Что?
+# Tools
 
-WHAT отвечает на вопрос:
+Tools help understand systems and explore opportunities for development.
 
-> Что возникает как результат реализации WHY через архитектуру, методы и практики уровня HOW?
+One class of tools is:
 
-На этом уровне находятся:
+## Lenses
 
-## Disciplines · Дисциплины
+Lenses enable systems to be examined from different perspectives.
 
-Дисциплины являются областями знания и практики, через которые система развивает свои способности.
+They help discover:
 
-Подробнее:
+- hidden relationships;
+- structures;
+- opportunities;
+- new directions for development.
 
-[WHAT](https://oecumene.space/what.html)
+More:
+
+[Lenses](lenses.md)
 
 ---
 
-# Disciplines · Дисциплины
+# WHAT? · What?
 
-В текущей модели OECUMENE:
+WHAT asks:
+
+> What emerges as a result of realizing WHY through the architecture, methods, and practices of HOW?
+
+At this level are:
+
+## Disciplines
+
+Disciplines are areas of knowledge and practice through which the system develops its capabilities.
+
+More:
+
+[WHAT — Results of System Realization](what.md)
+
+---
+
+# Disciplines
+
+In the current OECUMENE model:
 
 ## Management
 
-Дисциплина организации деятельности и создания ценности.
+The discipline of organizing activities and creating value.
 
-[Management](https://oecumene.space/management.html)
+[Management](management.md)
 
 ---
 
 ## AI Management
 
-Дисциплина управления AI как организационной способностью.
+The discipline of managing AI as an organizational capability.
 
-[AI Management](https://oecumene.space/ai-management.html)
+[AI Management](ai-management.md)
 
 ---
 
 ## Governance
 
-Дисциплина обеспечения управляемости, ответственности и согласованности системы.
+The discipline of ensuring system governability, responsibility, and alignment.
 
-[Governance](https://oecumene.space/governance.html)
+[Governance](governance.md)
 
 ---
 
 ## AI Governance
 
-Дисциплина управления AI-системами.
+The discipline of governing AI systems.
 
-[AI Governance](https://oecumene.space/ai-governance.html)
-
----
-
-# Governance Architect
-
-Governance Architect является архитектурным направлением применения Governance Architecture.
-
-Он связывает:
-
-- архитектуру;
-- управление;
-- принятие решений;
-- ответственность;
-- полномочия;
-- согласование;
-- обратную связь.
-
-[Governance Architect](https://oecumene.space/governance-architect.html)
+[AI Governance](ai-governance.md)
 
 ---
 
-# Граф интеллектуальных активов
+# The Graph of Intellectual Assets
 
-OECUMENE развивается не как линейная иерархия.
+OECUMENE develops not as a linear hierarchy.
 
-Это граф интеллектуальных активов.
+It is a graph of intellectual assets.
 
-Каждый узел может быть связан:
+Each node can be connected:
 
-- с ценностями;
-- с принципами;
-- с архитектурой;
-- с методами;
-- с инструментами;
-- с дисциплинами;
-- с практикой.
+- to values;
+- to principles;
+- to architecture;
+- to methods;
+- to tools;
+- to disciplines;
+- to practice.
 
-Новые связи между активами могут создавать новые интеллектуальные активы.
+New relationships between assets can create new intellectual assets.
 
 ---
 
-# Рабочая карта OECUMENE
+# The Working OECUMENE Map
 
 WHY
 
-Values · Ценности
+Values
 
-Principles · Принципы
+Principles
 
 ↓
 
 HOW
 
-[Architecture · Архитектура](https://oecumene.space/architecture.html)
+Architecture
 
-[Governance Architecture](https://oecumene.space/governance-architect.html)
+Governance Architecture
 
-[AI-enabled Architecture](https://oecumene.space/ai-enabled-architecture.html)
+AI-enabled Architecture
 
-Methods · Методы
+Methods
 
-Practices · Практики
+Practices
 
-Frameworks · Фреймворки
+Frameworks
 
-Processes · Процессы
+Processes
 
-Tools · Инструменты
+Tools
 
-[Lenses · Линзы](https://oecumene.space/lenses.html)
+Lenses
 
-Technologies · Технологии
+Technologies
 
 ↓
 
 WHAT
 
-Disciplines · Дисциплины
+Disciplines
 
-[Management](https://oecumene.space/management.html)
+Management
 
-[AI Management](https://oecumene.space/ai-management.html)
+AI Management
 
-[Governance](https://oecumene.space/governance.html)
+Governance
 
-[AI Governance](https://oecumene.space/ai-governance.html)
-
----
-
-# Рекурсивность карты
-
-Architecture Map сама может быть рассмотрена через:
-
-**WHY → HOW → WHAT**
-
-WHY:
-
-Почему необходима карта архитектуры?
-
-↓
-
-HOW:
-
-Как карта связывает элементы OECUMENE?
-
-↓
-
-WHAT:
-
-Какие новые связи и интеллектуальные активы становятся видимыми?
-
-Карта поэтому является не только навигационным инструментом.
-
-Она является способом наблюдения за развитием архитектуры OECUMENE.
+AI Governance
 
 ---
 
-# Рабочая позиция OECUMENE
+This map is an evolving model of OECUMENE.
 
-Architecture Map является развивающейся картой интеллектуальных активов OECUMENE.
-
-Она уточняется через:
-
-- исследование;
-- практику;
-- появление новых дисциплин;
-- развитие архитектурных направлений;
-- создание новых связей между активами.
+It is refined through practice, research, and the development of intellectual assets.
 
 ---
 
 [← OECUMENE Home](https://oecumene.space/)
 
-[OECUMENE Architecture](https://oecumene.space/architecture.html)
-
-[OECUMENE Repository](https://github.com/ai4mngmnt-cyber/oecumene)
+[OECUMENE GitHub Repository](https://github.com/ai4mngmnt-cyber/oecumene)
 
 🇷🇺 [Telegram RU](https://t.me/oecumene_space)
 
