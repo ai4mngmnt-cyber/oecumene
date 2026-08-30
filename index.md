@@ -1,6 +1,6 @@
-# OECUMENE
+# [OECUMENE](https://oecumene.space/)
 
-## Governance Architecture for Complex Business Systems
+## Governance Architecture (архитектура управления) для Complex Business Systems (сложных бизнес-систем)
 
 ## Новое мышление о создании ценности в сложных гибридных системах
 
@@ -51,7 +51,7 @@ WHY раскрывает:
 
 ---
 
-# AI Management · Почему?
+# AI Management (управление применением ИИ) · Почему?
 
 AI Management возникает потому, что искусственный интеллект становится новым фактором развития организаций, изменяя способы восприятия изменений, принятия решений и взаимодействия человека с технологиями.
 
@@ -63,11 +63,11 @@ AI Management исследует, как организация развивае
 
 Подробнее:
 
-[AI Management](https://github.com/ai4mngmnt-cyber/oecumene/blob/main/ai-management.md)
+[AI Management (управление применением ИИ)](https://github.com/ai4mngmnt-cyber/oecumene/blob/main/ai-management.md)
 
 ---
 
-# AI Governance · Почему?
+# AI Governance (управление и регулирование применения ИИ) · Почему?
 
 AI Governance возникает потому, что применение искусственного интеллекта создаёт новые возможности и одновременно требует сохранения целостности, ответственности и управляемости организационной системы.
 
@@ -75,7 +75,7 @@ AI Governance определяет основания, принципы и ог�
 
 Подробнее:
 
-[AI Governance](https://github.com/ai4mngmnt-cyber/oecumene/blob/main/ai-governance.md)
+[AI Governance (управление и регулирование применения ИИ)](https://github.com/ai4mngmnt-cyber/oecumene/blob/main/ai-governance.md)
 
 ---
 
@@ -89,17 +89,17 @@ HOW — это уровень архитектуры и способов дей�
 
 В него входят:
 
-- Architecture · Архитектура
-- Methods · Методы
-- Practices · Практики
-- Frameworks · Фреймворки
-- Processes · Процессы
-- Tools · Инструменты
-- Technologies · Технологии
+- Architecture (архитектура)
+- Methods (методы)
+- Practices (практики)
+- Frameworks (фреймворки)
+- Processes (процессы)
+- Tools (инструменты)
+- Technologies (технологии)
 
 ---
 
-# Architecture · Архитектура
+# Architecture (архитектура)
 
 Архитектура является центральным элементом HOW.
 
@@ -116,11 +116,11 @@ HOW — это уровень архитектуры и способов дей�
 
 Подробнее:
 
-[Architecture](https://github.com/ai4mngmnt-cyber/oecumene/blob/main/architecture.md)
+[Architecture (архитектура)](https://github.com/ai4mngmnt-cyber/oecumene/blob/main/architecture.md)
 
 ---
 
-# Architecture Map
+# Architecture Map (карта архитектуры)
 
 Карта архитектуры OECUMENE показывает:
 
@@ -130,7 +130,7 @@ HOW — это уровень архитектуры и способов дей�
 
 Подробнее:
 
-[Architecture Map](https://github.com/ai4mngmnt-cyber/oecumene/blob/main/architecture-map.md)
+[Architecture Map (карта архитектуры)](https://github.com/ai4mngmnt-cyber/oecumene/blob/main/architecture-map.md)
 
 ---
 
@@ -149,11 +149,11 @@ WHAT показывает:
 
 Подробнее:
 
-[WHAT — Results of System Realization](https://github.com/ai4mngmnt-cyber/oecumene/blob/main/what.md)
+[WHAT — Results of System Realization (результаты реализации системы)](https://github.com/ai4mngmnt-cyber/oecumene/blob/main/what.md)
 
 ---
 
-# Disciplines · Дисциплины
+# Disciplines (дисциплины)
 
 Дисциплины являются результатом реализации WHY через HOW.
 
@@ -161,13 +161,43 @@ WHAT показывает:
 
 Подробнее:
 
-[Disciplines](https://github.com/ai4mngmnt-cyber/oecumene/blob/main/disciplines.md)
+[Disciplines (дисциплины)](https://github.com/ai4mngmnt-cyber/oecumene/blob/main/disciplines.md)
+
+---
+
+# AI Core (ядро AI)
+
+OECUMENE развивает отдельное направление, связанное с управлением, развитием и осознанным применением искусственного интеллекта.
+
+AI Core рассматривается как группа взаимосвязанных интеллектуальных сущностей, которые формируют один из центральных контуров развития OECUMENE.
+
+Ядро включает:
+
+- [AI Literacy (ИИ-грамотность)](https://oecumene.space/ai-literacy.html)
+- [AI Management (управление применением ИИ)](https://oecumene.space/ai-management.html)
+- [AI Governance (управление и регулирование применения ИИ)](https://oecumene.space/ai-governance.html)
+- [Hybrid Thinking (гибридное мышление)](https://oecumene.space/hybrid-thinking.html)
+- [AI Operating Model (операционная модель применения ИИ)](https://oecumene.space/ai-operating-model.html)
+- [AI Capability (организационная способность в области ИИ)](https://oecumene.space/ai-capability.html)
+- [AI Leadership (лидерство в области ИИ)](https://oecumene.space/ai-leadership.html)
+
+Эти сущности рассматриваются как взаимосвязанные элементы развивающейся интеллектуальной архитектуры OECUMENE.
+
+Подробнее:
+
+[AI Literacy (ИИ-грамотность)](https://oecumene.space/ai-literacy.html) ·  
+[AI Management (управление применением ИИ)](https://oecumene.space/ai-management.html) ·  
+[AI Governance (управление и регулирование применения ИИ)](https://oecumene.space/ai-governance.html) ·  
+[Hybrid Thinking (гибридное мышление)](https://oecumene.space/hybrid-thinking.html) ·  
+[AI Operating Model (операционная модель применения ИИ)](https://oecumene.space/ai-operating-model.html) ·  
+[AI Capability (организационная способность в области ИИ)](https://oecumene.space/ai-capability.html) ·  
+[AI Leadership (лидерство в области ИИ)](https://oecumene.space/ai-leadership.html)
 
 ---
 
 # Инструменты понимания
 
-## Lenses · Линзы
+## Lenses (линзы)
 
 OECUMENE использует линзы как инструменты понимания сложных систем.
 
@@ -175,25 +205,25 @@ OECUMENE использует линзы как инструменты пони�
 
 Подробнее:
 
-[Lenses](https://github.com/ai4mngmnt-cyber/oecumene/blob/main/lenses.md)
+[Lenses (линзы)](https://github.com/ai4mngmnt-cyber/oecumene/blob/main/lenses.md)
 
 ---
 
-## Gharajedaghi Lens
+## Gharajedaghi Lens (линза Гараджедаги)
 
 Первая рабочая линза, через которую исследовалась архитектура системы.
 
 Подробнее:
 
-[Gharajedaghi Lens](https://github.com/ai4mngmnt-cyber/oecumene/blob/main/gharajedaghi-lens.md)
+[Gharajedaghi Lens (линза Гараджедаги)](https://github.com/ai4mngmnt-cyber/oecumene/blob/main/gharajedaghi-lens.md)
 
 ---
 
-# Governance Architecture
+# Governance Architecture (архитектура управления)
 
 Одним из примеров применения архитектурного подхода является:
 
-[Governance Architect](https://github.com/ai4mngmnt-cyber/oecumene/blob/main/governance-architect.md)
+[Governance Architect (архитектор управления)](https://github.com/ai4mngmnt-cyber/oecumene/blob/main/governance-architect.md)
 
 ---
 
@@ -207,8 +237,8 @@ OECUMENE является развивающейся авторской моде
 
 ---
 
-[OECUMENE GitHub Repository](https://github.com/ai4mngmnt-cyber/oecumene)
+[OECUMENE GitHub Repository (репозиторий OECUMENE)](https://github.com/ai4mngmnt-cyber/oecumene)
 
-🇷🇺 [Telegram RU](https://t.me/oecumene_space)
+🇷🇺 [Telegram RU (русский канал)](https://t.me/oecumene_space)
 
-🇬🇧 [Telegram EN](https://t.me/ecumenespace)
+🇬🇧 [Telegram EN (английский канал)](https://t.me/ecumenespace)
