@@ -1,0 +1,76 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* OECUMENE — dark intellectual theme */
+
+body {
+  background: #111315;
+  color: #e6e8eb;
+}
+
+.wrapper {
+  background: #111315;
+}
+
+header {
+  color: #e6e8eb;
+}
+
+header h1 {
+  color: #f2f4f7;
+}
+
+header h1 a {
+  color: #f2f4f7;
+}
+
+header p {
+  color: #aeb4bc;
+}
+
+section {
+  color: #e6e8eb;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #f2f4f7;
+}
+
+p,
+li {
+  color: #d2d6dc;
+}
+
+a {
+  color: #67b7ff;
+}
+
+a:hover {
+  color: #9bcfff;
+}
+
+blockquote {
+  color: #b8bec7;
+  border-left-color: #4b5563;
+}
+
+hr {
+  border-color: #343a42;
+}
+
+code,
+pre {
+  background: #1b1f24;
+  color: #e6e8eb;
+}
+
+strong {
+  color: #f2f4f7;
+}
