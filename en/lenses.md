@@ -214,13 +214,3 @@ They expand the system's ability to ask better questions and see new possibiliti
 The central question is:
 
 > **Which perspectives enable a better understanding of the system and the development of its ability to create value?**
-
----
-
-[← OECUMENE Home](https://oecumene.space/)
-
-[OECUMENE GitHub Repository](https://github.com/ai4mngmnt-cyber/oecumene)
-
-🇷🇺 [Telegram RU](https://t.me/oecumene_space)
-
-🇬🇧 [Telegram EN](https://t.me/ecumenespace)
