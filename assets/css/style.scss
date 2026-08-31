@@ -3,36 +3,75 @@
 
 @import "{{ site.theme }}";
 
-/* OECUMENE — dark intellectual theme */
+/* ========================================
+   OECUMENE — Visual System v0.2
+   Dark intellectual / research environment
+   ======================================== */
+
+:root {
+  --bg: #111315;
+  --surface: #181b1f;
+  --text: #d8dce1;
+  --heading: #f2f4f7;
+  --muted: #969da6;
+  --accent: #67b7ff;
+  --accent-hover: #9bcfff;
+  --line: #343a42;
+}
+
+/* Base */
+
+html,
+body {
+  background: var(--bg);
+  color: var(--text);
+}
 
 body {
-  background: #111315;
-  color: #e6e8eb;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif;
+
+  font-size: 16px;
+  line-height: 1.7;
 }
+
+/* Main layout */
 
 .wrapper {
-  background: #111315;
+  background: var(--bg);
+  max-width: 1100px;
 }
+
+/* Left identity column */
 
 header {
-  color: #e6e8eb;
+  color: var(--text);
 }
 
-header h1 {
-  color: #f2f4f7;
-}
-
+header h1,
 header h1 a {
-  color: #f2f4f7;
+  color: var(--heading);
 }
 
 header p {
-  color: #aeb4bc;
+  color: var(--muted);
+  line-height: 1.5;
 }
 
+/* Main content */
+
 section {
-  color: #e6e8eb;
+  color: var(--text);
+  max-width: 760px;
 }
+
+/* Headings */
 
 h1,
 h2,
@@ -40,37 +79,75 @@ h3,
 h4,
 h5,
 h6 {
-  color: #f2f4f7;
+  color: var(--heading);
+  line-height: 1.25;
 }
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.55rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+/* Text */
 
 p,
 li {
-  color: #d2d6dc;
+  color: var(--text);
 }
+
+li {
+  margin-bottom: 0.35em;
+}
+
+/* Links */
 
 a {
-  color: #67b7ff;
+  color: var(--accent);
 }
 
-a:hover {
-  color: #9bcfff;
+a:hover,
+a:focus {
+  color: var(--accent-hover);
 }
+
+/* Quotes */
 
 blockquote {
   color: #b8bec7;
   border-left-color: #4b5563;
+  background: transparent;
 }
 
+/* Separators */
+
 hr {
-  border-color: #343a42;
+  border-color: var(--line);
 }
+
+/* Code */
 
 code,
 pre {
-  background: #1b1f24;
-  color: #e6e8eb;
+  background: var(--surface);
+  color: var(--text);
 }
 
+/* Strong text */
+
 strong {
-  color: #f2f4f7;
+  color: var(--heading);
+}
+
+/* Footer / secondary text */
+
+footer,
+small {
+  color: var(--muted);
 }
