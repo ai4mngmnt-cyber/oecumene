@@ -1,3 +1,13 @@
+---
+layout: default
+title: OECUMENE
+---
+
+<div class="oecumene-hero">
+  <img src="{{ '/assets/images/oecumene-banner.png' | relative_url }}"
+       alt="OECUMENE — Governance Architecture for Complex Business Systems">
+</div>
+
 # OECUMENE
 
 ## Governance Architecture for Complex Business Systems
