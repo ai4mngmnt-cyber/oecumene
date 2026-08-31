@@ -240,11 +240,3 @@ OECUMENE является развивающейся авторской моде
 Это не завершённая доктрина.
 
 Это исследование, в котором идеи проверяются через практику, наблюдения и развитие интеллектуальных активов.
-
----
-
-[OECUMENE GitHub Repository (репозиторий OECUMENE)](https://github.com/ai4mngmnt-cyber/oecumene)
-
-🇷🇺 [Telegram RU (русский канал)](https://t.me/oecumene_space)
-
-🇬🇧 [Telegram EN (английский канал)](https://t.me/ecumenespace)
