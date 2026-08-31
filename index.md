@@ -2,6 +2,10 @@
 
 # [OECUMENE](https://oecumene.space/)
 
+<p class="hero-cta">
+  <a href="architecture-map.html">Explore OECUMENE →</a>
+</p>
+
 ## Governance Architecture (архитектура управления) для Complex Business Systems (сложных бизнес-систем)
 
 ## Новое мышление о создании ценности в сложных гибридных системах
