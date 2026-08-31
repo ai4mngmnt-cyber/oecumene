@@ -172,13 +172,3 @@ It is a way to improve understanding of a system and ask deeper questions.
 The central question is:
 
 > **How can we see the system as a whole, understand its interactions, and develop its ability to create value?**
-
----
-
-[← OECUMENE Home](https://oecumene.space/)
-
-[OECUMENE GitHub Repository](https://github.com/ai4mngmnt-cyber/oecumene)
-
-🇷🇺 [Telegram RU](https://t.me/oecumene_space)
-
-🇬🇧 [Telegram EN](https://t.me/ecumenespace)
