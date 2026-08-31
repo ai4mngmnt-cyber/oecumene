@@ -289,11 +289,11 @@ The central question is:
 
 AI Literacy is connected with:
 
-- [AI Navigation](ai-navigation.md)
-- [AI Management](ai-management.md)
-- [AI Governance](ai-governance.md)
-- [AI Project Management](ai-project-management.md)
-- [AI Product Management](ai-product-management.md)
+- [AI Navigation](https://github.com/ai4mngmnt-cyber/oecumene/blob/main/en/ai-navigation.md)
+- [AI Management](https://github.com/ai4mngmnt-cyber/oecumene/blob/main/en/ai-management.md)
+- [AI Governance](https://github.com/ai4mngmnt-cyber/oecumene/blob/main/en/ai-governance.md)
+- [AI Project Management](https://github.com/ai4mngmnt-cyber/oecumene/blob/main/en/ai-project-management.md)
+- [AI Product Management](https://github.com/ai4mngmnt-cyber/oecumene/blob/main/en/ai-product-management.md)
 
 ---
 
@@ -301,6 +301,6 @@ AI Literacy is connected with:
 
 [OECUMENE GitHub Repository](https://github.com/ai4mngmnt-cyber/oecumene)
 
-🇬🇧 [Telegram EN](https://t.me/ecumenespace)
+[Telegram EN](https://t.me/ecumenespace)
 
-🇷🇺 [Telegram RU](https://t.me/oecumene_space)
+[Telegram RU](https://t.me/oecumene_space)
