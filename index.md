@@ -1,3 +1,5 @@
+![OECUMENE](assets/images/oecumene-banner.png)
+
 # [OECUMENE](https://oecumene.space/)
 
 ## Governance Architecture (архитектура управления) для Complex Business Systems (сложных бизнес-систем)
