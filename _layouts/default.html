@@ -42,7 +42,14 @@
       
       {{ content }}
 
-      {% include oecumene-footer.html %}
+{% unless page.url == "/" %}
+<div class="oecumene-anchor-banner">
+  <img src="{{ '/assets/images/oecumene-anchor-banner.png' | relative_url }}"
+       alt="OECUMENE — Knowledge, Architecture, Value">
+</div>
+{% endunless %}
+
+{% include oecumene-footer.html %}
 
     </section>
 
