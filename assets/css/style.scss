@@ -151,3 +151,27 @@ footer,
 small {
   color: var(--muted);
 }
+
+/* OECUMENE — readability refinement */
+
+body {
+  font-size: 17px;
+  line-height: 1.75;
+}
+
+section {
+  max-width: 820px;
+}
+
+section h1 a {
+  color: var(--heading);
+  text-decoration: none;
+}
+
+section h1 a:hover {
+  color: var(--accent-hover);
+}
+
+section p {
+  margin-bottom: 1.15em;
+}
