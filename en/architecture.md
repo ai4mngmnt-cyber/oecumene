@@ -270,13 +270,3 @@ It is a mechanism for realizing the meaning and intention of a system.
 The central question is:
 
 > **What architecture should be created to realize the system's purpose and develop the necessary capabilities?**
-
----
-
-[← OECUMENE Home](https://oecumene.space/)
-
-[OECUMENE GitHub Repository](https://github.com/ai4mngmnt-cyber/oecumene)
-
-🇷🇺 [Telegram RU](https://t.me/oecumene_space)
-
-🇬🇧 [Telegram EN](https://t.me/ecumenespace)
