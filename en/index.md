@@ -187,11 +187,3 @@ OECUMENE is an evolving authorial model.
 It is not a finished doctrine.
 
 It is an ongoing inquiry in which ideas are tested through practice, observation, and the development of intellectual assets.
-
----
-
-[OECUMENE GitHub Repository](https://github.com/ai4mngmnt-cyber/oecumene)
-
-🇷🇺 [Telegram RU](https://t.me/oecumene_space)
-
-🇬🇧 [Telegram EN](https://t.me/ecumenespace)
