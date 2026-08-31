@@ -235,13 +235,3 @@ They show:
 The central question is:
 
 > **Which disciplines emerge as a result of realizing WHY through the architecture, methods, and practices of HOW?**
-
----
-
-[← OECUMENE Home](https://oecumene.space/)
-
-[OECUMENE GitHub Repository](https://github.com/ai4mngmnt-cyber/oecumene)
-
-🇷🇺 [Telegram RU](https://t.me/oecumene_space)
-
-🇬🇧 [Telegram EN](https://t.me/ecumenespace)
