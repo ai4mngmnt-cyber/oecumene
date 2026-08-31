@@ -289,13 +289,3 @@ AI Governance
 This map is an evolving model of OECUMENE.
 
 It is refined through practice, research, and the development of intellectual assets.
-
----
-
-[← OECUMENE Home](https://oecumene.space/)
-
-[OECUMENE GitHub Repository](https://github.com/ai4mngmnt-cyber/oecumene)
-
-🇷🇺 [Telegram RU](https://t.me/oecumene_space)
-
-🇬🇧 [Telegram EN](https://t.me/ecumenespace)
