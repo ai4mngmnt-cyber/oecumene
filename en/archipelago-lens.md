@@ -234,13 +234,3 @@ It helps explore a system as a connected space of distinct but interacting eleme
 The central question is:
 
 > **Which relationships between existing intellectual assets can create new capabilities and new forms of value?**
-
----
-
-[← OECUMENE Home](https://oecumene.space/)
-
-[OECUMENE GitHub Repository](https://github.com/ai4mngmnt-cyber/oecumene)
-
-🇷🇺 [Telegram RU](https://t.me/oecumene_space)
-
-🇬🇧 [Telegram EN](https://t.me/ecumenespace)
