@@ -33,6 +33,13 @@
 
     <section>
 
+      {% unless page.url == "/" %}
+<div class="oecumene-compact-banner">
+  <img src="{{ '/assets/images/oecumene-compact-banner.png' | relative_url }}"
+       alt="OECUMENE — AI, Thinking & Management">
+</div>
+{% endunless %}
+      
       {{ content }}
 
       {% include oecumene-footer.html %}
