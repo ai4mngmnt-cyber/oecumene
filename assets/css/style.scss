@@ -180,6 +180,23 @@ section > h1:first-child a {
   color: var(--heading);
 }
 
+/* OECUMENE compact internal-page banner */
+
+.oecumene-compact-banner {
+  width: 100%;
+  margin: 0 0 1.25rem 0;
+  overflow: hidden;
+}
+
+.oecumene-compact-banner img {
+  display: block;
+  width: 100%;
+  height: 90px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 0;
+}
+
 section p {
   margin-bottom: 1.15em;
 }
