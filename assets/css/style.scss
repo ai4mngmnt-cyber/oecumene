@@ -172,6 +172,14 @@ section h1 a:hover {
   color: var(--accent-hover);
 }
 
+section > h1:first-child {
+  color: var(--heading);
+}
+
+section > h1:first-child a {
+  color: var(--heading);
+}
+
 section p {
   margin-bottom: 1.15em;
 }
