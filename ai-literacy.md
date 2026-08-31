@@ -282,12 +282,3 @@ AI Literacy связана с другими направлениями OECUMENE
 - [AI Leadership](https://oecumene.space/ai-leadership.html)
 - [Management](https://oecumene.space/management.html)
 
----
-
-[← OECUMENE Home](https://oecumene.space/)
-
-[OECUMENE GitHub Repository](https://github.com/ai4mngmnt-cyber/oecumene)
-
-🇷🇺 [Telegram RU](https://t.me/oecumene_space)
-
-🇬🇧 [Telegram EN](https://t.me/ecumenespace)
