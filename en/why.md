@@ -188,13 +188,3 @@ It establishes the foundation from which architecture, methods, practices, and c
 The central question is:
 
 > **Why does this system need to exist, and what value is it intended to create?**
-
----
-
-[← OECUMENE Home](https://oecumene.space/)
-
-[OECUMENE GitHub Repository](https://github.com/ai4mngmnt-cyber/oecumene)
-
-🇷🇺 [Telegram RU](https://t.me/oecumene_space)
-
-🇬🇧 [Telegram EN](https://t.me/ecumenespace)
