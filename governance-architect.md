@@ -326,12 +326,3 @@ Governance Architect — не просто функция контроля.
 
 OECUMENE рассматривает Governance Architect как развивающееся направление исследования, которое может становиться источником новых моделей, методов, практик и интеллектуальных активов.
 
----
-
-[← OECUMENE Home](https://oecumene.space/)
-
-[OECUMENE GitHub Repository](https://github.com/ai4mngmnt-cyber/oecumene)
-
-🇷🇺 [Telegram RU](https://t.me/oecumene_space)
-
-🇬🇧 [Telegram EN](https://t.me/ecumenespace)
