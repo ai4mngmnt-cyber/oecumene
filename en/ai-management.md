@@ -1,6 +1,6 @@
 # AI Management
 
-## Managing Artificial Intelligence as an Organizational Capability
+## Managing Artificial Intelligence as Part of the Management System
 
 In the OECUMENE model, AI Management is a discipline at the level:
 
@@ -10,7 +10,7 @@ WHAT asks:
 
 > What emerges as a result of realizing WHY through the architecture, methods, and practices of HOW?
 
-AI Management represents the organizational capability to develop, integrate, and use artificial intelligence as part of the system's ability to create and realize value.
+AI Management is the result of developing the system's ability to manage artificial intelligence as part of organizational operations, decision making, capabilities, and management practices.
 
 ---
 
@@ -19,6 +19,8 @@ AI Management represents the organizational capability to develop, integrate, an
 The central logic is:
 
 **WHY → HOW → WHAT**
+
+This is a causal relationship:
 
 **WHY**
 
@@ -62,143 +64,197 @@ Practices
 
 ---
 
-# What is AI Management?
-
-AI Management is the discipline of managing artificial intelligence as an organizational capability.
-
-It considers:
-
-- why AI is needed;
-- where AI creates value;
-- how AI capabilities are developed;
-- how humans and AI interact;
-- how AI becomes integrated into organizational activity.
-
----
-
 # WHY AI Management
 
-The use of AI begins with a question of purpose.
+The development of artificial intelligence changes how organizations operate, make decisions, develop capabilities, and create value.
+
+This creates new questions:
+
+- how AI should become part of management;
+- how responsibilities should be distributed between people and AI;
+- how AI capabilities should be developed and managed;
+- how management practices should adapt to an AI-enabled environment;
+- how organizations should decide where and how AI should be applied.
 
 AI Management asks:
 
-> Why should artificial intelligence become part of the organization's ability to create and realize value?
-
-The answer may involve:
-
-- improving decision making;
-- increasing organizational capabilities;
-- creating new ways of working;
-- expanding human capabilities;
-- improving adaptability.
+> Why does an organization need to develop the ability to manage AI as part of its management system?
 
 ---
 
 # HOW AI Management
 
-AI Management is realized through:
+AI Management is realized through an architecture of management practices that connects AI capabilities with organizational purpose, structures, processes, people, and decisions.
 
-- AI strategy;
-- AI-enabled architecture;
+This includes:
+
+- management principles;
+- roles and responsibilities;
+- decision-making mechanisms;
 - AI capability development;
-- integration of AI into processes;
-- human-AI interaction;
-- AI governance;
-- measurement and feedback.
+- processes and workflows;
+- performance management;
+- resource allocation;
+- integration of AI into organizational practices.
 
 ---
 
-# AI as an Organizational Capability
+# AI Management as a Discipline
 
-AI should not be understood only as a technology or collection of tools.
+AI Management is a field of knowledge and practice that helps a system develop capabilities for:
 
-As an organizational capability, AI involves:
+- managing AI capabilities and applications;
+- integrating AI into organizational management;
+- adapting management practices to an AI-enabled environment;
+- coordinating human and AI capabilities;
+- making decisions about AI adoption and development;
+- managing organizational change resulting from AI.
 
-- people;
-- knowledge;
-- data;
-- models;
-- technologies;
+---
+
+# Core Elements of AI Management
+
+## AI Strategy
+
+Defines:
+
+- how AI relates to organizational purpose;
+- where AI capabilities may create value;
+- which AI opportunities deserve attention;
+- how AI initiatives should be prioritized.
+
+---
+
+## Roles and Responsibilities
+
+Defines:
+
+- who is responsible for AI-related decisions;
+- how responsibilities are distributed;
+- how human and AI roles interact;
+- who owns AI capabilities and outcomes.
+
+---
+
+## AI Capability Management
+
+Enables the organization to:
+
+- identify required AI capabilities;
+- develop internal capabilities;
+- evaluate existing capabilities;
+- manage capability gaps;
+- continuously adapt to changes in AI.
+
+---
+
+## Decision Making
+
+Defines:
+
+- which decisions may involve AI;
+- how AI supports human decisions;
+- where human judgment remains essential;
+- how decisions involving AI are evaluated.
+
+---
+
+## Organizational Integration
+
+Connects AI with:
+
+- organizational structures;
 - processes;
-- governance;
-- architecture.
+- workflows;
+- products;
+- projects;
+- management practices.
 
-The capability emerges from the interaction of these elements.
-
----
-
-# AI Management and Architecture
-
-AI Management is connected with:
-
-[AI-enabled Architecture](ai-enabled-architecture.md)
-
-AI-enabled Architecture defines the architectural conditions in which AI becomes part of an organizational capability.
+The objective is to move AI from isolated experimentation toward meaningful organizational use.
 
 ---
 
-# AI Management and Governance
+## Change and Adaptation
 
-AI Management is connected with:
+Enables organizations to:
 
-[AI Governance](ai-governance.md)
-
-AI Governance provides mechanisms for responsible and aligned use of AI.
-
----
-
-# AI Management and Management
-
-AI Management extends:
-
-[Management](management.md)
-
-It applies management thinking to the development and use of artificial intelligence as an organizational capability.
+- adapt management practices;
+- redesign roles and workflows;
+- learn from AI-enabled work;
+- respond to changing AI capabilities;
+- manage organizational transformation.
 
 ---
 
-# AI Management and Value Creation
+# AI Management and AI Governance
 
-AI Management should remain connected with the organization's purpose and value creation.
+AI Management and AI Governance address different but interconnected capabilities.
 
 The relationship is:
 
-**WHY**
-
-Purpose, values, and intention
+AI Management
 
 ↓
 
-**HOW**
-
-AI architecture, methods, practices, and technologies
+managing AI as part of organizational operations and management systems
 
 ↓
 
-**WHAT**
+AI Governance
 
-AI-enabled organizational capabilities and new forms of value creation
+↓
+
+governing AI through principles, responsibilities, controls, and risk management.
+
+AI Governance provides governance mechanisms within the broader context of AI Management.
 
 ---
 
-# AI Management in Complex Systems
+# AI Management and AI Literacy
 
-AI changes the relationships between:
+AI Literacy provides an important foundation for AI Management.
 
-- people;
-- decisions;
-- knowledge;
-- processes;
-- technologies;
-- organizational structures.
+The relationship is:
 
-Therefore AI Management must consider:
+AI Literacy
 
-- uncertainty;
-- adaptation;
-- learning;
-- human-AI interaction;
-- emerging capabilities.
+↓
+
+understanding and working effectively with AI
+
+↓
+
+AI Management
+
+↓
+
+managing AI as part of organizational operations and management systems.
+
+An organization cannot effectively manage AI without developing the ability of its people to understand and work with AI.
+
+---
+
+# AI Management and AI Navigation
+
+AI Navigation and AI Management address different stages of organizational capability.
+
+The relationship is:
+
+AI Navigation
+
+↓
+
+finding direction in an AI-enabled environment
+
+↓
+
+AI Management
+
+↓
+
+managing AI as part of organizational operations and management systems.
+
+Navigation can help determine where AI should be explored, while management addresses how AI becomes part of the organization.
 
 ---
 
@@ -208,13 +264,13 @@ In OECUMENE, AI Management is an evolving intellectual asset.
 
 It may include:
 
-- concepts;
-- models;
-- methods;
-- practices;
-- architectural patterns;
-- assessment approaches;
-- tools.
+- management models;
+- AI management frameworks;
+- organizational practices;
+- capability models;
+- decision-making approaches;
+- implementation practices;
+- relationships with other disciplines.
 
 ---
 
@@ -228,31 +284,31 @@ For example:
 
 WHY:
 
-Why should AI become an organizational capability?
+Why should AI become part of the management system?
 
 ↓
 
 HOW:
 
-How should AI be integrated into architecture, processes, and ways of working?
+How can management architecture, roles, processes, capabilities, and practices be adapted?
 
 ↓
 
 WHAT:
 
-What new capabilities, disciplines, and practices emerge?
+What AI Management capabilities emerge?
 
 ---
 
 # Working Position of OECUMENE
 
-AI Management is not simply the management of AI projects or technologies.
+AI Management is not simply the management of AI projects or AI technologies.
 
-It is the development of the organization's ability to use artificial intelligence as part of its system for creating and realizing value.
+It is the capability of an organization to manage artificial intelligence as part of its management system and to adapt organizational structures, practices, decisions, and capabilities to an AI-enabled environment.
 
 The central question is:
 
-> **How can an organization develop the capability to use AI in a way that strengthens its ability to realize its purpose and create value?**
+> **How should management change when artificial intelligence becomes part of the management system itself?**
 
 ---
 
@@ -260,12 +316,12 @@ The central question is:
 
 AI Management is connected with:
 
-- [Management](management.md)
-- [Architecture](architecture.md)
-- [AI-enabled Architecture](ai-enabled-architecture.md)
-- [Governance](governance.md)
-- [AI Governance](ai-governance.md)
-- [Governance Architect](governance-architect.md)
+- [AI Literacy](https://github.com/ai4mngmnt-cyber/oecumene/blob/main/en/ai-literacy.md)
+- [AI Navigation](https://github.com/ai4mngmnt-cyber/oecumene/blob/main/en/ai-navigation.md)
+- [AI Governance](https://github.com/ai4mngmnt-cyber/oecumene/blob/main/en/ai-governance.md)
+- [AI Project Management](https://github.com/ai4mngmnt-cyber/oecumene/blob/main/en/ai-project-management.md)
+- [AI Product Management](https://github.com/ai4mngmnt-cyber/oecumene/blob/main/en/ai-product-management.md)
+- [Management](https://github.com/ai4mngmnt-cyber/oecumene/blob/main/en/management.md)
 
 ---
 
@@ -273,6 +329,6 @@ AI Management is connected with:
 
 [OECUMENE GitHub Repository](https://github.com/ai4mngmnt-cyber/oecumene)
 
-🇷🇺 [Telegram RU](https://t.me/oecumene_space)
-
 🇬🇧 [Telegram EN](https://t.me/ecumenespace)
+
+🇷🇺 [Telegram RU](https://t.me/oecumene_space)
