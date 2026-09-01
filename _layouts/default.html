@@ -42,6 +42,13 @@
 
       {{ content }}
 
+      {% if page.url == "/" or page.url == "/en/" %}
+<div class="oecumene-authorial-signature">
+  <img src="{{ '/assets/images/oecumene-hippocampus-motto.png' | relative_url }}"
+       alt="">
+</div>
+{% endif %}
+
       {% unless page.url == "/" or page.url == "/en/" %}
       <div class="oecumene-anchor-banner">
         <img src="{{ '/assets/images/oecumene-anchor-banner.png' | relative_url }}"
