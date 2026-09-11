@@ -34,14 +34,22 @@ WHAT показывает результат того, как смысл, нам
 
 **WHAT** показывает, что возникает как результат реализации WHY через архитектуру, методы и практики уровня HOW.
 
+Подробнее:
+
+[WHY](https://oecumene.space/why.html)
+
+[HOW](https://oecumene.space/how.html)
+
+[Architecture Map](https://oecumene.space/architecture-map.html)
+
 ---
 
 # WHY? · Почему?
 
 WHY отвечает на вопросы:
 
-> Почему это важно?  
-> Почему система существует?  
+> Почему это важно?
+> Почему система существует?
 > Почему выбран именно такой путь?
 
 WHY раскрывает:
@@ -50,6 +58,10 @@ WHY раскрывает:
 - основание её существования;
 - намерение развития;
 - направление создания ценности.
+
+Подробнее:
+
+[WHY](https://oecumene.space/why.html)
 
 ---
 
@@ -70,6 +82,8 @@ HOW отвечает на вопрос:
 - Technologies · Технологии
 
 Подробнее:
+
+[HOW](https://oecumene.space/how.html)
 
 [Architecture](https://oecumene.space/architecture.html)
 
@@ -297,6 +311,8 @@ WHAT — это результат реализации намерения си�
 
 WHAT связан с:
 
+- [WHY](https://oecumene.space/why.html)
+- [HOW](https://oecumene.space/how.html)
 - [Architecture](https://oecumene.space/architecture.html)
 - [Architecture Map](https://oecumene.space/architecture-map.html)
 - [Management](https://oecumene.space/management.html)
