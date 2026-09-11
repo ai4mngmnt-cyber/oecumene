@@ -1,4 +1,4 @@
-# [ECUMENE](https://oecumene.space/)
+# [OECUMENE](https://oecumene.space/)
 
 # AI Management
 
@@ -233,6 +233,32 @@ AI Governance распространяет эту логику на систем
 
 ---
 
+# AI Management и AI Product Management
+
+[AI Product Management](https://oecumene.space/ai-product-management.html)
+
+AI Management рассматривает управление применением AI на уровне организации.
+
+AI Product Management показывает, как эта организационная способность проявляется в продуктовой деятельности — при исследовании, создании, развитии и управлении продуктами с участием AI.
+
+Таким образом:
+
+**AI Management**
+
+↓
+
+организационная способность управлять применением AI
+
+↓
+
+**AI Product Management**
+
+↓
+
+применение и развитие этой способности в продуктовой деятельности.
+
+---
+
 # AI Management и Governance Architect
 
 Архитектурная сторона управления AI связана с:
@@ -314,5 +340,6 @@ AI Management связан с:
 - [Management](https://oecumene.space/management.html)
 - [Governance](https://oecumene.space/governance.html)
 - [AI Governance](https://oecumene.space/ai-governance.html)
+- [AI Product Management](https://oecumene.space/ai-product-management.html)
 - [Governance Architect](https://oecumene.space/governance-architect.html)
 - [AI-enabled Architecture](https://oecumene.space/ai-enabled-architecture.html)
