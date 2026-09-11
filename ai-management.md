@@ -1,4 +1,4 @@
-# [OECUMENE](https://oecumene.space/)
+# [ECUMENE](https://oecumene.space/)
 
 # AI Management
 
@@ -177,6 +177,42 @@ WHAT
 
 ---
 
+# AI Management и AI Literacy
+
+[AI Literacy](https://oecumene.space/ai-literacy.html)
+
+AI Literacy развивает способность людей понимать возможности, ограничения и риски AI, осознанно использовать AI и критически оценивать получаемые результаты.
+
+AI Management переводит эту способность с уровня человека и отдельных ролей на уровень организации.
+
+Связь:
+
+**AI Literacy**
+
+↓
+
+способность людей осознанно работать с AI
+
+↓
+
+**AI Management**
+
+↓
+
+способность организации системно управлять применением AI
+
+↓
+
+**AI Governance**
+
+↓
+
+условия управляемости, ответственности и контроля.
+
+Таким образом, AI Literacy, AI Management и AI Governance рассматриваются в OECUMENE как взаимосвязанные элементы развития организационной способности работать с искусственным интеллектом.
+
+---
+
 # AI Management и Governance
 
 Развитие AI требует не только возможностей, но и управляемости.
@@ -274,6 +310,7 @@ AI Management — это не просто внедрение технологи
 
 AI Management связан с:
 
+- [AI Literacy](https://oecumene.space/ai-literacy.html)
 - [Management](https://oecumene.space/management.html)
 - [Governance](https://oecumene.space/governance.html)
 - [AI Governance](https://oecumene.space/ai-governance.html)
