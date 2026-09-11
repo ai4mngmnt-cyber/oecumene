@@ -148,6 +148,22 @@ Lens — это способ рассматривать систему чере�
 
 ---
 
+## Universal Thinking Lens
+
+Базовая линза OECUMENE для рассмотрения сложных систем через последовательное исследование основания, способов реализации и возникающих результатов.
+
+Она помогает удерживать причинно-следственную связь:
+
+**WHY → HOW → WHAT**
+
+и использовать её как универсальный способ постановки вопросов при исследовании системы.
+
+Подробнее:
+
+[Universal Thinking Lens](https://oecumene.space/universal-thinking-lens.html)
+
+---
+
 ## Gharajedaghi Lens
 
 Линза системного мышления для исследования сложных систем.
@@ -258,6 +274,7 @@ Lenses связаны с:
 - [HOW](https://oecumene.space/how.html)
 - [Architecture](https://oecumene.space/architecture.html)
 - [Architecture Map](https://oecumene.space/architecture-map.html)
+- [Universal Thinking Lens](https://oecumene.space/universal-thinking-lens.html)
 - [Gharajedaghi Lens](https://oecumene.space/gharajedaghi-lens.html)
 - [Archipelago Lens](https://oecumene.space/archipelago-lens.html)
 - [WHAT](https://oecumene.space/what.html)
