@@ -221,6 +221,44 @@ AI Tool Selection является специализированным случ
 
 ---
 
+# Decision & Tool Selection и i3 Framework
+
+[i3 Framework](https://oecumene.space/i3-framework.html)
+
+i3 Framework помогает перейти от понимания к инициативе:
+
+**Insight → Idea → Initiative**
+
+Decision & Tool Selection помогает определить, какое решение следует принять и каким способом реализовать возникшую инициативу.
+
+Рабочая связь:
+
+**Insight**
+
+↓
+
+**Idea**
+
+↓
+
+**Initiative**
+
+↓
+
+**Decision**
+
+↓
+
+**Solution**
+
+↓
+
+**Tool Selection**
+
+Таким образом, i3 Framework и Decision & Tool Selection выполняют разные, но связанные функции: первый переводит понимание в инициативу, второй поддерживает переход от инициативы к осознанному выбору решения и инструмента.
+
+---
+
 # Decision & Tool Selection и AI Management
 
 [AI Management](https://oecumene.space/ai-management.html)
@@ -277,6 +315,8 @@ AI Governance может устанавливать ограничения и т
 ---
 
 # Decision & Tool Selection и AI Risk Management
+
+[AI Risk Management](https://oecumene.space/ai-risk-management.html)
 
 AI Risk Management помогает учитывать потенциальные последствия различных вариантов решения.
 
@@ -378,6 +418,7 @@ Decision & Tool Selection — это не каталог инструменто�
 
 Decision & Tool Selection связан с:
 
+- [i3 Framework](https://oecumene.space/i3-framework.html)
 - [AI Management](https://oecumene.space/ai-management.html)
 - [AI Governance](https://oecumene.space/ai-governance.html)
 - [AI Literacy](https://oecumene.space/ai-literacy.html)
