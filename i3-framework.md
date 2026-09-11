@@ -312,7 +312,7 @@ Insight → Idea → Initiative → Implementation
 
 Insight → Idea → Initiative → Implementation → Impact
 
-Это пока рассматривается как развивающаяся гипотеза, а не завершённая модель. :contentReference[oaicite:1]{index=1}
+Это пока рассматривается как развивающаяся гипотеза, а не завершённая модель.
 
 ---
 
