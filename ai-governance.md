@@ -221,6 +221,42 @@ WHAT
 
 ---
 
+# AI Governance и AI Literacy
+
+[AI Literacy](https://oecumene.space/ai-literacy.html)
+
+AI Literacy развивает способность людей понимать возможности, ограничения и риски AI, осознанно использовать AI и критически оценивать получаемые результаты.
+
+AI Governance формирует организационные условия, в которых эта способность реализуется ответственно и согласованно.
+
+Связь:
+
+**AI Literacy**
+
+↓
+
+понимание возможностей, ограничений, рисков и ответственности
+
+↓
+
+**AI Management**
+
+↓
+
+системное управление применением AI в организации
+
+↓
+
+**AI Governance**
+
+↓
+
+условия управляемости, ответственности и согласованности.
+
+Таким образом, AI Literacy создаёт человеческую основу для работы с AI, AI Management переводит её в организационную способность, а AI Governance формирует условия управляемости этой способности.
+
+---
+
 # AI Governance и AI Management
 
 AI Governance связан с AI Management как две взаимодополняющие области.
@@ -290,8 +326,9 @@ AI Governance — это не только контроль технологии
 
 AI Governance связан с другими направлениями OECUMENE:
 
+- [AI Literacy](https://oecumene.space/ai-literacy.html)
+- [AI Management](https://oecumene.space/ai-management.html)
 - [Governance](https://oecumene.space/governance.html)
 - [Governance Architect](https://oecumene.space/governance-architect.html)
-- [AI Management](https://oecumene.space/ai-management.html)
 - [AI-enabled Architecture](https://oecumene.space/ai-enabled-architecture.html)
 - [Management](https://oecumene.space/management.html)
