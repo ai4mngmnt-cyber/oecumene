@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://oecumene.space/schemas/environment-manifest-v1.json",
+  "title": "OECUMENE Environment Manifest v1",
+  "type": "object",
+  "required": ["schema_version", "resolved_at", "machine", "mode", "provider", "vault", "export", "applications"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "resolved_at": { "type": "string" },
+    "machine": { "type": "string" },
+    "mode": { "enum": ["local-carrier", "cloud-mounted"] },
+    "source": { "type": "string" },
+    "provider": { "type": "string" },
+    "volume": {
+      "type": ["object", "null"],
+      "properties": {
+        "drive_letter": { "type": ["string", "null"] },
+        "label": { "type": ["string", "null"] },
+        "unique_id": { "type": ["string", "null"] }
+      },
+      "additionalProperties": false
+    },
+    "cloud": {
+      "type": ["object", "null"],
+      "properties": {
+        "provider": { "type": "string" },
+        "root": { "type": "string" }
+      },
+      "required": ["provider", "root"],
+      "additionalProperties": false
+    },
+    "vault": {
+      "type": "object",
+      "required": ["name", "relative_path", "path", "obsidian_marker"],
+      "properties": {
+        "name": { "type": "string" },
+        "relative_path": { "type": "string" },
+        "path": { "type": "string" },
+        "obsidian_marker": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "export": {
+      "type": "object",
+      "required": ["root", "physical_path"],
+      "properties": {
+        "root": { "type": "string" },
+        "physical_path": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "applications": {
+      "type": "object",
+      "required": ["chrome", "obsidian"],
+      "properties": {
+        "chrome": { "type": ["string", "null"] },
+        "obsidian": { "type": ["string", "null"] }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": true
+}
