@@ -77,3 +77,20 @@ bootstrap.ps1 -Source cloud -SessionMode ephemeral -Admin
 ## Next step after v2
 
 Portable GitHub CLI acquisition for a machine that has only browser + PowerShell, followed by browser/device login and controlled removal after the session.
+
+
+## Portable GitHub CLI
+
+If `gh` is absent and admin capability is requested, bootstrap downloads the latest official GitHub CLI release for Windows from `cli/cli`, extracts only the executable into the session state, and uses it without a machine-wide install.
+
+- trusted mode: portable tool may live under the trusted OECUMENE state;
+- ephemeral mode: portable tool lives under the temporary session state and is removed with that state;
+- `-LoginAdmin` starts GitHub browser/device authentication;
+- bootstrap itself does not embed a password or personal access token;
+- the GitHub CLI credential store/config may contain a session credential, so ephemeral cleanup is mandatory.
+
+Example:
+
+```powershell
+bootstrap.ps1 -Source cloud -SessionMode ephemeral -Admin -LoginAdmin
+```
