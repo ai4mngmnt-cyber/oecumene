@@ -270,9 +270,11 @@ $environment = [ordered]@{
 }
 
 $environment | ConvertTo-Json -Depth 8 | Set-Content -LiteralPath $EnvironmentFile -Encoding UTF8
-$environment | ConvertTo-Json -Depth 8 | Set-Content -LiteralPath (Join-Path $vault.vault_path '.oecumene-environment.json') -Encoding UTF8
 
-try { Set-Clipboard -Value $vault.vault_path } catch {}
+if ($SessionMode -eq 'trusted') {
+  $environment | ConvertTo-Json -Depth 8 | Set-Content -LiteralPath (Join-Path $vault.vault_path '.oecumene-environment.json') -Encoding UTF8
+  try { Set-Clipboard -Value $vault.vault_path } catch {}
+}
 
 if (-not $JsonOnly) {
   Write-Host ''
@@ -287,7 +289,11 @@ if (-not $JsonOnly) {
   Write-Host "Vault   : $($vault.vault_path)"
   Write-Host "Export  : $exportPath"
   Write-Host "Manifest: $EnvironmentFile"
-  Write-Host 'Vault path copied to clipboard.'
+  if ($SessionMode -eq 'trusted') {
+    Write-Host 'Vault path copied to clipboard.'
+  } else {
+    Write-Host 'Ephemeral mode: no vault mirror and no clipboard write.'
+  }
 }
 
 if ($OpenChromeExtensions) {
