@@ -3,7 +3,9 @@ param(
   [switch]$OpenChromeExtensions,
   [switch]$OpenObsidian,
   [switch]$JsonOnly,
-  [string]$CloudRoot
+  [string]$CloudRoot,
+  [ValidateSet('auto','local','cloud')]
+  [string]$Source = 'auto'
 )
 
 $ErrorActionPreference = 'Stop'
@@ -63,6 +65,7 @@ function Find-OecumeneEnvironment {
   $candidates = @()
 
   # 1. Local carriers: SIM-2 or another removable/fixed OECUMENE carrier.
+  if ($Source -ne 'cloud') {
   foreach ($drive in Get-PSDrive -PSProvider FileSystem) {
     if (-not $drive.Root) { continue }
 
@@ -94,8 +97,10 @@ function Find-OecumeneEnvironment {
       unique_id = $identity.unique_id
     }
   }
+  }
 
   # 2. Cloud-mounted/synced clones. No recursive scan of the whole machine.
+  if ($Source -ne 'local') {
   foreach ($root in Get-CloudRoots) {
     foreach ($candidateBase in @($root, (Join-Path $root 'OECUMENE'))) {
       $vault = Join-Path $candidateBase $VaultRelative
@@ -121,9 +126,10 @@ function Find-OecumeneEnvironment {
       }
     }
   }
+  }
 
   if (-not $candidates.Count) {
-    throw "OECUMENE environment not found. Local carrier and known cloud-mounted roots were checked. Connect SIM-2 or mount/sync an OECUMENE cloud clone, then retry."
+    throw "OECUMENE environment not found for source mode '$Source'. Connect SIM-2 or mount/sync an OECUMENE cloud clone, then retry."
   }
 
   $best = $candidates |
