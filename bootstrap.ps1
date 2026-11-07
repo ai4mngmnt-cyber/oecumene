@@ -245,16 +245,22 @@ function Get-GitHubAdminStatus {
     $env:GH_CONFIG_DIR = $ghConfig
   }
 
-  & $ghInfo.path auth status --hostname github.com 1>$null 2>$null
-  $ok = ($LASTEXITCODE -eq 0)
-
-  if (-not $ok -and $LoginAdmin) {
-    if (-not $JsonOnly) {
-      Write-Host 'Admin login: opening GitHub browser/device authentication...'
-    }
-    & $ghInfo.path auth login --hostname github.com --git-protocol https --web --clipboard
+  $previousErrorAction = $ErrorActionPreference
+  try {
+    $ErrorActionPreference = 'Continue'
     & $ghInfo.path auth status --hostname github.com 1>$null 2>$null
     $ok = ($LASTEXITCODE -eq 0)
+
+    if (-not $ok -and $LoginAdmin) {
+      if (-not $JsonOnly) {
+        Write-Host 'Admin login: opening GitHub browser/device authentication...'
+      }
+      & $ghInfo.path auth login --hostname github.com --git-protocol https --web --clipboard
+      & $ghInfo.path auth status --hostname github.com 1>$null 2>$null
+      $ok = ($LASTEXITCODE -eq 0)
+    }
+  } finally {
+    $ErrorActionPreference = $previousErrorAction
   }
 
   [pscustomobject]@{
