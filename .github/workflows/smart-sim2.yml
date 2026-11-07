@@ -1,0 +1,41 @@
+name: Smart SIM-2 bootstrap
+
+on:
+  pull_request:
+    paths:
+      - 'bootstrap.ps1'
+      - 'docs/SMART_SIM2.md'
+      - 'schemas/environment-manifest-v1.json'
+      - '.github/workflows/smart-sim2.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  powershell:
+    runs-on: windows-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Parse bootstrap.ps1
+        shell: pwsh
+        run: |
+          $tokens = $null
+          $errors = $null
+          [void][System.Management.Automation.Language.Parser]::ParseFile(
+            (Resolve-Path 'bootstrap.ps1'),
+            [ref]$tokens,
+            [ref]$errors
+          )
+          if ($errors.Count) {
+            $errors | Format-List *
+            exit 1
+          }
+          Write-Host 'PASS bootstrap.ps1 parser'
+
+      - name: Validate manifest schema JSON
+        shell: pwsh
+        run: |
+          Get-Content 'schemas/environment-manifest-v1.json' -Raw | ConvertFrom-Json | Out-Null
+          Write-Host 'PASS environment manifest schema JSON'
