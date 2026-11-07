@@ -70,3 +70,14 @@ The Owner must not be required to derive or type OECUMENE internal paths.
 - Provider adapters for remote cloud data planes.
 - Controlled restoration of applications and extensions.
 - Remote integrity/provenance validation.
+
+
+## Source selection
+
+Bootstrap supports three explicit source modes:
+
+- `-Source auto` — default; prefer Local Carrier, then Cloud-mounted clone.
+- `-Source local` — test or require the local carrier path only.
+- `-Source cloud` — test or require the cloud-mounted path only.
+
+This allows Customer 00 testing of the cloud path without disconnecting SIM-2.
