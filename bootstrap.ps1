@@ -8,7 +8,8 @@ param(
   [string]$Source = 'auto',
   [ValidateSet('trusted','ephemeral')]
   [string]$SessionMode = 'trusted',
-  [switch]$Admin
+  [switch]$Admin,
+  [switch]$LoginAdmin
 )
 
 $ErrorActionPreference = 'Stop'
@@ -152,6 +153,812 @@ function Find-OecumeneEnvironment {
 }
 
 
+function Get-PortableGh {
+  $existing = Get-Command gh -ErrorAction SilentlyContinue
+  if ($existing) {
+    return [pscustomobject]@{
+      path = $existing.Source
+      portable = $false
+      version = $null
+    }
+  }
+
+  $toolsRoot = Join-Path $StateRoot 'tools'
+  $ghRoot = Join-Path $toolsRoot 'gh'
+  $ghExe = Join-Path $ghRoot 'bin\gh.exe'
+
+  if (Test-Path -LiteralPath $ghExe -PathType Leaf) {
+    return [pscustomobject]@{
+      path = $ghExe
+      portable = $true
+      version = $null
+    }
+  }
+
+  New-Item -ItemType Directory -Path $toolsRoot -Force | Out-Null
+
+  $headers = @{
+    'User-Agent' = 'OECUMENE-Bootstrap'
+    'Accept' = 'application/vnd.github+json'
+  }
+
+  $release = Invoke-RestMethod -Uri 'https://api.github.com/repos/cli/cli/releases/latest' -Headers $headers -UseBasicParsing
+  $arch = [System.Runtime.InteropServices.RuntimeInformation]::OSArchitecture.ToString().ToLowerInvariant()
+  $assetPattern = if ($arch -eq 'arm64') { 'windows_arm64\.zip
+  $gh = Get-Command gh -ErrorAction SilentlyContinue
+  if (-not $gh) {
+    return [pscustomobject]@{
+      available = $false
+      authenticated = $false
+      status = 'CLI_MISSING'
+      config_dir = $null
+    }
+  }
+
+  if ($SessionMode -eq 'ephemeral') {
+    $ghConfig = Join-Path $StateRoot 'gh'
+    New-Item -ItemType Directory -Path $ghConfig -Force | Out-Null
+    $env:GH_CONFIG_DIR = $ghConfig
+  }
+
+  & $gh.Source auth status --hostname github.com 1>$null 2>$null
+  $ok = ($LASTEXITCODE -eq 0)
+
+  [pscustomobject]@{
+    available = $true
+    authenticated = $ok
+    status = if ($ok) { 'AUTHENTICATED' } else { 'AUTH_REQUIRED' }
+    config_dir = if ($SessionMode -eq 'ephemeral') { $env:GH_CONFIG_DIR } else { $null }
+  }
+}
+
+function Get-SessionCleanupInfo {
+  if ($SessionMode -ne 'ephemeral') { return $null }
+
+  [ordered]@{
+    state_root = $StateRoot
+    cleanup_command = "Remove-Item -LiteralPath '$StateRoot' -Recurse -Force -ErrorAction SilentlyContinue"
+  }
+}
+
+function Find-Chrome {
+  $programFilesX86 = [Environment]::GetFolderPath('ProgramFilesX86')
+  @(
+    "$env:ProgramFiles\Google\Chrome\Application\chrome.exe",
+    "$programFilesX86\Google\Chrome\Application\chrome.exe",
+    "$env:LOCALAPPDATA\Google\Chrome\Application\chrome.exe"
+  ) | Where-Object { $_ -and (Test-Path -LiteralPath $_) } | Select-Object -First 1
+}
+
+function Find-Obsidian {
+  $programFilesX86 = [Environment]::GetFolderPath('ProgramFilesX86')
+  @(
+    "$env:LOCALAPPDATA\Obsidian\Obsidian.exe",
+    "$env:ProgramFiles\Obsidian\Obsidian.exe",
+    "$programFilesX86\Obsidian\Obsidian.exe"
+  ) | Where-Object { $_ -and (Test-Path -LiteralPath $_) } | Select-Object -First 1
+}
+
+$vault = Find-OecumeneEnvironment
+$volume = if ($vault.drive) { Get-VolumeIdentity $vault.drive } else { $null }
+$chrome = Find-Chrome
+$obsidian = Find-Obsidian
+$adminStatus = Get-GitHubAdminStatus
+$exportPath = Join-Path $vault.vault_path $ExportRoot
+
+New-Item -ItemType Directory -Path $StateRoot -Force | Out-Null
+
+$environment = [ordered]@{
+  schema_version = $SchemaVersion
+  resolved_at = (Get-Date).ToString('o')
+  machine = $env:COMPUTERNAME
+  session = [ordered]@{
+    id = $SessionId
+    mode = $SessionMode
+    ephemeral = ($SessionMode -eq 'ephemeral')
+    state_root = $StateRoot
+  }
+  mode = $vault.mode
+  source = 'https://oecumene.space/bootstrap.ps1'
+  provider = $vault.provider
+  volume = if ($volume) {
+    [ordered]@{
+      drive_letter = $volume.drive_letter
+      label = $volume.label
+      unique_id = $volume.unique_id
+    }
+  } else { $null }
+  cloud = if ($vault.mode -eq 'cloud-mounted') {
+    [ordered]@{
+      provider = $vault.provider
+      root = $vault.root
+    }
+  } else { $null }
+  vault = [ordered]@{
+    name = $VaultName
+    relative_path = $VaultRelative
+    path = $vault.vault_path
+    obsidian_marker = (Join-Path $vault.vault_path '.obsidian')
+  }
+  export = [ordered]@{
+    root = $ExportRoot
+    physical_path = $exportPath
+  }
+  applications = [ordered]@{
+    chrome = $chrome
+    obsidian = $obsidian
+    github_cli = $adminStatus.available
+  }
+  admin = [ordered]@{
+    requested = [bool]$Admin
+    github = [ordered]@{
+      available = $adminStatus.available
+      authenticated = $adminStatus.authenticated
+      status = $adminStatus.status
+      config_dir = $adminStatus.config_dir
+      executable = $adminStatus.executable
+      portable = $adminStatus.portable
+      version = $adminStatus.version
+    }
+  }
+  cleanup = Get-SessionCleanupInfo
+}
+
+$environment | ConvertTo-Json -Depth 8 | Set-Content -LiteralPath $EnvironmentFile -Encoding UTF8
+
+if ($SessionMode -eq 'trusted') {
+  $environment | ConvertTo-Json -Depth 8 | Set-Content -LiteralPath (Join-Path $vault.vault_path '.oecumene-environment.json') -Encoding UTF8
+  try { Set-Clipboard -Value $vault.vault_path } catch {}
+}
+
+if (-not $JsonOnly) {
+  Write-Host ''
+  Write-Host 'OECUMENE ENVIRONMENT: READY'
+  Write-Host "Mode    : $($vault.mode)"
+  Write-Host "Session : $SessionMode"
+  if ($Admin) {
+    Write-Host "Admin   : $($adminStatus.status)"
+    if ($adminStatus.executable) { Write-Host "gh      : $($adminStatus.executable)" }
+  }
+  if ($volume) { Write-Host "Carrier : $($volume.drive_letter):  $($volume.label)" }
+  else { Write-Host "Cloud   : $($vault.provider)  $($vault.root)" }
+  Write-Host "Vault   : $($vault.vault_path)"
+  Write-Host "Export  : $exportPath"
+  Write-Host "Manifest: $EnvironmentFile"
+  if ($SessionMode -eq 'trusted') {
+    Write-Host 'Vault path copied to clipboard.'
+  } else {
+    Write-Host 'Ephemeral mode: no vault mirror and no clipboard write.'
+  }
+}
+
+if ($OpenChromeExtensions) {
+  if ($chrome) { Start-Process -FilePath $chrome -ArgumentList 'chrome://extensions' }
+  else { Out-Info 'Chrome executable not found automatically.' }
+}
+
+if ($OpenObsidian) {
+  if ($obsidian) {
+    $vaultUri = [uri]::EscapeDataString($vault.vault_path)
+    Start-Process -FilePath $obsidian -ArgumentList "obsidian://open?path=$vaultUri"
+  } else {
+    Out-Info 'Obsidian is not installed. Install Obsidian and rerun with -OpenObsidian.'
+  }
+}
+
+if ($Admin -and -not $adminStatus.authenticated -and -not $JsonOnly) {
+  if (-not $adminStatus.available) {
+    Write-Host 'Admin gate: GitHub CLI could not be prepared.'
+  } else {
+    Write-Host 'Admin gate: GitHub authentication is required.'
+    Write-Host 'Rerun with -Admin -LoginAdmin to open browser/device authentication.'
+  }
+}
+
+if ($SessionMode -eq 'ephemeral' -and -not $JsonOnly) {
+  Write-Host "Ephemeral state: $StateRoot"
+  Write-Host 'No OECUMENE secrets are stored by bootstrap. Remove the ephemeral state after the session.'
+}
+
+if ($JsonOnly) {
+  $environment | ConvertTo-Json -Depth 8
+}
+ } else { 'windows_amd64\.zip
+  $gh = Get-Command gh -ErrorAction SilentlyContinue
+  if (-not $gh) {
+    return [pscustomobject]@{
+      available = $false
+      authenticated = $false
+      status = 'CLI_MISSING'
+      config_dir = $null
+    }
+  }
+
+  if ($SessionMode -eq 'ephemeral') {
+    $ghConfig = Join-Path $StateRoot 'gh'
+    New-Item -ItemType Directory -Path $ghConfig -Force | Out-Null
+    $env:GH_CONFIG_DIR = $ghConfig
+  }
+
+  & $gh.Source auth status --hostname github.com 1>$null 2>$null
+  $ok = ($LASTEXITCODE -eq 0)
+
+  [pscustomobject]@{
+    available = $true
+    authenticated = $ok
+    status = if ($ok) { 'AUTHENTICATED' } else { 'AUTH_REQUIRED' }
+    config_dir = if ($SessionMode -eq 'ephemeral') { $env:GH_CONFIG_DIR } else { $null }
+  }
+}
+
+function Get-SessionCleanupInfo {
+  if ($SessionMode -ne 'ephemeral') { return $null }
+
+  [ordered]@{
+    state_root = $StateRoot
+    cleanup_command = "Remove-Item -LiteralPath '$StateRoot' -Recurse -Force -ErrorAction SilentlyContinue"
+  }
+}
+
+function Find-Chrome {
+  $programFilesX86 = [Environment]::GetFolderPath('ProgramFilesX86')
+  @(
+    "$env:ProgramFiles\Google\Chrome\Application\chrome.exe",
+    "$programFilesX86\Google\Chrome\Application\chrome.exe",
+    "$env:LOCALAPPDATA\Google\Chrome\Application\chrome.exe"
+  ) | Where-Object { $_ -and (Test-Path -LiteralPath $_) } | Select-Object -First 1
+}
+
+function Find-Obsidian {
+  $programFilesX86 = [Environment]::GetFolderPath('ProgramFilesX86')
+  @(
+    "$env:LOCALAPPDATA\Obsidian\Obsidian.exe",
+    "$env:ProgramFiles\Obsidian\Obsidian.exe",
+    "$programFilesX86\Obsidian\Obsidian.exe"
+  ) | Where-Object { $_ -and (Test-Path -LiteralPath $_) } | Select-Object -First 1
+}
+
+$vault = Find-OecumeneEnvironment
+$volume = if ($vault.drive) { Get-VolumeIdentity $vault.drive } else { $null }
+$chrome = Find-Chrome
+$obsidian = Find-Obsidian
+$adminStatus = Get-GitHubAdminStatus
+$exportPath = Join-Path $vault.vault_path $ExportRoot
+
+New-Item -ItemType Directory -Path $StateRoot -Force | Out-Null
+
+$environment = [ordered]@{
+  schema_version = $SchemaVersion
+  resolved_at = (Get-Date).ToString('o')
+  machine = $env:COMPUTERNAME
+  session = [ordered]@{
+    id = $SessionId
+    mode = $SessionMode
+    ephemeral = ($SessionMode -eq 'ephemeral')
+    state_root = $StateRoot
+  }
+  mode = $vault.mode
+  source = 'https://oecumene.space/bootstrap.ps1'
+  provider = $vault.provider
+  volume = if ($volume) {
+    [ordered]@{
+      drive_letter = $volume.drive_letter
+      label = $volume.label
+      unique_id = $volume.unique_id
+    }
+  } else { $null }
+  cloud = if ($vault.mode -eq 'cloud-mounted') {
+    [ordered]@{
+      provider = $vault.provider
+      root = $vault.root
+    }
+  } else { $null }
+  vault = [ordered]@{
+    name = $VaultName
+    relative_path = $VaultRelative
+    path = $vault.vault_path
+    obsidian_marker = (Join-Path $vault.vault_path '.obsidian')
+  }
+  export = [ordered]@{
+    root = $ExportRoot
+    physical_path = $exportPath
+  }
+  applications = [ordered]@{
+    chrome = $chrome
+    obsidian = $obsidian
+    github_cli = $adminStatus.available
+  }
+  admin = [ordered]@{
+    requested = [bool]$Admin
+    github = [ordered]@{
+      available = $adminStatus.available
+      authenticated = $adminStatus.authenticated
+      status = $adminStatus.status
+      config_dir = $adminStatus.config_dir
+    }
+  }
+  cleanup = Get-SessionCleanupInfo
+}
+
+$environment | ConvertTo-Json -Depth 8 | Set-Content -LiteralPath $EnvironmentFile -Encoding UTF8
+
+if ($SessionMode -eq 'trusted') {
+  $environment | ConvertTo-Json -Depth 8 | Set-Content -LiteralPath (Join-Path $vault.vault_path '.oecumene-environment.json') -Encoding UTF8
+  try { Set-Clipboard -Value $vault.vault_path } catch {}
+}
+
+if (-not $JsonOnly) {
+  Write-Host ''
+  Write-Host 'OECUMENE ENVIRONMENT: READY'
+  Write-Host "Mode    : $($vault.mode)"
+  Write-Host "Session : $SessionMode"
+  if ($Admin) {
+    Write-Host "Admin   : $($adminStatus.status)"
+  }
+  if ($volume) { Write-Host "Carrier : $($volume.drive_letter):  $($volume.label)" }
+  else { Write-Host "Cloud   : $($vault.provider)  $($vault.root)" }
+  Write-Host "Vault   : $($vault.vault_path)"
+  Write-Host "Export  : $exportPath"
+  Write-Host "Manifest: $EnvironmentFile"
+  if ($SessionMode -eq 'trusted') {
+    Write-Host 'Vault path copied to clipboard.'
+  } else {
+    Write-Host 'Ephemeral mode: no vault mirror and no clipboard write.'
+  }
+}
+
+if ($OpenChromeExtensions) {
+  if ($chrome) { Start-Process -FilePath $chrome -ArgumentList 'chrome://extensions' }
+  else { Out-Info 'Chrome executable not found automatically.' }
+}
+
+if ($OpenObsidian) {
+  if ($obsidian) {
+    $vaultUri = [uri]::EscapeDataString($vault.vault_path)
+    Start-Process -FilePath $obsidian -ArgumentList "obsidian://open?path=$vaultUri"
+  } else {
+    Out-Info 'Obsidian is not installed. Install Obsidian and rerun with -OpenObsidian.'
+  }
+}
+
+if ($Admin -and -not $adminStatus.authenticated -and -not $JsonOnly) {
+  if (-not $adminStatus.available) {
+    Write-Host 'Admin gate: GitHub CLI is not installed. Cloud admin access is not established.'
+  } else {
+    Write-Host 'Admin gate: GitHub authentication is required. Run: gh auth login --web'
+  }
+}
+
+if ($SessionMode -eq 'ephemeral' -and -not $JsonOnly) {
+  Write-Host "Ephemeral state: $StateRoot"
+  Write-Host 'No OECUMENE secrets are stored by bootstrap. Remove the ephemeral state after the session.'
+}
+
+if ($JsonOnly) {
+  $environment | ConvertTo-Json -Depth 8
+}
+ }
+
+  $asset = $release.assets | Where-Object { $_.name -match $assetPattern } | Select-Object -First 1
+  if (-not $asset) { throw "Portable GitHub CLI asset not found for architecture '$arch'." }
+
+  $zip = Join-Path $toolsRoot $asset.name
+  $extract = Join-Path $toolsRoot 'gh-extract'
+  Invoke-WebRequest -Uri $asset.browser_download_url -OutFile $zip -UseBasicParsing
+
+  Remove-Item -LiteralPath $extract -Recurse -Force -ErrorAction SilentlyContinue
+  Expand-Archive -LiteralPath $zip -DestinationPath $extract -Force
+
+  $found = Get-ChildItem -LiteralPath $extract -Filter gh.exe -File -Recurse | Select-Object -First 1
+  if (-not $found) { throw 'Downloaded GitHub CLI archive does not contain gh.exe.' }
+
+  New-Item -ItemType Directory -Path (Split-Path $ghExe -Parent) -Force | Out-Null
+  Copy-Item -LiteralPath $found.FullName -Destination $ghExe -Force
+  Remove-Item -LiteralPath $zip -Force -ErrorAction SilentlyContinue
+  Remove-Item -LiteralPath $extract -Recurse -Force -ErrorAction SilentlyContinue
+
+  [pscustomobject]@{
+    path = $ghExe
+    portable = $true
+    version = $release.tag_name
+  }
+}
+function Get-GitHubAdminStatus {
+  $ghInfo = if ($Admin -or $LoginAdmin) {
+    Get-PortableGh
+  } else {
+    $existing = Get-Command gh -ErrorAction SilentlyContinue
+    if ($existing) {
+      [pscustomobject]@{ path = $existing.Source; portable = $false; version = $null }
+    } else {
+      $null
+    }
+  }
+
+  if (-not $ghInfo) {
+    return [pscustomobject]@{
+      available = $false
+      authenticated = $false
+      status = 'CLI_MISSING'
+      config_dir = $null
+      executable = $null
+      portable = $false
+      version = $null
+    }
+  }
+
+  if ($SessionMode -eq 'ephemeral') {
+    $ghConfig = Join-Path $StateRoot 'gh'
+    New-Item -ItemType Directory -Path $ghConfig -Force | Out-Null
+    $env:GH_CONFIG_DIR = $ghConfig
+  }
+
+  & $ghInfo.path auth status --hostname github.com 1>$null 2>$null
+  $ok = ($LASTEXITCODE -eq 0)
+
+  if (-not $ok -and $LoginAdmin) {
+    if (-not $JsonOnly) { Write-Host 'Admin login: opening GitHub browser/device authentication...' }
+    & $ghInfo.path auth login --hostname github.com --git-protocol https --web --clipboard
+    & $ghInfo.path auth status --hostname github.com 1>$null 2>$null
+    $ok = ($LASTEXITCODE -eq 0)
+  }
+
+  [pscustomobject]@{
+    available = $true
+    authenticated = $ok
+    status = if ($ok) { 'AUTHENTICATED' } else { 'AUTH_REQUIRED' }
+    config_dir = if ($SessionMode -eq 'ephemeral') { $env:GH_CONFIG_DIR } else { $null }
+    executable = $ghInfo.path
+    portable = $ghInfo.portable
+    version = $ghInfo.version
+  }
+}
+function Get-SessionCleanupInfo {
+  if ($SessionMode -ne 'ephemeral') { return $null }
+
+  [ordered]@{
+    state_root = $StateRoot
+    cleanup_command = "Remove-Item -LiteralPath '$StateRoot' -Recurse -Force -ErrorAction SilentlyContinue"
+  }
+}
+
+function Find-Chrome {
+  $programFilesX86 = [Environment]::GetFolderPath('ProgramFilesX86')
+  @(
+    "$env:ProgramFiles\Google\Chrome\Application\chrome.exe",
+    "$programFilesX86\Google\Chrome\Application\chrome.exe",
+    "$env:LOCALAPPDATA\Google\Chrome\Application\chrome.exe"
+  ) | Where-Object { $_ -and (Test-Path -LiteralPath $_) } | Select-Object -First 1
+}
+
+function Find-Obsidian {
+  $programFilesX86 = [Environment]::GetFolderPath('ProgramFilesX86')
+  @(
+    "$env:LOCALAPPDATA\Obsidian\Obsidian.exe",
+    "$env:ProgramFiles\Obsidian\Obsidian.exe",
+    "$programFilesX86\Obsidian\Obsidian.exe"
+  ) | Where-Object { $_ -and (Test-Path -LiteralPath $_) } | Select-Object -First 1
+}
+
+$vault = Find-OecumeneEnvironment
+$volume = if ($vault.drive) { Get-VolumeIdentity $vault.drive } else { $null }
+$chrome = Find-Chrome
+$obsidian = Find-Obsidian
+$adminStatus = Get-GitHubAdminStatus
+$exportPath = Join-Path $vault.vault_path $ExportRoot
+
+New-Item -ItemType Directory -Path $StateRoot -Force | Out-Null
+
+$environment = [ordered]@{
+  schema_version = $SchemaVersion
+  resolved_at = (Get-Date).ToString('o')
+  machine = $env:COMPUTERNAME
+  session = [ordered]@{
+    id = $SessionId
+    mode = $SessionMode
+    ephemeral = ($SessionMode -eq 'ephemeral')
+    state_root = $StateRoot
+  }
+  mode = $vault.mode
+  source = 'https://oecumene.space/bootstrap.ps1'
+  provider = $vault.provider
+  volume = if ($volume) {
+    [ordered]@{
+      drive_letter = $volume.drive_letter
+      label = $volume.label
+      unique_id = $volume.unique_id
+    }
+  } else { $null }
+  cloud = if ($vault.mode -eq 'cloud-mounted') {
+    [ordered]@{
+      provider = $vault.provider
+      root = $vault.root
+    }
+  } else { $null }
+  vault = [ordered]@{
+    name = $VaultName
+    relative_path = $VaultRelative
+    path = $vault.vault_path
+    obsidian_marker = (Join-Path $vault.vault_path '.obsidian')
+  }
+  export = [ordered]@{
+    root = $ExportRoot
+    physical_path = $exportPath
+  }
+  applications = [ordered]@{
+    chrome = $chrome
+    obsidian = $obsidian
+    github_cli = $adminStatus.available
+  }
+  admin = [ordered]@{
+    requested = [bool]$Admin
+    github = [ordered]@{
+      available = $adminStatus.available
+      authenticated = $adminStatus.authenticated
+      status = $adminStatus.status
+      config_dir = $adminStatus.config_dir
+    }
+  }
+  cleanup = Get-SessionCleanupInfo
+}
+
+$environment | ConvertTo-Json -Depth 8 | Set-Content -LiteralPath $EnvironmentFile -Encoding UTF8
+
+if ($SessionMode -eq 'trusted') {
+  $environment | ConvertTo-Json -Depth 8 | Set-Content -LiteralPath (Join-Path $vault.vault_path '.oecumene-environment.json') -Encoding UTF8
+  try { Set-Clipboard -Value $vault.vault_path } catch {}
+}
+
+if (-not $JsonOnly) {
+  Write-Host ''
+  Write-Host 'OECUMENE ENVIRONMENT: READY'
+  Write-Host "Mode    : $($vault.mode)"
+  Write-Host "Session : $SessionMode"
+  if ($Admin) {
+    Write-Host "Admin   : $($adminStatus.status)"
+  }
+  if ($volume) { Write-Host "Carrier : $($volume.drive_letter):  $($volume.label)" }
+  else { Write-Host "Cloud   : $($vault.provider)  $($vault.root)" }
+  Write-Host "Vault   : $($vault.vault_path)"
+  Write-Host "Export  : $exportPath"
+  Write-Host "Manifest: $EnvironmentFile"
+  if ($SessionMode -eq 'trusted') {
+    Write-Host 'Vault path copied to clipboard.'
+  } else {
+    Write-Host 'Ephemeral mode: no vault mirror and no clipboard write.'
+  }
+}
+
+if ($OpenChromeExtensions) {
+  if ($chrome) { Start-Process -FilePath $chrome -ArgumentList 'chrome://extensions' }
+  else { Out-Info 'Chrome executable not found automatically.' }
+}
+
+if ($OpenObsidian) {
+  if ($obsidian) {
+    $vaultUri = [uri]::EscapeDataString($vault.vault_path)
+    Start-Process -FilePath $obsidian -ArgumentList "obsidian://open?path=$vaultUri"
+  } else {
+    Out-Info 'Obsidian is not installed. Install Obsidian and rerun with -OpenObsidian.'
+  }
+}
+
+if ($Admin -and -not $adminStatus.authenticated -and -not $JsonOnly) {
+  if (-not $adminStatus.available) {
+    Write-Host 'Admin gate: GitHub CLI is not installed. Cloud admin access is not established.'
+  } else {
+    Write-Host 'Admin gate: GitHub authentication is required. Run: gh auth login --web'
+  }
+}
+
+if ($SessionMode -eq 'ephemeral' -and -not $JsonOnly) {
+  Write-Host "Ephemeral state: $StateRoot"
+  Write-Host 'No OECUMENE secrets are stored by bootstrap. Remove the ephemeral state after the session.'
+}
+
+if ($JsonOnly) {
+  $environment | ConvertTo-Json -Depth 8
+}
+ } else { 'windows_amd64\.zip
+  $gh = Get-Command gh -ErrorAction SilentlyContinue
+  if (-not $gh) {
+    return [pscustomobject]@{
+      available = $false
+      authenticated = $false
+      status = 'CLI_MISSING'
+      config_dir = $null
+    }
+  }
+
+  if ($SessionMode -eq 'ephemeral') {
+    $ghConfig = Join-Path $StateRoot 'gh'
+    New-Item -ItemType Directory -Path $ghConfig -Force | Out-Null
+    $env:GH_CONFIG_DIR = $ghConfig
+  }
+
+  & $gh.Source auth status --hostname github.com 1>$null 2>$null
+  $ok = ($LASTEXITCODE -eq 0)
+
+  [pscustomobject]@{
+    available = $true
+    authenticated = $ok
+    status = if ($ok) { 'AUTHENTICATED' } else { 'AUTH_REQUIRED' }
+    config_dir = if ($SessionMode -eq 'ephemeral') { $env:GH_CONFIG_DIR } else { $null }
+  }
+}
+
+function Get-SessionCleanupInfo {
+  if ($SessionMode -ne 'ephemeral') { return $null }
+
+  [ordered]@{
+    state_root = $StateRoot
+    cleanup_command = "Remove-Item -LiteralPath '$StateRoot' -Recurse -Force -ErrorAction SilentlyContinue"
+  }
+}
+
+function Find-Chrome {
+  $programFilesX86 = [Environment]::GetFolderPath('ProgramFilesX86')
+  @(
+    "$env:ProgramFiles\Google\Chrome\Application\chrome.exe",
+    "$programFilesX86\Google\Chrome\Application\chrome.exe",
+    "$env:LOCALAPPDATA\Google\Chrome\Application\chrome.exe"
+  ) | Where-Object { $_ -and (Test-Path -LiteralPath $_) } | Select-Object -First 1
+}
+
+function Find-Obsidian {
+  $programFilesX86 = [Environment]::GetFolderPath('ProgramFilesX86')
+  @(
+    "$env:LOCALAPPDATA\Obsidian\Obsidian.exe",
+    "$env:ProgramFiles\Obsidian\Obsidian.exe",
+    "$programFilesX86\Obsidian\Obsidian.exe"
+  ) | Where-Object { $_ -and (Test-Path -LiteralPath $_) } | Select-Object -First 1
+}
+
+$vault = Find-OecumeneEnvironment
+$volume = if ($vault.drive) { Get-VolumeIdentity $vault.drive } else { $null }
+$chrome = Find-Chrome
+$obsidian = Find-Obsidian
+$adminStatus = Get-GitHubAdminStatus
+$exportPath = Join-Path $vault.vault_path $ExportRoot
+
+New-Item -ItemType Directory -Path $StateRoot -Force | Out-Null
+
+$environment = [ordered]@{
+  schema_version = $SchemaVersion
+  resolved_at = (Get-Date).ToString('o')
+  machine = $env:COMPUTERNAME
+  session = [ordered]@{
+    id = $SessionId
+    mode = $SessionMode
+    ephemeral = ($SessionMode -eq 'ephemeral')
+    state_root = $StateRoot
+  }
+  mode = $vault.mode
+  source = 'https://oecumene.space/bootstrap.ps1'
+  provider = $vault.provider
+  volume = if ($volume) {
+    [ordered]@{
+      drive_letter = $volume.drive_letter
+      label = $volume.label
+      unique_id = $volume.unique_id
+    }
+  } else { $null }
+  cloud = if ($vault.mode -eq 'cloud-mounted') {
+    [ordered]@{
+      provider = $vault.provider
+      root = $vault.root
+    }
+  } else { $null }
+  vault = [ordered]@{
+    name = $VaultName
+    relative_path = $VaultRelative
+    path = $vault.vault_path
+    obsidian_marker = (Join-Path $vault.vault_path '.obsidian')
+  }
+  export = [ordered]@{
+    root = $ExportRoot
+    physical_path = $exportPath
+  }
+  applications = [ordered]@{
+    chrome = $chrome
+    obsidian = $obsidian
+    github_cli = $adminStatus.available
+  }
+  admin = [ordered]@{
+    requested = [bool]$Admin
+    github = [ordered]@{
+      available = $adminStatus.available
+      authenticated = $adminStatus.authenticated
+      status = $adminStatus.status
+      config_dir = $adminStatus.config_dir
+    }
+  }
+  cleanup = Get-SessionCleanupInfo
+}
+
+$environment | ConvertTo-Json -Depth 8 | Set-Content -LiteralPath $EnvironmentFile -Encoding UTF8
+
+if ($SessionMode -eq 'trusted') {
+  $environment | ConvertTo-Json -Depth 8 | Set-Content -LiteralPath (Join-Path $vault.vault_path '.oecumene-environment.json') -Encoding UTF8
+  try { Set-Clipboard -Value $vault.vault_path } catch {}
+}
+
+if (-not $JsonOnly) {
+  Write-Host ''
+  Write-Host 'OECUMENE ENVIRONMENT: READY'
+  Write-Host "Mode    : $($vault.mode)"
+  Write-Host "Session : $SessionMode"
+  if ($Admin) {
+    Write-Host "Admin   : $($adminStatus.status)"
+  }
+  if ($volume) { Write-Host "Carrier : $($volume.drive_letter):  $($volume.label)" }
+  else { Write-Host "Cloud   : $($vault.provider)  $($vault.root)" }
+  Write-Host "Vault   : $($vault.vault_path)"
+  Write-Host "Export  : $exportPath"
+  Write-Host "Manifest: $EnvironmentFile"
+  if ($SessionMode -eq 'trusted') {
+    Write-Host 'Vault path copied to clipboard.'
+  } else {
+    Write-Host 'Ephemeral mode: no vault mirror and no clipboard write.'
+  }
+}
+
+if ($OpenChromeExtensions) {
+  if ($chrome) { Start-Process -FilePath $chrome -ArgumentList 'chrome://extensions' }
+  else { Out-Info 'Chrome executable not found automatically.' }
+}
+
+if ($OpenObsidian) {
+  if ($obsidian) {
+    $vaultUri = [uri]::EscapeDataString($vault.vault_path)
+    Start-Process -FilePath $obsidian -ArgumentList "obsidian://open?path=$vaultUri"
+  } else {
+    Out-Info 'Obsidian is not installed. Install Obsidian and rerun with -OpenObsidian.'
+  }
+}
+
+if ($Admin -and -not $adminStatus.authenticated -and -not $JsonOnly) {
+  if (-not $adminStatus.available) {
+    Write-Host 'Admin gate: GitHub CLI is not installed. Cloud admin access is not established.'
+  } else {
+    Write-Host 'Admin gate: GitHub authentication is required. Run: gh auth login --web'
+  }
+}
+
+if ($SessionMode -eq 'ephemeral' -and -not $JsonOnly) {
+  Write-Host "Ephemeral state: $StateRoot"
+  Write-Host 'No OECUMENE secrets are stored by bootstrap. Remove the ephemeral state after the session.'
+}
+
+if ($JsonOnly) {
+  $environment | ConvertTo-Json -Depth 8
+}
+ }
+
+  $asset = $release.assets | Where-Object { $_.name -match $assetPattern } | Select-Object -First 1
+  if (-not $asset) { throw "Portable GitHub CLI asset not found for architecture '$arch'." }
+
+  $zip = Join-Path $toolsRoot $asset.name
+  $extract = Join-Path $toolsRoot 'gh-extract'
+  Invoke-WebRequest -Uri $asset.browser_download_url -OutFile $zip -UseBasicParsing
+
+  Remove-Item -LiteralPath $extract -Recurse -Force -ErrorAction SilentlyContinue
+  Expand-Archive -LiteralPath $zip -DestinationPath $extract -Force
+
+  $found = Get-ChildItem -LiteralPath $extract -Filter gh.exe -File -Recurse | Select-Object -First 1
+  if (-not $found) { throw 'Downloaded GitHub CLI archive does not contain gh.exe.' }
+
+  New-Item -ItemType Directory -Path (Split-Path $ghExe -Parent) -Force | Out-Null
+  Copy-Item -LiteralPath $found.FullName -Destination $ghExe -Force
+  Remove-Item -LiteralPath $zip -Force -ErrorAction SilentlyContinue
+  Remove-Item -LiteralPath $extract -Recurse -Force -ErrorAction SilentlyContinue
+
+  [pscustomobject]@{
+    path = $ghExe
+    portable = $true
+    version = $release.tag_name
+  }
+}
 function Get-GitHubAdminStatus {
   $gh = Get-Command gh -ErrorAction SilentlyContinue
   if (-not $gh) {
