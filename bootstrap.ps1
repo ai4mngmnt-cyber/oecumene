@@ -5,7 +5,10 @@ param(
   [switch]$JsonOnly,
   [string]$CloudRoot,
   [ValidateSet('auto','local','cloud')]
-  [string]$Source = 'auto'
+  [string]$Source = 'auto',
+  [ValidateSet('trusted','ephemeral')]
+  [string]$SessionMode = 'trusted',
+  [switch]$Admin
 )
 
 $ErrorActionPreference = 'Stop'
@@ -15,7 +18,12 @@ $SchemaVersion = 1
 $VaultRelative = 'OECUMENE_HUB\10_VAULTS\OECUMENE_Corpus'
 $VaultName = 'OECUMENE_Corpus'
 $ExportRoot = 'AI-Export'
-$StateRoot = Join-Path $env:LOCALAPPDATA 'OECUMENE'
+$SessionId = [guid]::NewGuid().ToString('N')
+$StateRoot = if ($SessionMode -eq 'ephemeral') {
+  Join-Path $env:TEMP ("OECUMENE-EPHEMERAL-" + $SessionId)
+} else {
+  Join-Path $env:LOCALAPPDATA 'OECUMENE'
+}
 $EnvironmentFile = Join-Path $StateRoot 'environment.json'
 
 function Out-Info([string]$Text) {
@@ -143,6 +151,44 @@ function Find-OecumeneEnvironment {
   $best
 }
 
+
+function Get-GitHubAdminStatus {
+  $gh = Get-Command gh -ErrorAction SilentlyContinue
+  if (-not $gh) {
+    return [pscustomobject]@{
+      available = $false
+      authenticated = $false
+      status = 'CLI_MISSING'
+      config_dir = $null
+    }
+  }
+
+  if ($SessionMode -eq 'ephemeral') {
+    $ghConfig = Join-Path $StateRoot 'gh'
+    New-Item -ItemType Directory -Path $ghConfig -Force | Out-Null
+    $env:GH_CONFIG_DIR = $ghConfig
+  }
+
+  & $gh.Source auth status --hostname github.com 1>$null 2>$null
+  $ok = ($LASTEXITCODE -eq 0)
+
+  [pscustomobject]@{
+    available = $true
+    authenticated = $ok
+    status = if ($ok) { 'AUTHENTICATED' } else { 'AUTH_REQUIRED' }
+    config_dir = if ($SessionMode -eq 'ephemeral') { $env:GH_CONFIG_DIR } else { $null }
+  }
+}
+
+function Get-SessionCleanupInfo {
+  if ($SessionMode -ne 'ephemeral') { return $null }
+
+  [ordered]@{
+    state_root = $StateRoot
+    cleanup_command = "Remove-Item -LiteralPath '$StateRoot' -Recurse -Force -ErrorAction SilentlyContinue"
+  }
+}
+
 function Find-Chrome {
   $programFilesX86 = [Environment]::GetFolderPath('ProgramFilesX86')
   @(
@@ -165,6 +211,7 @@ $vault = Find-OecumeneEnvironment
 $volume = if ($vault.drive) { Get-VolumeIdentity $vault.drive } else { $null }
 $chrome = Find-Chrome
 $obsidian = Find-Obsidian
+$adminStatus = Get-GitHubAdminStatus
 $exportPath = Join-Path $vault.vault_path $ExportRoot
 
 New-Item -ItemType Directory -Path $StateRoot -Force | Out-Null
@@ -173,6 +220,12 @@ $environment = [ordered]@{
   schema_version = $SchemaVersion
   resolved_at = (Get-Date).ToString('o')
   machine = $env:COMPUTERNAME
+  session = [ordered]@{
+    id = $SessionId
+    mode = $SessionMode
+    ephemeral = ($SessionMode -eq 'ephemeral')
+    state_root = $StateRoot
+  }
   mode = $vault.mode
   source = 'https://oecumene.space/bootstrap.ps1'
   provider = $vault.provider
@@ -202,7 +255,18 @@ $environment = [ordered]@{
   applications = [ordered]@{
     chrome = $chrome
     obsidian = $obsidian
+    github_cli = $adminStatus.available
   }
+  admin = [ordered]@{
+    requested = [bool]$Admin
+    github = [ordered]@{
+      available = $adminStatus.available
+      authenticated = $adminStatus.authenticated
+      status = $adminStatus.status
+      config_dir = $adminStatus.config_dir
+    }
+  }
+  cleanup = Get-SessionCleanupInfo
 }
 
 $environment | ConvertTo-Json -Depth 8 | Set-Content -LiteralPath $EnvironmentFile -Encoding UTF8
@@ -214,6 +278,10 @@ if (-not $JsonOnly) {
   Write-Host ''
   Write-Host 'OECUMENE ENVIRONMENT: READY'
   Write-Host "Mode    : $($vault.mode)"
+  Write-Host "Session : $SessionMode"
+  if ($Admin) {
+    Write-Host "Admin   : $($adminStatus.status)"
+  }
   if ($volume) { Write-Host "Carrier : $($volume.drive_letter):  $($volume.label)" }
   else { Write-Host "Cloud   : $($vault.provider)  $($vault.root)" }
   Write-Host "Vault   : $($vault.vault_path)"
@@ -234,6 +302,19 @@ if ($OpenObsidian) {
   } else {
     Out-Info 'Obsidian is not installed. Install Obsidian and rerun with -OpenObsidian.'
   }
+}
+
+if ($Admin -and -not $adminStatus.authenticated -and -not $JsonOnly) {
+  if (-not $adminStatus.available) {
+    Write-Host 'Admin gate: GitHub CLI is not installed. Cloud admin access is not established.'
+  } else {
+    Write-Host 'Admin gate: GitHub authentication is required. Run: gh auth login --web'
+  }
+}
+
+if ($SessionMode -eq 'ephemeral' -and -not $JsonOnly) {
+  Write-Host "Ephemeral state: $StateRoot"
+  Write-Host 'No OECUMENE secrets are stored by bootstrap. Remove the ephemeral state after the session.'
 }
 
 if ($JsonOnly) {
