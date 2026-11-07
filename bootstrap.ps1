@@ -184,14 +184,58 @@ function Get-PortableGh {
 
   $release = Invoke-RestMethod -Uri 'https://api.github.com/repos/cli/cli/releases/latest' -Headers $headers -UseBasicParsing
   $arch = [System.Runtime.InteropServices.RuntimeInformation]::OSArchitecture.ToString().ToLowerInvariant()
-  $assetPattern = if ($arch -eq 'arm64') { 'windows_arm64\.zip
-  $gh = Get-Command gh -ErrorAction SilentlyContinue
-  if (-not $gh) {
+  $assetPattern = if ($arch -eq 'arm64') { 'windows_arm64\.zip$' } else { 'windows_amd64\.zip$' }
+
+  $asset = $release.assets | Where-Object { $_.name -match $assetPattern } | Select-Object -First 1
+  if (-not $asset) {
+    throw "Portable GitHub CLI asset not found for architecture '$arch'."
+  }
+
+  $zip = Join-Path $toolsRoot $asset.name
+  $extract = Join-Path $toolsRoot 'gh-extract'
+
+  Invoke-WebRequest -Uri $asset.browser_download_url -OutFile $zip -UseBasicParsing
+  Remove-Item -LiteralPath $extract -Recurse -Force -ErrorAction SilentlyContinue
+  Expand-Archive -LiteralPath $zip -DestinationPath $extract -Force
+
+  $found = Get-ChildItem -LiteralPath $extract -Filter gh.exe -File -Recurse | Select-Object -First 1
+  if (-not $found) {
+    throw 'Downloaded GitHub CLI archive does not contain gh.exe.'
+  }
+
+  New-Item -ItemType Directory -Path (Split-Path $ghExe -Parent) -Force | Out-Null
+  Copy-Item -LiteralPath $found.FullName -Destination $ghExe -Force
+  Remove-Item -LiteralPath $zip -Force -ErrorAction SilentlyContinue
+  Remove-Item -LiteralPath $extract -Recurse -Force -ErrorAction SilentlyContinue
+
+  [pscustomobject]@{
+    path = $ghExe
+    portable = $true
+    version = $release.tag_name
+  }
+}
+
+function Get-GitHubAdminStatus {
+  $ghInfo = if ($Admin -or $LoginAdmin) {
+    Get-PortableGh
+  } else {
+    $existing = Get-Command gh -ErrorAction SilentlyContinue
+    if ($existing) {
+      [pscustomobject]@{ path = $existing.Source; portable = $false; version = $null }
+    } else {
+      $null
+    }
+  }
+
+  if (-not $ghInfo) {
     return [pscustomobject]@{
       available = $false
       authenticated = $false
       status = 'CLI_MISSING'
       config_dir = $null
+      executable = $null
+      portable = $false
+      version = $null
     }
   }
 
@@ -201,17 +245,28 @@ function Get-PortableGh {
     $env:GH_CONFIG_DIR = $ghConfig
   }
 
-  & $gh.Source auth status --hostname github.com 1>$null 2>$null
+  & $ghInfo.path auth status --hostname github.com 1>$null 2>$null
   $ok = ($LASTEXITCODE -eq 0)
+
+  if (-not $ok -and $LoginAdmin) {
+    if (-not $JsonOnly) {
+      Write-Host 'Admin login: opening GitHub browser/device authentication...'
+    }
+    & $ghInfo.path auth login --hostname github.com --git-protocol https --web --clipboard
+    & $ghInfo.path auth status --hostname github.com 1>$null 2>$null
+    $ok = ($LASTEXITCODE -eq 0)
+  }
 
   [pscustomobject]@{
     available = $true
     authenticated = $ok
     status = if ($ok) { 'AUTHENTICATED' } else { 'AUTH_REQUIRED' }
     config_dir = if ($SessionMode -eq 'ephemeral') { $env:GH_CONFIG_DIR } else { $null }
+    executable = $ghInfo.path
+    portable = $ghInfo.portable
+    version = $ghInfo.version
   }
 }
-
 function Get-SessionCleanupInfo {
   if ($SessionMode -ne 'ephemeral') { return $null }
 
