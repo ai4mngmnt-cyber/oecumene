@@ -255,7 +255,7 @@ function Get-GitHubAdminStatus {
       if (-not $JsonOnly) {
         Write-Host 'Admin login: opening GitHub browser/device authentication...'
       }
-      & $ghInfo.path auth login --hostname github.com --git-protocol https --web --clipboard
+      & $ghInfo.path auth login --hostname github.com --git-protocol https --web --clipboard --insecure-storage --expiring
       & $ghInfo.path auth status --hostname github.com 1>$null 2>$null
       $ok = ($LASTEXITCODE -eq 0)
     }
