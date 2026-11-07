@@ -1,0 +1,41 @@
+name: OECUMENE Phoenix
+
+on:
+  pull_request:
+    paths:
+      - 'phoenix.ps1'
+      - 'docs/PHOENIX.md'
+      - 'schemas/phoenix-report-v01.json'
+      - '.github/workflows/phoenix.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: windows-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Parse phoenix.ps1
+        shell: pwsh
+        run: |
+          $tokens = $null
+          $errors = $null
+          [void][System.Management.Automation.Language.Parser]::ParseFile(
+            (Resolve-Path 'phoenix.ps1'),
+            [ref]$tokens,
+            [ref]$errors
+          )
+          if ($errors.Count) {
+            $errors | Format-List *
+            exit 1
+          }
+          Write-Host 'PASS phoenix.ps1 parser'
+
+      - name: Validate Phoenix report schema JSON
+        shell: pwsh
+        run: |
+          Get-Content 'schemas/phoenix-report-v01.json' -Raw | ConvertFrom-Json | Out-Null
+          Write-Host 'PASS Phoenix report schema JSON'

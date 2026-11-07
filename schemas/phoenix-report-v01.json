@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://oecumene.space/schemas/phoenix-report-v01.json",
+  "title": "OECUMENE Phoenix Report v0.1",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "phoenix_version",
+    "created_at",
+    "machine",
+    "mode",
+    "classification",
+    "recommended_action",
+    "findings",
+    "safety"
+  ],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "phoenix_version": { "const": "0.1" },
+    "created_at": { "type": "string" },
+    "machine": { "type": "string" },
+    "mode": { "enum": ["check", "diagnose", "report"] },
+    "classification": {
+      "enum": ["HEALTHY", "DEGRADED", "RECOVERABLE", "REBUILD_REQUIRED", "MANUAL_ESCALATION"]
+    },
+    "recommended_action": { "type": "string" },
+    "selected_vault": { "type": ["string", "null"] },
+    "findings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "status", "message", "repair_hint"],
+        "properties": {
+          "id": { "type": "string" },
+          "status": { "enum": ["PASS", "WARN", "FAIL", "INFO"] },
+          "message": { "type": "string" },
+          "repair_hint": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "safety": {
+      "type": "object",
+      "required": ["user_data_modified", "repair_performed", "reversible_by_default"],
+      "properties": {
+        "user_data_modified": { "const": false },
+        "repair_performed": { "const": false },
+        "reversible_by_default": { "const": true }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
