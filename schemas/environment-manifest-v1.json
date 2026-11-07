@@ -189,7 +189,10 @@
             "available",
             "authenticated",
             "status",
-            "config_dir"
+            "config_dir",
+            "executable",
+            "portable",
+            "version"
           ],
           "properties": {
             "available": {
@@ -206,6 +209,21 @@
               ]
             },
             "config_dir": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "executable": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "portable": {
+              "type": "boolean"
+            },
+            "version": {
               "type": [
                 "string",
                 "null"
