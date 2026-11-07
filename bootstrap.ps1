@@ -2,7 +2,10 @@
 param(
   [switch]$OpenChromeExtensions,
   [switch]$OpenObsidian,
-  [switch]$JsonOnly
+  [switch]$JsonOnly,
+  [string]$CloudRoot,
+  [ValidateSet('auto','local','cloud')]
+  [string]$Source = 'auto'
 )
 
 $ErrorActionPreference = 'Stop'
@@ -39,10 +42,30 @@ function Read-PreviousEnvironment {
   catch { $null }
 }
 
-function Find-OecumeneVault {
+function Get-CloudRoots {
+  $roots = @()
+
+  if ($CloudRoot) { $roots += $CloudRoot }
+
+  foreach ($name in 'OneDrive','OneDriveConsumer','OneDriveCommercial') {
+    $value = [Environment]::GetEnvironmentVariable($name)
+    if ($value) { $roots += $value }
+  }
+
+  foreach ($name in 'Proton Drive','ProtonDrive','Dropbox','Google Drive','iCloudDrive') {
+    $candidate = Join-Path $env:USERPROFILE $name
+    if (Test-Path -LiteralPath $candidate -PathType Container) { $roots += $candidate }
+  }
+
+  $roots | Where-Object { $_ } | Select-Object -Unique
+}
+
+function Find-OecumeneEnvironment {
   $previous = Read-PreviousEnvironment
   $candidates = @()
 
+  # 1. Local carriers: SIM-2 or another removable/fixed OECUMENE carrier.
+  if ($Source -ne 'cloud') {
   foreach ($drive in Get-PSDrive -PSProvider FileSystem) {
     if (-not $drive.Root) { continue }
 
@@ -51,7 +74,7 @@ function Find-OecumeneVault {
 
     $obsidian = Join-Path $vault '.obsidian'
     $identity = Get-VolumeIdentity $drive.Name
-    $score = 100
+    $score = 1000
 
     if (Test-Path -LiteralPath $obsidian -PathType Container) { $score += 100 }
     if (Test-Path -LiteralPath (Join-Path $vault $ExportRoot) -PathType Container) { $score += 20 }
@@ -64,20 +87,53 @@ function Find-OecumeneVault {
 
     $candidates += [pscustomobject]@{
       score = $score
+      mode = 'local-carrier'
+      provider = 'filesystem'
       drive = $drive.Name
+      root = $drive.Root
       vault_path = $vault
       obsidian_found = Test-Path -LiteralPath $obsidian -PathType Container
       label = $identity.label
       unique_id = $identity.unique_id
     }
   }
+  }
+
+  # 2. Cloud-mounted/synced clones. No recursive scan of the whole machine.
+  if ($Source -ne 'local') {
+  foreach ($root in Get-CloudRoots) {
+    foreach ($candidateBase in @($root, (Join-Path $root 'OECUMENE'))) {
+      $vault = Join-Path $candidateBase $VaultRelative
+      if (-not (Test-Path -LiteralPath $vault -PathType Container)) { continue }
+
+      $obsidian = Join-Path $vault '.obsidian'
+      $provider = Split-Path $root -Leaf
+      $score = 500
+
+      if (Test-Path -LiteralPath $obsidian -PathType Container) { $score += 100 }
+      if (Test-Path -LiteralPath (Join-Path $vault $ExportRoot) -PathType Container) { $score += 20 }
+
+      $candidates += [pscustomobject]@{
+        score = $score
+        mode = 'cloud-mounted'
+        provider = $provider
+        drive = $null
+        root = $root
+        vault_path = $vault
+        obsidian_found = Test-Path -LiteralPath $obsidian -PathType Container
+        label = $provider
+        unique_id = $null
+      }
+    }
+  }
+  }
 
   if (-not $candidates.Count) {
-    throw "OECUMENE vault not found. Connect SIM-2 (or another OECUMENE carrier). Expected signature: <drive>:\$VaultRelative\.obsidian"
+    throw "OECUMENE environment not found for source mode '$Source'. Connect SIM-2 or mount/sync an OECUMENE cloud clone, then retry."
   }
 
   $best = $candidates |
-    Sort-Object -Property @{Expression='score'; Descending=$true}, @{Expression='drive'; Descending=$false} |
+    Sort-Object -Property @{Expression='score'; Descending=$true}, @{Expression='vault_path'; Descending=$false} |
     Select-Object -First 1
 
   if (-not $best.obsidian_found) {
@@ -105,8 +161,8 @@ function Find-Obsidian {
   ) | Where-Object { $_ -and (Test-Path -LiteralPath $_) } | Select-Object -First 1
 }
 
-$vault = Find-OecumeneVault
-$volume = Get-VolumeIdentity $vault.drive
+$vault = Find-OecumeneEnvironment
+$volume = if ($vault.drive) { Get-VolumeIdentity $vault.drive } else { $null }
 $chrome = Find-Chrome
 $obsidian = Find-Obsidian
 $exportPath = Join-Path $vault.vault_path $ExportRoot
@@ -117,13 +173,22 @@ $environment = [ordered]@{
   schema_version = $SchemaVersion
   resolved_at = (Get-Date).ToString('o')
   machine = $env:COMPUTERNAME
-  mode = 'local-carrier'
+  mode = $vault.mode
   source = 'https://oecumene.space/bootstrap.ps1'
-  volume = [ordered]@{
-    drive_letter = $volume.drive_letter
-    label = $volume.label
-    unique_id = $volume.unique_id
-  }
+  provider = $vault.provider
+  volume = if ($volume) {
+    [ordered]@{
+      drive_letter = $volume.drive_letter
+      label = $volume.label
+      unique_id = $volume.unique_id
+    }
+  } else { $null }
+  cloud = if ($vault.mode -eq 'cloud-mounted') {
+    [ordered]@{
+      provider = $vault.provider
+      root = $vault.root
+    }
+  } else { $null }
   vault = [ordered]@{
     name = $VaultName
     relative_path = $VaultRelative
@@ -148,7 +213,9 @@ try { Set-Clipboard -Value $vault.vault_path } catch {}
 if (-not $JsonOnly) {
   Write-Host ''
   Write-Host 'OECUMENE ENVIRONMENT: READY'
-  Write-Host "Carrier : $($volume.drive_letter):  $($volume.label)"
+  Write-Host "Mode    : $($vault.mode)"
+  if ($volume) { Write-Host "Carrier : $($volume.drive_letter):  $($volume.label)" }
+  else { Write-Host "Cloud   : $($vault.provider)  $($vault.root)" }
   Write-Host "Vault   : $($vault.vault_path)"
   Write-Host "Export  : $exportPath"
   Write-Host "Manifest: $EnvironmentFile"
